@@ -1,0 +1,11 @@
+Model Information:
+* title:	Security Booth / Cabina de seguridad
+* source:	https://sketchfab.com/3d-models/security-booth-cabina-de-seguridad-b15e6647ee434bcea57b2d965d3a1b30
+* author:	claudio (https://sketchfab.com/Claudio12345)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Security Booth / Cabina de seguridad" (https://sketchfab.com/3d-models/security-booth-cabina-de-seguridad-b15e6647ee434bcea57b2d965d3a1b30) by claudio (https://sketchfab.com/Claudio12345) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

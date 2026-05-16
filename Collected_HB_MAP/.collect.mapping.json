@@ -1,0 +1,809 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/hex_pavement_diff.png.png",
+            "source_hash": "3ade0050c302a83ec4fc6f4dbd41c8e3e3e49150",
+            "target_url": "./hex_pavement_diff.png.png",
+            "target_hash": "3ade0050c302a83ec4fc6f4dbd41c8e3e3e49150"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/\uc11d\uc7ac\ubc30\uacbd.png",
+            "source_hash": "994e26ba4f6cfd078e60b46f83f4859dbd460c19",
+            "target_url": "./\uc11d\uc7ac\ubc30\uacbd.png",
+            "target_hash": "994e26ba4f6cfd078e60b46f83f4859dbd460c19"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_1_baseColor.png",
+            "source_hash": "e12f02fcc14e49731fa879d720f5e945c225ad7c",
+            "target_url": "./textures/material_1_baseColor.png",
+            "target_hash": "e12f02fcc14e49731fa879d720f5e945c225ad7c"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_1_metallicRoughness.png",
+            "source_hash": "bdeadee39f4c867f79efbaea4f6847047f9b9877",
+            "target_url": "./textures/material_1_metallicRoughness.png",
+            "target_hash": "bdeadee39f4c867f79efbaea4f6847047f9b9877"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_1_normal.png",
+            "source_hash": "2ad14932cd3c1d03551d1d6f47778b37dc62df51",
+            "target_url": "./textures/material_1_normal.png",
+            "target_hash": "2ad14932cd3c1d03551d1d6f47778b37dc62df51"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_2_baseColor.png",
+            "source_hash": "4d0a24c15fee14e1f358a06187ecef2cd016b70c",
+            "target_url": "./textures/material_2_baseColor.png",
+            "target_hash": "4d0a24c15fee14e1f358a06187ecef2cd016b70c"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_2_metallicRoughness.png",
+            "source_hash": "6a659d0adb0db16e1167d098b38413fe6285a903",
+            "target_url": "./textures/material_2_metallicRoughness.png",
+            "target_hash": "6a659d0adb0db16e1167d098b38413fe6285a903"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_2_normal.png",
+            "source_hash": "5c1392b387e4ee8473356a2329ae61769b0dbb1d",
+            "target_url": "./textures/material_2_normal.png",
+            "target_hash": "5c1392b387e4ee8473356a2329ae61769b0dbb1d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_3_baseColor.png",
+            "source_hash": "c88e0d5fbc6ca55de87e73cd6e357fddd2292417",
+            "target_url": "./textures/material_3_baseColor.png",
+            "target_hash": "c88e0d5fbc6ca55de87e73cd6e357fddd2292417"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_3_metallicRoughness.png",
+            "source_hash": "94708046ae08a758591e327a187c376cc1793c6d",
+            "target_url": "./textures/material_3_metallicRoughness.png",
+            "target_hash": "94708046ae08a758591e327a187c376cc1793c6d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_3_normal.png",
+            "source_hash": "355ad8854ea77c70af8192675303f6cc9b5b1368",
+            "target_url": "./textures/material_3_normal.png",
+            "target_hash": "355ad8854ea77c70af8192675303f6cc9b5b1368"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_4_baseColor.png",
+            "source_hash": "b965d232a23cdd4e2791bcecf8010399ef7c3e12",
+            "target_url": "./textures/material_4_baseColor.png",
+            "target_hash": "b965d232a23cdd4e2791bcecf8010399ef7c3e12"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_4_metallicRoughness.png",
+            "source_hash": "dbbdaed5730970d652d70a5d5726e2cd396ed189",
+            "target_url": "./textures/material_4_metallicRoughness.png",
+            "target_hash": "dbbdaed5730970d652d70a5d5726e2cd396ed189"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_4_normal.png",
+            "source_hash": "cac4fb2cd9c84c131302d862be44fd0c97b3154d",
+            "target_url": "./textures/material_4_normal.png",
+            "target_hash": "cac4fb2cd9c84c131302d862be44fd0c97b3154d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_5_baseColor.png",
+            "source_hash": "633dabb64f65228240b9f14c8e16f062d0dc20a2",
+            "target_url": "./textures/material_5_baseColor.png",
+            "target_hash": "633dabb64f65228240b9f14c8e16f062d0dc20a2"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_5_metallicRoughness.png",
+            "source_hash": "9d2c85b37f5a1dd0a16f854813d5eb875027671f",
+            "target_url": "./textures/material_5_metallicRoughness.png",
+            "target_hash": "9d2c85b37f5a1dd0a16f854813d5eb875027671f"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_5_normal.png",
+            "source_hash": "5bc3f6bf94d5d094d8f7474245b57a848a556774",
+            "target_url": "./textures/material_5_normal.png",
+            "target_hash": "5bc3f6bf94d5d094d8f7474245b57a848a556774"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_6_baseColor.png",
+            "source_hash": "61d8e5b3ff5576078aa3bf9685e508f1bf651141",
+            "target_url": "./textures/material_6_baseColor.png",
+            "target_hash": "61d8e5b3ff5576078aa3bf9685e508f1bf651141"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_6_metallicRoughness.png",
+            "source_hash": "210bde65ce92862dca7ab3128051d64470c685e3",
+            "target_url": "./textures/material_6_metallicRoughness.png",
+            "target_hash": "210bde65ce92862dca7ab3128051d64470c685e3"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_6_normal.png",
+            "source_hash": "ea6ca7df741a0b2db621079bf8a80b9e14f9b73e",
+            "target_url": "./textures/material_6_normal.png",
+            "target_hash": "ea6ca7df741a0b2db621079bf8a80b9e14f9b73e"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_baseColor.png",
+            "source_hash": "f91a1438cb18e46734f034c00ac0099af8ea7b2e",
+            "target_url": "./textures/material_baseColor.png",
+            "target_hash": "f91a1438cb18e46734f034c00ac0099af8ea7b2e"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_metallicRoughness.png",
+            "source_hash": "0783e62bd6f398a89b84f092faa25a8ccb01aaad",
+            "target_url": "./textures/material_metallicRoughness.png",
+            "target_hash": "0783e62bd6f398a89b84f092faa25a8ccb01aaad"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/textures/material_normal.png",
+            "source_hash": "aa9e909ab761786e5cbd000d2608a92c5501ee37",
+            "target_url": "./textures/material_normal.png",
+            "target_hash": "aa9e909ab761786e5cbd000d2608a92c5501ee37"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_city_block/\uc2a4\ud06c\ub9b0\uc0f7 2026-05-14 203527.png",
+            "source_hash": "a91e88bb310617003a8407184085c7c28839c3fc",
+            "target_url": "./\uc2a4\ud06c\ub9b0\uc0f7 2026-05-14 203527.png",
+            "target_hash": "a91e88bb310617003a8407184085c7c28839c3fc"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/security_booth__cabina_de_seguridad/textures/Barrera_baseColor.jpeg",
+            "source_hash": "e0e2bb2bb520710ddbd7197cc0d8326c10b4bcbf",
+            "target_url": "./security_booth__cabina_de_seguridad/textures/Barrera_baseColor.jpeg",
+            "target_hash": "e0e2bb2bb520710ddbd7197cc0d8326c10b4bcbf"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/security_booth__cabina_de_seguridad/textures/Barrera_metallicRoughness.png",
+            "source_hash": "c6e50c2f1424be7176f34d1e1794b18b27e0adeb",
+            "target_url": "./security_booth__cabina_de_seguridad/textures/Barrera_metallicRoughness.png",
+            "target_hash": "c6e50c2f1424be7176f34d1e1794b18b27e0adeb"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/security_booth__cabina_de_seguridad/textures/Barrera_normal.png",
+            "source_hash": "f9622dfa65e9454ce110a48004dbe016d10a6d16",
+            "target_url": "./security_booth__cabina_de_seguridad/textures/Barrera_normal.png",
+            "target_hash": "f9622dfa65e9454ce110a48004dbe016d10a6d16"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/security_booth__cabina_de_seguridad/textures/Cabina_baseColor.jpeg",
+            "source_hash": "be3f69aeff472b9b7c38006be90149b86459ff3a",
+            "target_url": "./security_booth__cabina_de_seguridad/textures/Cabina_baseColor.jpeg",
+            "target_hash": "be3f69aeff472b9b7c38006be90149b86459ff3a"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/security_booth__cabina_de_seguridad/textures/Cabina_metallicRoughness.png",
+            "source_hash": "2150acb752b2fc6e2f2f22a0e51b1e3043cf1c08",
+            "target_url": "./security_booth__cabina_de_seguridad/textures/Cabina_metallicRoughness.png",
+            "target_hash": "2150acb752b2fc6e2f2f22a0e51b1e3043cf1c08"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/security_booth__cabina_de_seguridad/textures/Cabina_normal.png",
+            "source_hash": "f761fa69fd08235d6589f80b33d7ad70a52e94aa",
+            "target_url": "./security_booth__cabina_de_seguridad/textures/Cabina_normal.png",
+            "target_hash": "f761fa69fd08235d6589f80b33d7ad70a52e94aa"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/security_booth__cabina_de_seguridad/textures/Piso_puerta_baseColor.jpeg",
+            "source_hash": "bef29c0a787ead41a339c141da13d1d360e56811",
+            "target_url": "./security_booth__cabina_de_seguridad/textures/Piso_puerta_baseColor.jpeg",
+            "target_hash": "bef29c0a787ead41a339c141da13d1d360e56811"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/security_booth__cabina_de_seguridad/textures/Piso_puerta_metallicRoughness.png",
+            "source_hash": "ffb880218ec579e459c862a3e0cb3979ed33957b",
+            "target_url": "./security_booth__cabina_de_seguridad/textures/Piso_puerta_metallicRoughness.png",
+            "target_hash": "ffb880218ec579e459c862a3e0cb3979ed33957b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/security_booth__cabina_de_seguridad/textures/Piso_puerta_normal.png",
+            "source_hash": "78dc79c30c7183771f9ebde5cec99356224b2b69",
+            "target_url": "./security_booth__cabina_de_seguridad/textures/Piso_puerta_normal.png",
+            "target_hash": "78dc79c30c7183771f9ebde5cec99356224b2b69"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/security_booth__cabina_de_seguridad/textures/Ventanas_Marcos_baseColor.png",
+            "source_hash": "377635444dba12299167b6f1616aa8f88d6b49d5",
+            "target_url": "./security_booth__cabina_de_seguridad/textures/Ventanas_Marcos_baseColor.png",
+            "target_hash": "377635444dba12299167b6f1616aa8f88d6b49d5"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/security_booth__cabina_de_seguridad/textures/Ventanas_Marcos_metallicRoughness.png",
+            "source_hash": "8cabc7276956770094966626bc34bfe52323699c",
+            "target_url": "./security_booth__cabina_de_seguridad/textures/Ventanas_Marcos_metallicRoughness.png",
+            "target_hash": "8cabc7276956770094966626bc34bfe52323699c"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/security_booth__cabina_de_seguridad/textures/Ventanas_Marcos_normal.png",
+            "source_hash": "4b14bc737e77a62144eb0bc6ca35feb7d91b7cee",
+            "target_url": "./security_booth__cabina_de_seguridad/textures/Ventanas_Marcos_normal.png",
+            "target_hash": "4b14bc737e77a62144eb0bc6ca35feb7d91b7cee"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_trash_bin__low_poly/textures/trashbin_baseColor.png",
+            "source_hash": "df60705b8b1a579c40ff0961410825a677ad3f92",
+            "target_url": "./modern_trash_bin__low_poly/textures/trashbin_baseColor.png",
+            "target_hash": "df60705b8b1a579c40ff0961410825a677ad3f92"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_trash_bin__low_poly/textures/trashbin_metallicRoughness.png",
+            "source_hash": "c23f0c1ac2a01acf2890d79c9ed4b06caf00afb6",
+            "target_url": "./modern_trash_bin__low_poly/textures/trashbin_metallicRoughness.png",
+            "target_hash": "c23f0c1ac2a01acf2890d79c9ed4b06caf00afb6"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_trash_bin__low_poly/textures/trashbin_normal.png",
+            "source_hash": "b11812eac454dad21fceab82c5ff2411203d3761",
+            "target_url": "./modern_trash_bin__low_poly/textures/trashbin_normal.png",
+            "target_hash": "b11812eac454dad21fceab82c5ff2411203d3761"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Trash_bin_c0a78b0c02f046cbb770837cfd7d748f_texture0.jpg",
+            "source_hash": "ca6dd17ac6047040dd6c1ffa3a4bdc8423d3f427",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Trash_bin_c0a78b0c02f046cbb770837cfd7d748f_texture0.jpg",
+            "target_hash": "ca6dd17ac6047040dd6c1ffa3a4bdc8423d3f427"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Trash_bin_c0a78b0c02f046cbb770837cfd7d748f_texture1.png",
+            "source_hash": "77d47471d16eb36f68120764374c3842a21916dd",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Trash_bin_c0a78b0c02f046cbb770837cfd7d748f_texture1.png",
+            "target_hash": "77d47471d16eb36f68120764374c3842a21916dd"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Trash_bin_c0a78b0c02f046cbb770837cfd7d748f_texture2.png",
+            "source_hash": "4ef0a5f8e7737515bf4063fd34b68d2144290914",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Trash_bin_c0a78b0c02f046cbb770837cfd7d748f_texture2.png",
+            "target_hash": "4ef0a5f8e7737515bf4063fd34b68d2144290914"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_af108d4773df4722a62420f65dd5b8fe_texture0.png",
+            "source_hash": "d017776049e2c57e7274bfb5b2e8873a8ffebffa",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_af108d4773df4722a62420f65dd5b8fe_texture0.png",
+            "target_hash": "d017776049e2c57e7274bfb5b2e8873a8ffebffa"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_af108d4773df4722a62420f65dd5b8fe_texture1.png",
+            "source_hash": "c17abd73a79b8a83cf0553b24a893e1ab9e1bf0a",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_af108d4773df4722a62420f65dd5b8fe_texture1.png",
+            "target_hash": "c17abd73a79b8a83cf0553b24a893e1ab9e1bf0a"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_af108d4773df4722a62420f65dd5b8fe_texture2.png",
+            "source_hash": "2e113b6d567585f1172d117267bd68b6991af426",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_af108d4773df4722a62420f65dd5b8fe_texture2.png",
+            "target_hash": "2e113b6d567585f1172d117267bd68b6991af426"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Bench_1a726089b873441587e45ba5e815ebe1_texture0.jpg",
+            "source_hash": "39a3623d0a6f441e2f14788cb73ee505b39b3b5c",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Bench_1a726089b873441587e45ba5e815ebe1_texture0.jpg",
+            "target_hash": "39a3623d0a6f441e2f14788cb73ee505b39b3b5c"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Bench_1a726089b873441587e45ba5e815ebe1_texture1.png",
+            "source_hash": "bd666766d2bf7f325a92d322721520c987a57814",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Bench_1a726089b873441587e45ba5e815ebe1_texture1.png",
+            "target_hash": "bd666766d2bf7f325a92d322721520c987a57814"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/concrete_layers_02_baseColor.jpeg",
+            "source_hash": "2d51882ae59a2d77759beb8bda2f2a1dc5504944",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/concrete_layers_02_baseColor.jpeg",
+            "target_hash": "2d51882ae59a2d77759beb8bda2f2a1dc5504944"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/concrete_layers_02_metallicRoughness.png",
+            "source_hash": "bc1a24124944bcb49d0e41585b8ccc0fec3990b3",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/concrete_layers_02_metallicRoughness.png",
+            "target_hash": "bc1a24124944bcb49d0e41585b8ccc0fec3990b3"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/concrete_layers_02_normal.png",
+            "source_hash": "a07eb908743bb6d566cd094139bea10e08adde71",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/concrete_layers_02_normal.png",
+            "target_hash": "a07eb908743bb6d566cd094139bea10e08adde71"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/concrete_layers_02_specularf0.png",
+            "source_hash": "9002c7c85ef4641c853fd2426b38e5fe46f92798",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/concrete_layers_02_specularf0.png",
+            "target_hash": "9002c7c85ef4641c853fd2426b38e5fe46f92798"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/concrete_wall_008_baseColor.jpeg",
+            "source_hash": "294bca36e9553b6b13722322b75ee51cd13bd440",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/concrete_wall_008_baseColor.jpeg",
+            "target_hash": "294bca36e9553b6b13722322b75ee51cd13bd440"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/concrete_wall_008_metallicRoughness.png",
+            "source_hash": "3928c1a9ba27fdb605559068780a90e87dcd6c18",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/concrete_wall_008_metallicRoughness.png",
+            "target_hash": "3928c1a9ba27fdb605559068780a90e87dcd6c18"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/concrete_wall_008_normal.png",
+            "source_hash": "43bbe54a83389383704b8e4f83ee9bda0fa0c041",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/concrete_wall_008_normal.png",
+            "target_hash": "43bbe54a83389383704b8e4f83ee9bda0fa0c041"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/painted_plaster_wall_baseColor.jpeg",
+            "source_hash": "cf907ae1a60d1643d49ffb01ab0c76d326466f58",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/painted_plaster_wall_baseColor.jpeg",
+            "target_hash": "cf907ae1a60d1643d49ffb01ab0c76d326466f58"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/painted_plaster_wall_metallicRoughness.png",
+            "source_hash": "f1c7bd950d2ab1770d11ecd0721fd295c6da6bf1",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/painted_plaster_wall_metallicRoughness.png",
+            "target_hash": "f1c7bd950d2ab1770d11ecd0721fd295c6da6bf1"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/painted_plaster_wall_normal.png",
+            "source_hash": "cf7d74055b2f02b3e131420e4c8ebe168de90a62",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/painted_plaster_wall_normal.png",
+            "target_hash": "cf7d74055b2f02b3e131420e4c8ebe168de90a62"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/windows_metallicRoughness.png",
+            "source_hash": "de098b546e511f97ffa6ce305b68bc90e9499a7d",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc9c0\uc12d/korean_apartment/textures/windows_metallicRoughness.png",
+            "target_hash": "de098b546e511f97ffa6ce305b68bc90e9499a7d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/bus-station/textures/Ceramic_Tiles_Circular_diffuse.jpeg",
+            "source_hash": "093469d7a9c80e20db16d060040bba581cc0c07a",
+            "target_url": "./bus-station/textures/Ceramic_Tiles_Circular_diffuse.jpeg",
+            "target_hash": "093469d7a9c80e20db16d060040bba581cc0c07a"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/Material.157_baseColor.png",
+            "source_hash": "b0abe46347750bfc6dcad0197b4189c9dddbdf9a",
+            "target_url": "./asian_shop_pack_free_gameready/textures/Material.157_baseColor.png",
+            "target_hash": "b0abe46347750bfc6dcad0197b4189c9dddbdf9a"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/Material.157_metallicRoughness.png",
+            "source_hash": "f3c09df9bf421ace5523aac52ed2fc97d0837d5d",
+            "target_url": "./asian_shop_pack_free_gameready/textures/Material.157_metallicRoughness.png",
+            "target_hash": "f3c09df9bf421ace5523aac52ed2fc97d0837d5d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/Material.157_normal.jpeg",
+            "source_hash": "b2deb1f8dd81b826d4e205c556bc49d70ea232e7",
+            "target_url": "./asian_shop_pack_free_gameready/textures/Material.157_normal.jpeg",
+            "target_hash": "b2deb1f8dd81b826d4e205c556bc49d70ea232e7"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop.004_baseColor.png",
+            "source_hash": "b6dd5817c6fe9001e61f2ecf915d971a4b65ab9b",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop.004_baseColor.png",
+            "target_hash": "b6dd5817c6fe9001e61f2ecf915d971a4b65ab9b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop1.007_baseColor.png",
+            "source_hash": "83f212e35dd5782a21b08486cfb4f657656523ef",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop1.007_baseColor.png",
+            "target_hash": "83f212e35dd5782a21b08486cfb4f657656523ef"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop1.007_normal.png",
+            "source_hash": "4bad9b5672a227983cb9e1525b4ee77e6e4775e1",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop1.007_normal.png",
+            "target_hash": "4bad9b5672a227983cb9e1525b4ee77e6e4775e1"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop1.008_baseColor.png",
+            "source_hash": "41e5af44f070ad50def34e1d7879da3a965bb3cf",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop1.008_baseColor.png",
+            "target_hash": "41e5af44f070ad50def34e1d7879da3a965bb3cf"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop1.008_normal.png",
+            "source_hash": "1ae6e400235b91304f31b2f20fe4eec58b6e2742",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop1.008_normal.png",
+            "target_hash": "1ae6e400235b91304f31b2f20fe4eec58b6e2742"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop1.011_baseColor.png",
+            "source_hash": "621a348aae2f85f693fdd10059eb84d461ce8ca0",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop1.011_baseColor.png",
+            "target_hash": "621a348aae2f85f693fdd10059eb84d461ce8ca0"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop1.011_normal.png",
+            "source_hash": "3702fd5692f8451eea2901862dffc5d71a89a40e",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop1.011_normal.png",
+            "target_hash": "3702fd5692f8451eea2901862dffc5d71a89a40e"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop1.013_baseColor.png",
+            "source_hash": "554aea5fd12c78dfbfb2dff338322d6e191b09e9",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop1.013_baseColor.png",
+            "target_hash": "554aea5fd12c78dfbfb2dff338322d6e191b09e9"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop1.013_metallicRoughness.png",
+            "source_hash": "079b536fa849db40b0967403f13d90d05c05bd09",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop1.013_metallicRoughness.png",
+            "target_hash": "079b536fa849db40b0967403f13d90d05c05bd09"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop1.013_normal.png",
+            "source_hash": "98942a9d3831fd152f7470eb80002127e2b24a73",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop1.013_normal.png",
+            "target_hash": "98942a9d3831fd152f7470eb80002127e2b24a73"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop2.001_baseColor.png",
+            "source_hash": "2cb2c3e9f77429196f565883a15726831c25fa13",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop2.001_baseColor.png",
+            "target_hash": "2cb2c3e9f77429196f565883a15726831c25fa13"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop3.003_baseColor.png",
+            "source_hash": "30d1068a85e052e36d665445143a225b450e4348",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop3.003_baseColor.png",
+            "target_hash": "30d1068a85e052e36d665445143a225b450e4348"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop3.003_metallicRoughness.png",
+            "source_hash": "0842ff3b84605ba7c3e54a6e39eb58fdd8f40fdf",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop3.003_metallicRoughness.png",
+            "target_hash": "0842ff3b84605ba7c3e54a6e39eb58fdd8f40fdf"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop3.003_normal.jpeg",
+            "source_hash": "33457bdd91c000b256a4535e6aa1609c629c2343",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop3.003_normal.jpeg",
+            "target_hash": "33457bdd91c000b256a4535e6aa1609c629c2343"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop3metal.003_metallicRoughness.png",
+            "source_hash": "a4cad8b4bedbbc148d315f7f65c9a06392f330f6",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop3metal.003_metallicRoughness.png",
+            "target_hash": "a4cad8b4bedbbc148d315f7f65c9a06392f330f6"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop3metal.003_normal.jpeg",
+            "source_hash": "bd5eac9516c63a68450adb5b55e2833ae758091f",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop3metal.003_normal.jpeg",
+            "target_hash": "bd5eac9516c63a68450adb5b55e2833ae758091f"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop3wood.003_metallicRoughness.png",
+            "source_hash": "8c1e0c50fddbf4bc908bf5311ef3c52f756773b0",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop3wood.003_metallicRoughness.png",
+            "target_hash": "8c1e0c50fddbf4bc908bf5311ef3c52f756773b0"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop4.015_baseColor.png",
+            "source_hash": "bcfb56d7eef6dc531defead54389af762190fd63",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop4.015_baseColor.png",
+            "target_hash": "bcfb56d7eef6dc531defead54389af762190fd63"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop4.015_metallicRoughness.png",
+            "source_hash": "fe19a614f5720c14616f21e2dae80dd6974865a6",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop4.015_metallicRoughness.png",
+            "target_hash": "fe19a614f5720c14616f21e2dae80dd6974865a6"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop5.002_baseColor.png",
+            "source_hash": "2aa9622f58bf4ab681a1db1ce96e70c0532e7b3b",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop5.002_baseColor.png",
+            "target_hash": "2aa9622f58bf4ab681a1db1ce96e70c0532e7b3b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop5.002_normal.png",
+            "source_hash": "a7d3cb5a55f6a1b80d63090e6d374bef4d9126e5",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop5.002_normal.png",
+            "target_hash": "a7d3cb5a55f6a1b80d63090e6d374bef4d9126e5"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop5.006_baseColor.png",
+            "source_hash": "fd271001fc4e5a0e1eac8dee34507bcac9adcd87",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop5.006_baseColor.png",
+            "target_hash": "fd271001fc4e5a0e1eac8dee34507bcac9adcd87"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop5.007_baseColor.png",
+            "source_hash": "5ffbf5f347c143206381c76b55814a5674b937bb",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop5.007_baseColor.png",
+            "target_hash": "5ffbf5f347c143206381c76b55814a5674b937bb"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop6.005_baseColor.png",
+            "source_hash": "b866c21600f90e911c5f7c3d949d5ab418d1dfc3",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop6.005_baseColor.png",
+            "target_hash": "b866c21600f90e911c5f7c3d949d5ab418d1dfc3"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/asian_shop_pack_free_gameready/textures/shop6.005_normal.png",
+            "source_hash": "50fd19182e99c86462189d1cc572165246fcd229",
+            "target_url": "./asian_shop_pack_free_gameready/textures/shop6.005_normal.png",
+            "target_hash": "50fd19182e99c86462189d1cc572165246fcd229"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_double_bench/textures/BackColor_normal.png",
+            "source_hash": "48ecd01fe29cf112d89120e70da471cc2b2b3959",
+            "target_url": "./modern_double_bench/textures/BackColor_normal.png",
+            "target_hash": "48ecd01fe29cf112d89120e70da471cc2b2b3959"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_double_bench/textures/Color_M05_metallicRoughness.png",
+            "source_hash": "c82aee8750f23c2fc69a4b22a86c23f319a01eab",
+            "target_url": "./modern_double_bench/textures/Color_M05_metallicRoughness.png",
+            "target_hash": "c82aee8750f23c2fc69a4b22a86c23f319a01eab"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_double_bench/textures/material_baseColor.jpeg",
+            "source_hash": "4d919498eb9e343cc56be9927314f529ba11de69",
+            "target_url": "./modern_double_bench/textures/material_baseColor.jpeg",
+            "target_hash": "4d919498eb9e343cc56be9927314f529ba11de69"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_double_bench/textures/material_metallicRoughness.png",
+            "source_hash": "681f56f89ac09b3de2d71c910d8de4acbe38d50e",
+            "target_url": "./modern_double_bench/textures/material_metallicRoughness.png",
+            "target_hash": "681f56f89ac09b3de2d71c910d8de4acbe38d50e"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/modern_double_bench/textures/material_normal.png",
+            "source_hash": "00a615fada2f9613cea62639a44bbfbbc7569492",
+            "target_url": "./modern_double_bench/textures/material_normal.png",
+            "target_hash": "00a615fada2f9613cea62639a44bbfbbc7569492"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture0.jpg",
+            "source_hash": "3fbc3b7e7f3785a3d415d92ee50a594db84ee2db",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture0.jpg",
+            "target_hash": "3fbc3b7e7f3785a3d415d92ee50a594db84ee2db"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture1.png",
+            "source_hash": "21eed2c7663e6ca397dde9c57b2501b3d6f93e30",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture1.png",
+            "target_hash": "21eed2c7663e6ca397dde9c57b2501b3d6f93e30"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture10.jpg",
+            "source_hash": "ba29ee067920d7098d5fe53d9cc4491ded4b0b5f",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture10.jpg",
+            "target_hash": "ba29ee067920d7098d5fe53d9cc4491ded4b0b5f"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture11.png",
+            "source_hash": "730602864daae9062c516541f26b67e52a45a813",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture11.png",
+            "target_hash": "730602864daae9062c516541f26b67e52a45a813"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture12.png",
+            "source_hash": "f8bb181b587ed75bd71f08b09817d7129d3cbdd7",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture12.png",
+            "target_hash": "f8bb181b587ed75bd71f08b09817d7129d3cbdd7"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture2.jpg",
+            "source_hash": "6f27d8a1221f4437a122b6bff9be832c805c8ad7",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture2.jpg",
+            "target_hash": "6f27d8a1221f4437a122b6bff9be832c805c8ad7"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture3.png",
+            "source_hash": "dc6542d165b7cd82e7f731e3e19fc9d69be4a28b",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture3.png",
+            "target_hash": "dc6542d165b7cd82e7f731e3e19fc9d69be4a28b"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture4.jpg",
+            "source_hash": "a5a11574929202fe6bc93f51d94d33ca5f045a81",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture4.jpg",
+            "target_hash": "a5a11574929202fe6bc93f51d94d33ca5f045a81"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture5.png",
+            "source_hash": "8981471bc3f4992af5d65ee92d695384f4f122fe",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture5.png",
+            "target_hash": "8981471bc3f4992af5d65ee92d695384f4f122fe"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture6.png",
+            "source_hash": "ee65ee0bc604fbb53dd9dadc7e2af7cf8e91add2",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture6.png",
+            "target_hash": "ee65ee0bc604fbb53dd9dadc7e2af7cf8e91add2"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture7.jpg",
+            "source_hash": "493345c98d82abda5292400d6d7a829d47fb32d2",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture7.jpg",
+            "target_hash": "493345c98d82abda5292400d6d7a829d47fb32d2"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture8.png",
+            "source_hash": "e007380bb0a427cbe851a147e5024e7e8b85911d",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture8.png",
+            "target_hash": "e007380bb0a427cbe851a147e5024e7e8b85911d"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture9.png",
+            "source_hash": "0d50e0f3067ef4f43ffb8df260b564cfe48e7248",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_389f9ebcaeb84cbfb020a88a25751edc_texture9.png",
+            "target_hash": "0d50e0f3067ef4f43ffb8df260b564cfe48e7248"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/flower_bed_-__wwdc21challenges/textures/material_baseColor.png",
+            "source_hash": "e2be0d82a77b76c456f1238957c04285c5ea56ea",
+            "target_url": "./flower_bed_-__wwdc21challenges/textures/material_baseColor.png",
+            "target_hash": "e2be0d82a77b76c456f1238957c04285c5ea56ea"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Tree_66075081e89f41f993161218dce12c64_texture0.png",
+            "source_hash": "eaffa8baa709ecf75b65244e858285c2366f8b03",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Tree_66075081e89f41f993161218dce12c64_texture0.png",
+            "target_hash": "eaffa8baa709ecf75b65244e858285c2366f8b03"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Tree_66075081e89f41f993161218dce12c64_texture1.png",
+            "source_hash": "5e9bf7dbd414ddfb17aa45bac689bfcdb4ada9fb",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Tree_66075081e89f41f993161218dce12c64_texture1.png",
+            "target_hash": "5e9bf7dbd414ddfb17aa45bac689bfcdb4ada9fb"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Tree_66075081e89f41f993161218dce12c64_texture2.png",
+            "source_hash": "eea509b9a0f5f6e6c0edf0d3c26ab291d723541a",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Tree_66075081e89f41f993161218dce12c64_texture2.png",
+            "target_hash": "eea509b9a0f5f6e6c0edf0d3c26ab291d723541a"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Tree_66075081e89f41f993161218dce12c64_texture3.png",
+            "source_hash": "5347f1c006b98a00244a5a859d2de4b73d035d44",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/Tree_66075081e89f41f993161218dce12c64_texture3.png",
+            "target_hash": "5347f1c006b98a00244a5a859d2de4b73d035d44"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Reel_baseColor.png",
+            "source_hash": "db806f6afc9fd3df3c6652452b8fc14e1470125c",
+            "target_url": "./volleyball/textures/Reel_baseColor.png",
+            "target_hash": "db806f6afc9fd3df3c6652452b8fc14e1470125c"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Reel_metallicRoughness.png",
+            "source_hash": "04d1131bec5b9c3158ca3c2e5b8d9c84d8b25c8e",
+            "target_url": "./volleyball/textures/Reel_metallicRoughness.png",
+            "target_hash": "04d1131bec5b9c3158ca3c2e5b8d9c84d8b25c8e"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Reel_normal.png",
+            "source_hash": "d17b232f6ed868ab646de0e549307fa242533958",
+            "target_url": "./volleyball/textures/Reel_normal.png",
+            "target_hash": "d17b232f6ed868ab646de0e549307fa242533958"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Volleyball_Net_baseColor.png",
+            "source_hash": "9199d7d25d1a72024b8a75a565d8d8aa88ab95d4",
+            "target_url": "./volleyball/textures/Volleyball_Net_baseColor.png",
+            "target_hash": "9199d7d25d1a72024b8a75a565d8d8aa88ab95d4"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Volleyball_Net_metallicRoughness.png",
+            "source_hash": "0049cc18d33f949f1418f1d5c8eaf2304ded8501",
+            "target_url": "./volleyball/textures/Volleyball_Net_metallicRoughness.png",
+            "target_hash": "0049cc18d33f949f1418f1d5c8eaf2304ded8501"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Volleyball_Net_normal.png",
+            "source_hash": "834bd8842d9ad769dca4c15a1ad48fe128511a35",
+            "target_url": "./volleyball/textures/Volleyball_Net_normal.png",
+            "target_hash": "834bd8842d9ad769dca4c15a1ad48fe128511a35"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Volleyball_baseColor.png",
+            "source_hash": "257e148064bd0fef51d0bae1e0406ee504063400",
+            "target_url": "./volleyball/textures/Volleyball_baseColor.png",
+            "target_hash": "257e148064bd0fef51d0bae1e0406ee504063400"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Volleyball_metallicRoughness.png",
+            "source_hash": "4358c97f3a90fcf56616d793cdb3daf706ce2b2a",
+            "target_url": "./volleyball/textures/Volleyball_metallicRoughness.png",
+            "target_hash": "4358c97f3a90fcf56616d793cdb3daf706ce2b2a"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Volleyball_normal.png",
+            "source_hash": "e81c3f136872f4b96a79f2a254649646185c5ddb",
+            "target_url": "./volleyball/textures/Volleyball_normal.png",
+            "target_hash": "e81c3f136872f4b96a79f2a254649646185c5ddb"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_03a6d639648540e3ad45ed38c9b19d1f_texture0.jpg",
+            "source_hash": "599eb1f7fdd337b09ccf77e6c5dd4b83c330afc2",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_03a6d639648540e3ad45ed38c9b19d1f_texture0.jpg",
+            "target_hash": "599eb1f7fdd337b09ccf77e6c5dd4b83c330afc2"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_03a6d639648540e3ad45ed38c9b19d1f_texture1.png",
+            "source_hash": "cc262d38eb60f42baf8cd3f782066c073149842f",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_03a6d639648540e3ad45ed38c9b19d1f_texture1.png",
+            "target_hash": "cc262d38eb60f42baf8cd3f782066c073149842f"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_03a6d639648540e3ad45ed38c9b19d1f_texture2.png",
+            "source_hash": "25e4346b8eb52f6c18951f426eaabab22885fbd3",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_03a6d639648540e3ad45ed38c9b19d1f_texture2.png",
+            "target_hash": "25e4346b8eb52f6c18951f426eaabab22885fbd3"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_d999506c52cf4313aad5220f4af2da6c_texture0.png",
+            "source_hash": "2ecfa8d7ef285a68c6508ef172ee40faad532272",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_d999506c52cf4313aad5220f4af2da6c_texture0.png",
+            "target_hash": "2ecfa8d7ef285a68c6508ef172ee40faad532272"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_d999506c52cf4313aad5220f4af2da6c_texture1.png",
+            "source_hash": "6a962693c161c0a4d7063aa8df567740fc5214f4",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_d999506c52cf4313aad5220f4af2da6c_texture1.png",
+            "target_hash": "6a962693c161c0a4d7063aa8df567740fc5214f4"
+        },
+        {
+            "source_url": "C:/Users/Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_d999506c52cf4313aad5220f4af2da6c_texture2.png",
+            "source_hash": "3b5e824664e5ad8bde9ecf1d5a5548c58583b4d9",
+            "target_url": "./Public/workspace/urban-sim/assets_urbansim/assets/usds/textures/car_d999506c52cf4313aad5220f4af2da6c_texture2.png",
+            "target_hash": "3b5e824664e5ad8bde9ecf1d5a5548c58583b4d9"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized.mdl",
+            "source_hash": "4c3936b91015865dbc5883435f5ebe7998b7fec3",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized.mdl",
+            "target_hash": "1a0a88107ebbe1d186eaa16f7d858af01b5782fd"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast.mdl",
+            "source_hash": "4fb082a6b26acad48466ac4a3af7dbdf43a34c25",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast.mdl",
+            "target_hash": "d3f9f16b94e38b3ef7c80676ff9252f59a5a677a"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Plastics/Plastic_ABS.mdl",
+            "source_hash": "45b2edbcb4fac2acf41a61081b9107638c71ba6e",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Plastics/Plastic_ABS.mdl",
+            "target_hash": "8497e1be2b8f6ae209579c569a3ceea86c31b8d0"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_BaseColor.png",
+            "source_hash": "1bdb71d00db4398e7a830662527ec729a82940e9",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_BaseColor.png",
+            "target_hash": "1bdb71d00db4398e7a830662527ec729a82940e9"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_BaseColor.png",
+            "source_hash": "2eb15edcd9fb4182b92a5dd82ba395c36ce6d778",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_BaseColor.png",
+            "target_hash": "2eb15edcd9fb4182b92a5dd82ba395c36ce6d778"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_ORM.png",
+            "source_hash": "649486222be9eb529f300866ad34182b94369445",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_ORM.png",
+            "target_hash": "649486222be9eb529f300866ad34182b94369445"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_ORM.png",
+            "source_hash": "a2bc2080e548c8606f607da623e22ba1a71e3306",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_ORM.png",
+            "target_hash": "a2bc2080e548c8606f607da623e22ba1a71e3306"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_N.png",
+            "source_hash": "a51b53a17c523add4b54d6cc711726ffe493d104",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_N.png",
+            "target_hash": "a51b53a17c523add4b54d6cc711726ffe493d104"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_Normal.png",
+            "source_hash": "a8fe1927aa3091cbc4be0f3f7fdd4f51b6732722",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/Collected_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_Normal.png",
+            "target_hash": "a8fe1927aa3091cbc4be0f3f7fdd4f51b6732722"
+        }
+    ]
+}

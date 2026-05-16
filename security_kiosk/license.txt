@@ -1,0 +1,11 @@
+Model Information:
+* title:	Security Kiosk
+* source:	https://sketchfab.com/3d-models/security-kiosk-e73f3bc659a14da2b61ff434a1dff82a
+* author:	Losepacific (https://sketchfab.com/losepacific)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Security Kiosk" (https://sketchfab.com/3d-models/security-kiosk-e73f3bc659a14da2b61ff434a1dff82a) by Losepacific (https://sketchfab.com/losepacific) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

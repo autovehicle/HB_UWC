@@ -1,0 +1,11 @@
+Model Information:
+* title:	Parking Garage Entrance Gates
+* source:	https://sketchfab.com/3d-models/parking-garage-entrance-gates-4218cc5e384946d3a421d917f1a21ea6
+* author:	Jungle Jim (https://sketchfab.com/jungle_jim)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Parking Garage Entrance Gates" (https://sketchfab.com/3d-models/parking-garage-entrance-gates-4218cc5e384946d3a421d917f1a21ea6) by Jungle Jim (https://sketchfab.com/jungle_jim) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

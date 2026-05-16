@@ -1,0 +1,11 @@
+Model Information:
+* title:	BUS-STATION
+* source:	https://sketchfab.com/3d-models/bus-station-fca169385b04409ca208f87b84796f07
+* author:	sherif shawky (https://sketchfab.com/shawky.sherif1)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "BUS-STATION" (https://sketchfab.com/3d-models/bus-station-fca169385b04409ca208f87b84796f07) by sherif shawky (https://sketchfab.com/shawky.sherif1) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

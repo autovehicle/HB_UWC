@@ -1,0 +1,11 @@
+Model Information:
+* title:	Plants Asset Set
+* source:	https://sketchfab.com/3d-models/plants-asset-set-2edf52774f4d4cde8d8c3a19b8dda205
+* author:	Em Marshall (https://sketchfab.com/emarshall)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Plants Asset Set" (https://sketchfab.com/3d-models/plants-asset-set-2edf52774f4d4cde8d8c3a19b8dda205) by Em Marshall (https://sketchfab.com/emarshall) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

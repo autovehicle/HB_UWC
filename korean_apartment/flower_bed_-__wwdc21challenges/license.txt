@@ -1,0 +1,11 @@
+Model Information:
+* title:	Flower bed - 花壇 #WWDC21Challenges
+* source:	https://sketchfab.com/3d-models/flower-bed-wwdc21challenges-e3b0abb378604d21a92ca391c5208dca
+* author:	yuma.jp (https://sketchfab.com/YYouzhen)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Flower bed - 花壇 #WWDC21Challenges" (https://sketchfab.com/3d-models/flower-bed-wwdc21challenges-e3b0abb378604d21a92ca391c5208dca) by yuma.jp (https://sketchfab.com/YYouzhen) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

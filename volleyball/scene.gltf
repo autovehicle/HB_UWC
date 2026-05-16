@@ -1,0 +1,597 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2984,
+      "max": [
+        5.412062644958496,
+        0.7281632423400879,
+        0.03887747973203659
+      ],
+      "min": [
+        -4.79393196105957,
+        -1.8429346084594727,
+        -0.03732264041900635
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 35808,
+      "componentType": 5126,
+      "count": 2984,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2984,
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2984,
+      "max": [
+        0.9907387495040894,
+        0.9935818910598755
+      ],
+      "min": [
+        0.00526680052280426,
+        0.0074556428007781506
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 9954,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 71616,
+      "componentType": 5126,
+      "count": 777,
+      "max": [
+        5.371572494506836,
+        -0.7527259588241577,
+        0.03461108356714249
+      ],
+      "min": [
+        5.1917924880981445,
+        -0.8581445813179016,
+        -0.12246527522802353
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 80940,
+      "componentType": 5126,
+      "count": 777,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 47744,
+      "componentType": 5126,
+      "count": 777,
+      "max": [
+        0.981878399848938,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.9799104928970337,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 23872,
+      "componentType": 5126,
+      "count": 777,
+      "max": [
+        0.9929323792457581,
+        0.9877806305885315
+      ],
+      "min": [
+        0.010902008041739464,
+        0.006938224192708731
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 39816,
+      "componentType": 5125,
+      "count": 2601,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 90264,
+      "componentType": 5126,
+      "count": 183,
+      "max": [
+        9.494427680969238,
+        0.22044424712657928,
+        14.571053504943848
+      ],
+      "min": [
+        -9.52210807800293,
+        0.12788671255111694,
+        -16.414146423339844
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 92460,
+      "componentType": 5126,
+      "count": 183,
+      "max": [
+        1.0,
+        1.0,
+        0.9945055246353149
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.9945055246353149
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 60176,
+      "componentType": 5126,
+      "count": 183,
+      "max": [
+        5.2222865633666515e-05,
+        0.9945055246353149,
+        0.10468460619449615,
+        -1.0
+      ],
+      "min": [
+        -3.7259795249156014e-07,
+        -0.9945055246353149,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 30088,
+      "componentType": 5126,
+      "count": 183,
+      "max": [
+        0.7703232765197754,
+        0.9708409905433655
+      ],
+      "min": [
+        0.2290523648262024,
+        0.029158979654312134
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 50220,
+      "componentType": 5125,
+      "count": 288,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "LucasPresoto (https://sketchfab.com/LucasPresoto)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/volleyball-825c976f955d4682a0e777b949aead2b",
+      "title": "Volleyball"
+    },
+    "generator": "Sketchfab-15.27.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 51372,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 31552,
+      "byteOffset": 51372,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 94656,
+      "byteOffset": 82924,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 63104,
+      "byteOffset": 177580,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 240684,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Volleyball_Net_baseColor.png"
+    },
+    {
+      "uri": "textures/Volleyball_Net_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Volleyball_Net_normal.png"
+    },
+    {
+      "uri": "textures/Reel_baseColor.png"
+    },
+    {
+      "uri": "textures/Reel_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Reel_normal.png"
+    },
+    {
+      "uri": "textures/Volleyball_baseColor.png"
+    },
+    {
+      "uri": "textures/Volleyball_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Volleyball_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Volleyball_Net",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Reel",
+      "normalTexture": {
+        "index": 5
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Volleyball",
+      "normalTexture": {
+        "index": 8
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 6
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 7
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Volleyball_Net_Volleyball_Net_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Reel_Reel_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Volleyball_Volleyball_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "1144e7d4dd624ea3b0a2d8b261362a77.fbx"
+    },
+    {
+      "children": [
+        3,
+        7
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "matrix": [
+        -0.9999999999999964,
+        1.2246467991473515e-16,
+        8.742278000372476e-08,
+        0.0,
+        -3.698906412640348e-15,
+        0.999999999999999,
+        -4.371138840920244e-08,
+        0.0,
+        -8.742278000372468e-08,
+        -4.37113884092026e-08,
+        -0.9999999999999956,
+        0.0,
+        -0.21497154235839844,
+        1.8429346084594727,
+        -0.008879575878381729,
+        1.0
+      ],
+      "name": "Volleyball_Net"
+    },
+    {
+      "mesh": 0,
+      "name": "Volleyball_Net_Volleyball_Net_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -6.617444900424222e-24,
+        0.0,
+        0.0,
+        6.617444900424222e-24,
+        1.0,
+        0.0,
+        0.0,
+        3.8813841030105323e-10,
+        -3.725290298461914e-09,
+        1.0
+      ],
+      "name": "Reel"
+    },
+    {
+      "mesh": 1,
+      "name": "Reel_Reel_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        -0.9999999999999964,
+        1.2246467991473515e-16,
+        8.742278000372476e-08,
+        0.0,
+        -3.698906412640348e-15,
+        0.999999999999999,
+        -4.371138840920244e-08,
+        0.0,
+        -8.742278000372468e-08,
+        -4.37113884092026e-08,
+        -0.9999999999999956,
+        0.0,
+        -0.2027130126953125,
+        -0.22044360637664795,
+        -0.9146443605422974,
+        1.0
+      ],
+      "name": "Volleyball"
+    },
+    {
+      "mesh": 2,
+      "name": "Volleyball_Volleyball_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
+    },
+    {
+      "sampler": 0,
+      "source": 8
+    }
+  ]
+}

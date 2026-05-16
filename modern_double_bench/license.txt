@@ -1,0 +1,11 @@
+Model Information:
+* title:	Modern double Bench
+* source:	https://sketchfab.com/3d-models/modern-double-bench-310ff72c36004ea4a07ddeda484089fa
+* author:	Geisson.Lairce (https://sketchfab.com/Geisson.Lairce)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Modern double Bench" (https://sketchfab.com/3d-models/modern-double-bench-310ff72c36004ea4a07ddeda484089fa) by Geisson.Lairce (https://sketchfab.com/Geisson.Lairce) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
