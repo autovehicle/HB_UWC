@@ -10,6 +10,24 @@ from wheeledlab_rl.configs import (
 )
 
 @configclass
+class RSS_UWC_DRIVE_CONFIG(RslRlRunConfig):
+    env_setup = EnvSetup(
+        num_envs=256,
+        task_name="Isaac-UWC-Drive-RL-v0",
+    )
+    train = RLTrainConfig(
+        num_iterations=4000,
+        rl_algo_lib="rsl",
+        rl_algo_class="ppo",
+        log=LogConfig(
+            video_interval=10000,
+        ),
+    )
+    agent_setup = AgentSetup(
+        entry_point="rsl_rl_cfg_entry_point",
+    )
+    
+@configclass
 class RSS_DRIFT_CONFIG(RslRlRunConfig):
     env_setup = EnvSetup(
         num_envs=1024,
@@ -56,3 +74,5 @@ class RSS_ELEV_CONFIG(RslRlRunConfig):
     agent_setup = AgentSetup(
         entry_point="rsl_rl_cfg_entry_point"
     )
+
+    
