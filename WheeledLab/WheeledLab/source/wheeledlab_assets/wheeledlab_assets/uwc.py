@@ -8,9 +8,9 @@ from . import WHEELEDLAB_ASSETS_DATA_DIR
 # Actuator Configuration
 ##
 
-# robot_model은 steering joint 없이 4개의 wheel joint로 구동하는
+# uwc는 steering joint 없이 4개의 wheel joint로 구동하는
 # 4WD 스키드스티어 방식 로봇입니다.
-ROBOT_MODEL_ACTUATOR_CFG = {
+UWC_ACTUATOR_CFG = {
     "wheel_joints": DCMotorCfg(
         joint_names_expr=[".*wheel_joint"],  # 4개 wheel joint 전체 매칭
          # 모터 토크 관련
@@ -50,7 +50,7 @@ _ZERO_INIT_STATES = ArticulationCfg.InitialStateCfg(
 # Robot Configuration
 ##
 
-ROBOT_MODEL_CFG = ArticulationCfg(
+UWC_CFG = ArticulationCfg(
     spawn=sim_utils.UsdFileCfg(
         usd_path=f"{WHEELEDLAB_ASSETS_DATA_DIR}/Robots/UWC/uwc.usd",
         rigid_props=sim_utils.RigidBodyPropertiesCfg(
