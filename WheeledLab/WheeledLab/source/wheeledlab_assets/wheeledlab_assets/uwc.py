@@ -70,5 +70,5 @@ UWC_CFG = ArticulationCfg(
         ),
     ),
     init_state=_ZERO_INIT_STATES,
-    actuators=ROBOT_MODEL_ACTUATOR_CFG,
+    actuators=UWC_ACTUATOR_CFG,
 )

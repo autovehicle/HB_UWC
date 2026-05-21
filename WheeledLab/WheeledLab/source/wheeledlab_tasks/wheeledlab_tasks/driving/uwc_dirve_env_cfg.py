@@ -38,10 +38,9 @@ from wheeledlab.envs.mdp import (
 )
 from wheeledlab_tasks.common import BlindObsCfg
 
-# TODO(team): UWC 로봇 에셋이 wheeledlab_assets 에 등록되면 아래로 교체
-#   from wheeledlab_assets import UWC_CFG
-# 지금은 MUSHR 에셋을 placeholder 로 사용해 로딩만 되게 함.
-from wheeledlab_assets import MUSHR_SUS_2WD_CFG as UWC_CFG  # placeholder
+# xxxxxTODO(team): UWC 로봇 에셋이 wheeledlab_assets 에 등록되면 아래로 교체xxxx
+# 해결 !!!!!!!!!!!! 안 건드려도 됨.
+from wheeledlab_assets import UWC_CFG, WHEELEDLAB_ASSETS_DATA_DIR
 
 
 ##############################
@@ -55,8 +54,8 @@ STATIONARY_TIME_S = 2.0      # (s) 이 시간 이상 정지하면 stuck 종료
 NUM_LOOKAHEAD = 5            # 관측용 lookahead waypoint 개수
 LOOKAHEAD_STEP = 0.5         # (m) lookahead waypoint 사이 간격
 
-# 커스텀 맵 USD 경로 — TODO(team) 으로 실제 경로 교체
-CUSTOM_MAP_USD = "/PATH/TO/CUSTOM_MAP.usd"
+# 커스텀 맵 USD 경로 -> todo 였는데 해결 !!!!!!!!!!!!!! 안 건드려도 됨.
+CUSTOM_MAP_USD = f"{WHEELEDLAB_ASSETS_DATA_DIR}/map/map2.usd"
 
 
 ###################################
