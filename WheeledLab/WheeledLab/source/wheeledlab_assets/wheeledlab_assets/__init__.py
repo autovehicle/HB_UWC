@@ -18,4 +18,3 @@ __version__ = WHEELEDLAB_ASSETS_METADATA["package"]["version"]
 
 from .mushr import *
 from .f1tenth import *
-from .uwc import *
