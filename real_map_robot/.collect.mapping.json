@@ -1,0 +1,1355 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/MI_Fabric_01.usd",
+            "source_hash": "e13a5acc725b5fe20ab07e197294e25c8164bef8",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/MI_Fabric_01.usd",
+            "target_hash": "8a03828dde02d76ca628411bb2dca486d2cb34b8"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Textures/T_Sky_01.hdr",
+            "source_hash": "bb41aa491fa10c1e0021036cbae114362b5f6457",
+            "target_url": "./Assets/Game/Apartment_Complex/Textures/T_Sky_01.hdr",
+            "target_hash": "bb41aa491fa10c1e0021036cbae114362b5f6457"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Brown_Normal.png",
+            "source_hash": "a8c20b3531348f97487ca53b51a3f8ea7f29d7fd",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Brown_Normal.png",
+            "target_hash": "a8c20b3531348f97487ca53b51a3f8ea7f29d7fd"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Brown_Roughness.png",
+            "source_hash": "3ecd4de29d0de37e18e2ea305d13926cd24b35cf",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Brown_Roughness.png",
+            "target_hash": "3ecd4de29d0de37e18e2ea305d13926cd24b35cf"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_01_BaseColor.png",
+            "source_hash": "c94d9e3c7804fca49e695252de051a784d9a3df2",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_01_BaseColor.png",
+            "target_hash": "c94d9e3c7804fca49e695252de051a784d9a3df2"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_01_Normal.png",
+            "source_hash": "0d4244be69f6df8a544c569dc5c48738d952426c",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_01_Normal.png",
+            "target_hash": "0d4244be69f6df8a544c569dc5c48738d952426c"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_01_Roughness.png",
+            "source_hash": "d57847c5ec7a035fc1709ce49a285e1acfa1481f",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_01_Roughness.png",
+            "target_hash": "d57847c5ec7a035fc1709ce49a285e1acfa1481f"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_01_Specular.png",
+            "source_hash": "ce803fc594880face63d64295c59d5abfb570100",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_01_Specular.png",
+            "target_hash": "ce803fc594880face63d64295c59d5abfb570100"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_01_SubsurfaceColor.png",
+            "source_hash": "469439a1a70683981f30439eee0f9ad0aa0a644b",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_01_SubsurfaceColor.png",
+            "target_hash": "469439a1a70683981f30439eee0f9ad0aa0a644b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_M_Light_01_EmissiveColor.exr",
+            "source_hash": "811a8b7cacaf58df57d3d65e4d5e2d5133a05362",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_M_Light_01_EmissiveColor.exr",
+            "target_hash": "811a8b7cacaf58df57d3d65e4d5e2d5133a05362"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_InteriorCollection_01_BaseColor.png",
+            "source_hash": "09cfd2a342c9689feb8d2871930f9763abb295b6",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_InteriorCollection_01_BaseColor.png",
+            "target_hash": "09cfd2a342c9689feb8d2871930f9763abb295b6"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_InteriorCollection_01_EmissiveColor.exr",
+            "source_hash": "6b5a50c536cc4d8b7dae3916bb154407588cd2f6",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_InteriorCollection_01_EmissiveColor.exr",
+            "target_hash": "6b5a50c536cc4d8b7dae3916bb154407588cd2f6"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_BaseColor.png",
+            "source_hash": "4f1e3fd9bc72a70d4875fb7c6800a47bee22f486",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_BaseColor.png",
+            "target_hash": "4f1e3fd9bc72a70d4875fb7c6800a47bee22f486"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_Normal.png",
+            "source_hash": "f307495101dc9adb6c9e8d4abae980f46c6fdb7b",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_Normal.png",
+            "target_hash": "f307495101dc9adb6c9e8d4abae980f46c6fdb7b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_OpacityMask.png",
+            "source_hash": "696971dc06064b8c1243ed7de347a4aedd66d23c",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_OpacityMask.png",
+            "target_hash": "696971dc06064b8c1243ed7de347a4aedd66d23c"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_SubsurfaceColor.png",
+            "source_hash": "472f309483b2f866ddb82fabb6767e9167d4deb6",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_SubsurfaceColor.png",
+            "target_hash": "472f309483b2f866ddb82fabb6767e9167d4deb6"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_02_BaseColor.png",
+            "source_hash": "8121c27dad0a063665596e62d82fe4592704731e",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_02_BaseColor.png",
+            "target_hash": "8121c27dad0a063665596e62d82fe4592704731e"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_02_Normal.png",
+            "source_hash": "d187a266ce4f6d9bbb60298fad5920d047c4703d",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_02_Normal.png",
+            "target_hash": "d187a266ce4f6d9bbb60298fad5920d047c4703d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_02_Roughness.png",
+            "source_hash": "d15e643a514cb928bdd71a4c4a79d35d152e4240",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_02_Roughness.png",
+            "target_hash": "d15e643a514cb928bdd71a4c4a79d35d152e4240"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_03_Normal.png",
+            "source_hash": "2727f8a43b2d459bf3f0238df33d178a85b56e23",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_03_Normal.png",
+            "target_hash": "2727f8a43b2d459bf3f0238df33d178a85b56e23"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_03_Roughness.png",
+            "source_hash": "7d22ca483cf61e9f81927edfedbe1d84e841a077",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_03_Roughness.png",
+            "target_hash": "7d22ca483cf61e9f81927edfedbe1d84e841a077"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Thuja_01_BaseColor.png",
+            "source_hash": "8a57690db7caf1c8dfafe48dd4e1ed6e46fb1de7",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Thuja_01_BaseColor.png",
+            "target_hash": "8a57690db7caf1c8dfafe48dd4e1ed6e46fb1de7"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Thuja_01_Normal.png",
+            "source_hash": "1c93e6330966d6e02c782ae5ae29719704d3109b",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Thuja_01_Normal.png",
+            "target_hash": "1c93e6330966d6e02c782ae5ae29719704d3109b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Thuja_01_OpacityMask.png",
+            "source_hash": "78f3705ac27c3f42f218edaaafe4164768f07bab",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Thuja_01_OpacityMask.png",
+            "target_hash": "78f3705ac27c3f42f218edaaafe4164768f07bab"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Thuja_01_SubsurfaceColor.png",
+            "source_hash": "88818901abfe58caedad12c40611084142dd14f7",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Thuja_01_SubsurfaceColor.png",
+            "target_hash": "88818901abfe58caedad12c40611084142dd14f7"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plastic_03_Roughness.png",
+            "source_hash": "1baf14948f723173262891aaa7340e3f28d20638",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plastic_03_Roughness.png",
+            "target_hash": "1baf14948f723173262891aaa7340e3f28d20638"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_02_Normal.png",
+            "source_hash": "bd639aee345d35528a5cc7c92f256e6edf7edcbf",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_02_Normal.png",
+            "target_hash": "bd639aee345d35528a5cc7c92f256e6edf7edcbf"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plastic_01_Roughness.png",
+            "source_hash": "62a07e6903570bc013c3fe36205b452be2b9f134",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plastic_01_Roughness.png",
+            "target_hash": "62a07e6903570bc013c3fe36205b452be2b9f134"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Chair_03_BaseColor.png",
+            "source_hash": "402bec7bdcc1d7f7cdbd279dcbe98c111c8fd342",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Chair_03_BaseColor.png",
+            "target_hash": "402bec7bdcc1d7f7cdbd279dcbe98c111c8fd342"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Chair_03_Normal.png",
+            "source_hash": "ce2a594cd0013670ce4021c5f02b5374569b8eea",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Chair_03_Normal.png",
+            "target_hash": "ce2a594cd0013670ce4021c5f02b5374569b8eea"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Chair_03_Roughness.png",
+            "source_hash": "3e46f38360b349810c7be906d7ce97153053f9d5",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Chair_03_Roughness.png",
+            "target_hash": "3e46f38360b349810c7be906d7ce97153053f9d5"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Roof_01_BaseColor.png",
+            "source_hash": "6d4a6b2382f0a3169382555b6fcc9fe7b427fc9f",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Roof_01_BaseColor.png",
+            "target_hash": "6d4a6b2382f0a3169382555b6fcc9fe7b427fc9f"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Roof_01_Normal.png",
+            "source_hash": "0926f55ad1c6ee547b633309817bad084ddf3d69",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Roof_01_Normal.png",
+            "target_hash": "0926f55ad1c6ee547b633309817bad084ddf3d69"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Roof_01_Roughness.png",
+            "source_hash": "0c55b67618d6ed39d55aa4adbec1afff6fcc1900",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Roof_01_Roughness.png",
+            "target_hash": "0c55b67618d6ed39d55aa4adbec1afff6fcc1900"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Paving_01_BaseColor.png",
+            "source_hash": "4d24a292ef7445485ef6f5093fabc1fa1da640c5",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Paving_01_BaseColor.png",
+            "target_hash": "4d24a292ef7445485ef6f5093fabc1fa1da640c5"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Paving_01_Normal.png",
+            "source_hash": "df75b56643cd3e2693e05eb8c962d058d4ed2d0b",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Paving_01_Normal.png",
+            "target_hash": "df75b56643cd3e2693e05eb8c962d058d4ed2d0b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Paving_01_Roughness.png",
+            "source_hash": "b48129605acfbe987b36c5213165db134ea2f498",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Paving_01_Roughness.png",
+            "target_hash": "b48129605acfbe987b36c5213165db134ea2f498"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_BaseColor.png",
+            "source_hash": "949ee8b504d4d64a8899d2fd82529f3aa7772410",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_BaseColor.png",
+            "target_hash": "949ee8b504d4d64a8899d2fd82529f3aa7772410"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_Normal.png",
+            "source_hash": "eae9a344b980b205573543b4247b2b41d7e2ab2e",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_Normal.png",
+            "target_hash": "eae9a344b980b205573543b4247b2b41d7e2ab2e"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_OpacityMask.png",
+            "source_hash": "5f058b1335023d722d21e88cfbec44579ab95cca",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_OpacityMask.png",
+            "target_hash": "5f058b1335023d722d21e88cfbec44579ab95cca"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_SubsurfaceColor.png",
+            "source_hash": "14f77085089a89f9f2ee17d6ae53d4a1676c377f",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_SubsurfaceColor.png",
+            "target_hash": "14f77085089a89f9f2ee17d6ae53d4a1676c377f"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marking_01_BaseColor.png",
+            "source_hash": "2ba88714201cfd85fd612f2491115e10a9356408",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marking_01_BaseColor.png",
+            "target_hash": "2ba88714201cfd85fd612f2491115e10a9356408"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marking_01_Normal.png",
+            "source_hash": "1662500a545d486fa22b95f10073e1e830630815",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marking_01_Normal.png",
+            "target_hash": "1662500a545d486fa22b95f10073e1e830630815"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marking_01_OpacityMask.png",
+            "source_hash": "2496ff3ec3212dec416dab834f467cfdca7fcb47",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marking_01_OpacityMask.png",
+            "target_hash": "2496ff3ec3212dec416dab834f467cfdca7fcb47"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marking_01_Roughness.png",
+            "source_hash": "ead9cb3a5b080096750ad6a1d342c17a0788d22a",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marking_01_Roughness.png",
+            "target_hash": "ead9cb3a5b080096750ad6a1d342c17a0788d22a"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_M_Skybox_BaseColor.png",
+            "source_hash": "ef8ed7afc857bdd79dd0a1bccf1ccecb1fbab469",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_M_Skybox_BaseColor.png",
+            "target_hash": "ef8ed7afc857bdd79dd0a1bccf1ccecb1fbab469"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_M_Skybox_EmissiveColor.exr",
+            "source_hash": "b61fade6b14c0fe2cb901870db271a208130523b",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_M_Skybox_EmissiveColor.exr",
+            "target_hash": "b61fade6b14c0fe2cb901870db271a208130523b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Sand_01_BaseColor.png",
+            "source_hash": "179333294e711ee294254ecf15b4e1e8812cf2fc",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Sand_01_BaseColor.png",
+            "target_hash": "179333294e711ee294254ecf15b4e1e8812cf2fc"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Sand_01_Normal.png",
+            "source_hash": "01f16b44f29a0b8db200a715a296688c0e816990",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Sand_01_Normal.png",
+            "target_hash": "01f16b44f29a0b8db200a715a296688c0e816990"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Wood_02_Roughness.png",
+            "source_hash": "2108a215c56adb9b7bdacb3d507a595a53e5bc4b",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Wood_02_Roughness.png",
+            "target_hash": "2108a215c56adb9b7bdacb3d507a595a53e5bc4b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_03_BaseColor.png",
+            "source_hash": "c543ef9e2bfecf6a15aa788b71c5f220aaa43030",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_03_BaseColor.png",
+            "target_hash": "c543ef9e2bfecf6a15aa788b71c5f220aaa43030"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_03_Normal.png",
+            "source_hash": "906a68097ab1c09293ceaca13872578efc10e7e4",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_03_Normal.png",
+            "target_hash": "906a68097ab1c09293ceaca13872578efc10e7e4"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_03_OpacityMask.png",
+            "source_hash": "54a6d70d9791e727215c7f933737daa6361d93e4",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_03_OpacityMask.png",
+            "target_hash": "54a6d70d9791e727215c7f933737daa6361d93e4"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_03_SubsurfaceColor.png",
+            "source_hash": "35b9dc11cd8a5ca35a20b06106f7b2c0496b9aa2",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_03_SubsurfaceColor.png",
+            "target_hash": "35b9dc11cd8a5ca35a20b06106f7b2c0496b9aa2"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_02_Normal.png",
+            "source_hash": "02f4461c9e34a96aed7b75730ec0d6635d903e97",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_02_Normal.png",
+            "target_hash": "02f4461c9e34a96aed7b75730ec0d6635d903e97"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_02_Roughness.png",
+            "source_hash": "fb71c31805aea9841f05dd0d70ebc4e73a3bffb2",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_02_Roughness.png",
+            "target_hash": "fb71c31805aea9841f05dd0d70ebc4e73a3bffb2"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Asphalt_01_BaseColor.png",
+            "source_hash": "4fcb0c51dfe05a7023bcb6f9a3ee400273067c31",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Asphalt_01_BaseColor.png",
+            "target_hash": "4fcb0c51dfe05a7023bcb6f9a3ee400273067c31"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Asphalt_01_Normal.png",
+            "source_hash": "7045103dd86059207b44917cddda2ffdded84070",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Asphalt_01_Normal.png",
+            "target_hash": "7045103dd86059207b44917cddda2ffdded84070"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Asphalt_01_Roughness.png",
+            "source_hash": "3b98df24a10f0fc96a49b3507d28f69523c61f1b",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Asphalt_01_Roughness.png",
+            "target_hash": "3b98df24a10f0fc96a49b3507d28f69523c61f1b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_RubberAtlas_01_BaseColor.png",
+            "source_hash": "30dee838c8823342440fd71545288fdd19758d29",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_RubberAtlas_01_BaseColor.png",
+            "target_hash": "30dee838c8823342440fd71545288fdd19758d29"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_RubberAtlas_01_Roughness.png",
+            "source_hash": "0c5f9681957ead03166e9e39d315fae08330b3ed",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_RubberAtlas_01_Roughness.png",
+            "target_hash": "0c5f9681957ead03166e9e39d315fae08330b3ed"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_BaseColor.png",
+            "source_hash": "d6a91d6f62325dc065843e8562665683853cdd1b",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_BaseColor.png",
+            "target_hash": "d6a91d6f62325dc065843e8562665683853cdd1b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_Normal.png",
+            "source_hash": "aef324a47356851630b08a1f75015340e3ed95a2",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_Normal.png",
+            "target_hash": "aef324a47356851630b08a1f75015340e3ed95a2"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_OpacityMask.png",
+            "source_hash": "53a1cd8f5a9d484f724acbe96c5335c3b63f33bb",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_OpacityMask.png",
+            "target_hash": "53a1cd8f5a9d484f724acbe96c5335c3b63f33bb"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_Roughness.png",
+            "source_hash": "972732ead22910ccfaaefa15de534b78c5409f61",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_Roughness.png",
+            "target_hash": "972732ead22910ccfaaefa15de534b78c5409f61"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_SubsurfaceColor.png",
+            "source_hash": "4b5321e107f7d85129daac77ae158c94cd41f492",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_SubsurfaceColor.png",
+            "target_hash": "4b5321e107f7d85129daac77ae158c94cd41f492"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_08_BaseColor.png",
+            "source_hash": "9ef3beece79acce7eb482f2952a266c8c24a5a82",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_08_BaseColor.png",
+            "target_hash": "9ef3beece79acce7eb482f2952a266c8c24a5a82"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_08_EmissiveColor.exr",
+            "source_hash": "51087afbf95b2ec5c29b92b3cce74712760eef41",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_08_EmissiveColor.exr",
+            "target_hash": "51087afbf95b2ec5c29b92b3cce74712760eef41"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_08_Roughness.png",
+            "source_hash": "22d6182f9fc3de2c17a95d626b923894a75bd2e6",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_08_Roughness.png",
+            "target_hash": "22d6182f9fc3de2c17a95d626b923894a75bd2e6"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_02_BaseColor.png",
+            "source_hash": "0ad2da9665909f4a12e8cd7bdb85e2351c4075a0",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_02_BaseColor.png",
+            "target_hash": "0ad2da9665909f4a12e8cd7bdb85e2351c4075a0"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_02_Normal.png",
+            "source_hash": "89ed529bea086071d7ba67892270c0e8b0029bae",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_02_Normal.png",
+            "target_hash": "89ed529bea086071d7ba67892270c0e8b0029bae"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_02_Roughness.png",
+            "source_hash": "15503753ce74e06a0cbe51130dd49f359b5333a9",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_02_Roughness.png",
+            "target_hash": "15503753ce74e06a0cbe51130dd49f359b5333a9"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Road_01_BaseColor.png",
+            "source_hash": "df8e764f8e73acca42ed8f7cd464e564467614be",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Road_01_BaseColor.png",
+            "target_hash": "df8e764f8e73acca42ed8f7cd464e564467614be"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Road_01_Normal.png",
+            "source_hash": "fefe7772969b6c81b9057be9828c6ce4a7f8c5fc",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Road_01_Normal.png",
+            "target_hash": "fefe7772969b6c81b9057be9828c6ce4a7f8c5fc"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Road_01_Roughness.png",
+            "source_hash": "fe7d3c7b3b5cd111b9d7ffc34367d6aff2b1199d",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Road_01_Roughness.png",
+            "target_hash": "fe7d3c7b3b5cd111b9d7ffc34367d6aff2b1199d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/M_Fake_Glass_02.usd",
+            "source_hash": "4716b85466349679ba47bf3f9e7c9b2b06eab95b",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/M_Fake_Glass_02.usd",
+            "target_hash": "da17bd6aaf4444e529896feda5c891c3a12d9a4f"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_03_BaseColor.png",
+            "source_hash": "6c977302ba248502d22c7d92c5dd343351d1090a",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_03_BaseColor.png",
+            "target_hash": "6c977302ba248502d22c7d92c5dd343351d1090a"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_03_Normal.png",
+            "source_hash": "9579bfe96a7b014964751310d7de80f84b552920",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_03_Normal.png",
+            "target_hash": "9579bfe96a7b014964751310d7de80f84b552920"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Concrete_01_BaseColor.png",
+            "source_hash": "ca00f18aa1f26cb2ade603c21450b8562b129a9f",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Concrete_01_BaseColor.png",
+            "target_hash": "ca00f18aa1f26cb2ade603c21450b8562b129a9f"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Concrete_01_Normal.png",
+            "source_hash": "8e58dde0f831be2dee0c7396b2ba88626dcc1c75",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Concrete_01_Normal.png",
+            "target_hash": "8e58dde0f831be2dee0c7396b2ba88626dcc1c75"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Concrete_01_Roughness.png",
+            "source_hash": "635c9f1930aaead8c7802a8953592451bdedca8d",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Concrete_01_Roughness.png",
+            "target_hash": "635c9f1930aaead8c7802a8953592451bdedca8d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Gray_Normal.png",
+            "source_hash": "d60b803071444256a0d6a3c16516f38940bcdde2",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Gray_Normal.png",
+            "target_hash": "d60b803071444256a0d6a3c16516f38940bcdde2"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Gray_Roughness.png",
+            "source_hash": "e55aec5e3f62905f6c2d9bc23fa42e71e2eab957",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Gray_Roughness.png",
+            "target_hash": "e55aec5e3f62905f6c2d9bc23fa42e71e2eab957"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_Normal.png",
+            "source_hash": "be66044d27251692bdb776480363f710b6e9cb3f",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_Normal.png",
+            "target_hash": "be66044d27251692bdb776480363f710b6e9cb3f"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_Roughness.png",
+            "source_hash": "647b5e1e0323f88443af3943875f5d378e83a226",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_Roughness.png",
+            "target_hash": "647b5e1e0323f88443af3943875f5d378e83a226"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_06_BaseColor.png",
+            "source_hash": "1a1630a197c0d4426990d82f1607b6c7299b5016",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_06_BaseColor.png",
+            "target_hash": "1a1630a197c0d4426990d82f1607b6c7299b5016"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_06_EmissiveColor.exr",
+            "source_hash": "4606dc478886335744b2e200e77b3593fd7b8b20",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_06_EmissiveColor.exr",
+            "target_hash": "4606dc478886335744b2e200e77b3593fd7b8b20"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_06_Roughness.png",
+            "source_hash": "9eb6ad6ecf450431aaadfa7ce292ad75691aa64c",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_06_Roughness.png",
+            "target_hash": "9eb6ad6ecf450431aaadfa7ce292ad75691aa64c"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_02_BaseColor.png",
+            "source_hash": "b926c55f283a3f568fca661418279fa0e4a2355a",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_02_BaseColor.png",
+            "target_hash": "b926c55f283a3f568fca661418279fa0e4a2355a"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_02_Normal.png",
+            "source_hash": "5270a00a5a49194f6a9154af2549122bd19f8f83",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_02_Normal.png",
+            "target_hash": "5270a00a5a49194f6a9154af2549122bd19f8f83"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_01_BaseColor.png",
+            "source_hash": "3fb1635e42f55d0b74ca5b6f8ff15cdd141ae210",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_01_BaseColor.png",
+            "target_hash": "3fb1635e42f55d0b74ca5b6f8ff15cdd141ae210"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_01_Normal.png",
+            "source_hash": "95dba1d74641f3869cc7bcc2bec9f048f97a3e3c",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_01_Normal.png",
+            "target_hash": "95dba1d74641f3869cc7bcc2bec9f048f97a3e3c"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Base_Normal.png",
+            "source_hash": "71f8f4e25204993ea35a26d1e4313b0c3b597d72",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Base_Normal.png",
+            "target_hash": "71f8f4e25204993ea35a26d1e4313b0c3b597d72"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Base_Roughness.png",
+            "source_hash": "83e032e04dddbd22483c9011c03e62bee64cb7bf",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Base_Roughness.png",
+            "target_hash": "83e032e04dddbd22483c9011c03e62bee64cb7bf"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_BaseColor.png",
+            "source_hash": "9e8d4b3b4a6a0d28b40fd7781ad5f53f492250a1",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_BaseColor.png",
+            "target_hash": "9e8d4b3b4a6a0d28b40fd7781ad5f53f492250a1"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_Metallic.png",
+            "source_hash": "de72e27bc348adb1c2bb2a6de7491fe2fd033433",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_Metallic.png",
+            "target_hash": "de72e27bc348adb1c2bb2a6de7491fe2fd033433"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_Normal.png",
+            "source_hash": "7c9795781063c26cfd44e5d696f5c78afa0974d2",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_Normal.png",
+            "target_hash": "7c9795781063c26cfd44e5d696f5c78afa0974d2"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_Roughness.png",
+            "source_hash": "fe7d221d6e6d55512522eba558bd3ce917abf5f8",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_Roughness.png",
+            "target_hash": "fe7d221d6e6d55512522eba558bd3ce917abf5f8"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized.mdl",
+            "source_hash": "34c3980c6bc4baca16311df1f027458a5a876c43",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized.mdl",
+            "target_hash": "be3a9a0e8568be26b7acb5ddcfaecef982de0882"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast.mdl",
+            "source_hash": "6840c0c1b5cf57c83cada46b9127363dc8c33077",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast.mdl",
+            "target_hash": "52c1ae5013dfa5b3ecd978da444682b2a9aad69b"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Plastics/Plastic_ABS.mdl",
+            "source_hash": "767ea28c781e28ae42cfacb4e2fa241ad16a3c44",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Plastics/Plastic_ABS.mdl",
+            "target_hash": "491afa65dfe76c71645b220666598f7a55d5bd4b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_01_BaseColor.png",
+            "source_hash": "a36ebc32cd4e10d16370dd3ec93ee641aa9cd36d",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_01_BaseColor.png",
+            "target_hash": "a36ebc32cd4e10d16370dd3ec93ee641aa9cd36d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_01_EmissiveColor.exr",
+            "source_hash": "12c0e04183de6499717ca2a76dd417cd43d506c3",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_01_EmissiveColor.exr",
+            "target_hash": "12c0e04183de6499717ca2a76dd417cd43d506c3"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_01_Roughness.png",
+            "source_hash": "952e12d140fa4d117abe8ad601e6ca815465daa9",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_01_Roughness.png",
+            "target_hash": "952e12d140fa4d117abe8ad601e6ca815465daa9"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_BaseColor.png",
+            "source_hash": "33d37af416e3f2cdd1f37f9d9543cd92ef351f81",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_BaseColor.png",
+            "target_hash": "33d37af416e3f2cdd1f37f9d9543cd92ef351f81"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_Metallic.png",
+            "source_hash": "fbfeb070b1e4f2a94f6a6e28d72415f088a6a1bc",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_Metallic.png",
+            "target_hash": "fbfeb070b1e4f2a94f6a6e28d72415f088a6a1bc"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_Normal.png",
+            "source_hash": "7b0756848dabc6c18b1806219ddaa484347e6be3",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_Normal.png",
+            "target_hash": "7b0756848dabc6c18b1806219ddaa484347e6be3"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_Roughness.png",
+            "source_hash": "bfbebbbc6ab10da5c9c4d2ed4322530fad7f6fdc",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_Roughness.png",
+            "target_hash": "bfbebbbc6ab10da5c9c4d2ed4322530fad7f6fdc"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Black_Normal.png",
+            "source_hash": "9c846e7223a1e9a176e81122f5f8bc42b8177e99",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Black_Normal.png",
+            "target_hash": "9c846e7223a1e9a176e81122f5f8bc42b8177e99"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Black_Roughness.png",
+            "source_hash": "c08b0bb05325b2dee8f22cd0406e8b3be692d9d9",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Black_Roughness.png",
+            "target_hash": "c08b0bb05325b2dee8f22cd0406e8b3be692d9d9"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/MI_Marble_01.usd",
+            "source_hash": "baff810cd0f0ce69da75e10e3855647936095ef4",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/MI_Marble_01.usd",
+            "target_hash": "f752df2ae3a8da6f720cd0848220e6d5b2d87ac9"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_04_BaseColor.png",
+            "source_hash": "b737dafb1fe91ff1cbd499b0d4ee18ce94510123",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_04_BaseColor.png",
+            "target_hash": "b737dafb1fe91ff1cbd499b0d4ee18ce94510123"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_04_EmissiveColor.exr",
+            "source_hash": "ea6608f45b57f5f77391a1391cf28abe889b16f3",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_04_EmissiveColor.exr",
+            "target_hash": "ea6608f45b57f5f77391a1391cf28abe889b16f3"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_04_Roughness.png",
+            "source_hash": "96ae06b5edd0a8ed48a4ba6431037794515791e3",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_04_Roughness.png",
+            "target_hash": "96ae06b5edd0a8ed48a4ba6431037794515791e3"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Gravel_01_BaseColor.png",
+            "source_hash": "1c820d63b5362ef5030789b2d078cd0805805f39",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Gravel_01_BaseColor.png",
+            "target_hash": "1c820d63b5362ef5030789b2d078cd0805805f39"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Gravel_01_Normal.png",
+            "source_hash": "946d66d9047e374c8c05adb62db65ff577c976d6",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Gravel_01_Normal.png",
+            "target_hash": "946d66d9047e374c8c05adb62db65ff577c976d6"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Gravel_01_Roughness.png",
+            "source_hash": "feddf445498407aa7481b87a8ae5784d54607632",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Gravel_01_Roughness.png",
+            "target_hash": "feddf445498407aa7481b87a8ae5784d54607632"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_BaseColor.png",
+            "source_hash": "9939eb63e33aaaf7ff7ddeccd0c1226898295ae8",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_BaseColor.png",
+            "target_hash": "9939eb63e33aaaf7ff7ddeccd0c1226898295ae8"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_04_BaseColor.png",
+            "source_hash": "0684d9d22732d4160d37006fcc6fee9e2b09b679",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_04_BaseColor.png",
+            "target_hash": "0684d9d22732d4160d37006fcc6fee9e2b09b679"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_04_EmissiveColor.exr",
+            "source_hash": "aa70eaf17f5edfae63e1f204a100c40f9040d190",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_04_EmissiveColor.exr",
+            "target_hash": "aa70eaf17f5edfae63e1f204a100c40f9040d190"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_04_Normal.png",
+            "source_hash": "07c7aac98b76abbe354bde29374530450dffecac",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_04_Normal.png",
+            "target_hash": "07c7aac98b76abbe354bde29374530450dffecac"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_04_OpacityMask.png",
+            "source_hash": "49d6392d1ee2e7d82233d230b9552a3e1787ff78",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_04_OpacityMask.png",
+            "target_hash": "49d6392d1ee2e7d82233d230b9552a3e1787ff78"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_04_SubsurfaceColor.png",
+            "source_hash": "347785bed4077d362bb805a7b095dd7df3f35a0d",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_04_SubsurfaceColor.png",
+            "target_hash": "347785bed4077d362bb805a7b095dd7df3f35a0d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_01_BaseColor.png",
+            "source_hash": "49debe40d67b90401a7f429fe15a88f5d7b437ba",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_01_BaseColor.png",
+            "target_hash": "49debe40d67b90401a7f429fe15a88f5d7b437ba"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_01_Normal.png",
+            "source_hash": "d52f285c8fc74867e651ecc46e33ec09babbd1f9",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_01_Normal.png",
+            "target_hash": "d52f285c8fc74867e651ecc46e33ec09babbd1f9"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_01_OpacityMask.png",
+            "source_hash": "ec0ca3d8626665d2e36a0ef7bb934df4ae578b57",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_01_OpacityMask.png",
+            "target_hash": "ec0ca3d8626665d2e36a0ef7bb934df4ae578b57"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_01_SubsurfaceColor.png",
+            "source_hash": "f28c399777f467d512b20c3d539eff478e59a5f5",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_01_SubsurfaceColor.png",
+            "target_hash": "f28c399777f467d512b20c3d539eff478e59a5f5"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Parquet_01_BaseColor.png",
+            "source_hash": "a41caf479fe3a895f3bded57b2e901f64ba3b6c1",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Parquet_01_BaseColor.png",
+            "target_hash": "a41caf479fe3a895f3bded57b2e901f64ba3b6c1"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Parquet_01_Normal.png",
+            "source_hash": "4ea4643ce5ffff32702b8d169e91e35c20f23687",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Parquet_01_Normal.png",
+            "target_hash": "4ea4643ce5ffff32702b8d169e91e35c20f23687"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Parquet_01_Roughness.png",
+            "source_hash": "0326547ff152550b1cb2c9b646b4e56a6f9af960",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Parquet_01_Roughness.png",
+            "target_hash": "0326547ff152550b1cb2c9b646b4e56a6f9af960"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Mesh_01_Opacity.png",
+            "source_hash": "067e2e913df07be11b2d3f40d2068c3ac4121c14",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Mesh_01_Opacity.png",
+            "target_hash": "067e2e913df07be11b2d3f40d2068c3ac4121c14"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_ORM.png",
+            "source_hash": "3a3c3dba6f6112f6e8ee31f9c3cf5703db59c08e",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_ORM.png",
+            "target_hash": "3a3c3dba6f6112f6e8ee31f9c3cf5703db59c08e"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marble_01_BaseColor.png",
+            "source_hash": "8b797bca12229615d2fd97001db115f246b3360a",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marble_01_BaseColor.png",
+            "target_hash": "8b797bca12229615d2fd97001db115f246b3360a"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marble_01_Roughness.png",
+            "source_hash": "9ee0a78a346c0e94f0992270eccff3efea8eda76",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marble_01_Roughness.png",
+            "target_hash": "9ee0a78a346c0e94f0992270eccff3efea8eda76"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_Normal.png",
+            "source_hash": "7b4412048222159ba20c2008e1c4743b7f16046d",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_Normal.png",
+            "target_hash": "7b4412048222159ba20c2008e1c4743b7f16046d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_01_BaseColor.png",
+            "source_hash": "f0ac0dc5c4173d25513a91c8a312d52c217decfe",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_01_BaseColor.png",
+            "target_hash": "f0ac0dc5c4173d25513a91c8a312d52c217decfe"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_01_Normal.png",
+            "source_hash": "77e220f20cec86795afb4a080cb7c2faab7f0ae7",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_01_Normal.png",
+            "target_hash": "77e220f20cec86795afb4a080cb7c2faab7f0ae7"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_BaseColor.png",
+            "source_hash": "bd8b861ccdd9ba23e5e59e9a6aa0a8b078199d54",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_BaseColor.png",
+            "target_hash": "bd8b861ccdd9ba23e5e59e9a6aa0a8b078199d54"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_ORM.png",
+            "source_hash": "8c33eea1a68782a313b08959919e248d71d62045",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_ORM.png",
+            "target_hash": "8c33eea1a68782a313b08959919e248d71d62045"
+        },
+        {
+            "source_url": "Z:/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_N.png",
+            "source_hash": "23b351c0b07cba26069bfc1a6d4876a54f42fcf3",
+            "target_url": "./Z/AIM_2026/\uac1c\uc778 \ud3f4\ub354/\uae40\uc608\ub9b0/real_robot_model/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_N.png",
+            "target_hash": "23b351c0b07cba26069bfc1a6d4876a54f42fcf3"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_BaseColor.png",
+            "source_hash": "ba285deb3dc2a5dfe7017d4f0ab25c95cfdecd29",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_BaseColor.png",
+            "target_hash": "ba285deb3dc2a5dfe7017d4f0ab25c95cfdecd29"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_Metallic.png",
+            "source_hash": "d207e120288bd1e43877be1c0e0217379452933b",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_Metallic.png",
+            "target_hash": "d207e120288bd1e43877be1c0e0217379452933b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_Normal.png",
+            "source_hash": "869a411abebfd81ca0141bab75d26ecae303babd",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_Normal.png",
+            "target_hash": "869a411abebfd81ca0141bab75d26ecae303babd"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_Roughness.png",
+            "source_hash": "85c3050dd598963f0acbc14bc1e28dd87b5904e8",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_Roughness.png",
+            "target_hash": "85c3050dd598963f0acbc14bc1e28dd87b5904e8"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_02_BaseColor.png",
+            "source_hash": "54d032a4395bbdc993ea836757474fac014d8ce5",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_02_BaseColor.png",
+            "target_hash": "54d032a4395bbdc993ea836757474fac014d8ce5"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_02_EmissiveColor.exr",
+            "source_hash": "50357f99d315f663f210340c7cb9f9206b925a4d",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_02_EmissiveColor.exr",
+            "target_hash": "50357f99d315f663f210340c7cb9f9206b925a4d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_02_Roughness.png",
+            "source_hash": "f42910a12abc63ebc9e6a35bf7cda0579219c4a9",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_02_Roughness.png",
+            "target_hash": "f42910a12abc63ebc9e6a35bf7cda0579219c4a9"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Green_Normal.png",
+            "source_hash": "e735241241d5ccff8bde79e6f54aec4fbab4b97d",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Green_Normal.png",
+            "target_hash": "e735241241d5ccff8bde79e6f54aec4fbab4b97d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Green_Roughness.png",
+            "source_hash": "8c27f88e022dbc90a5e9f98363e8bf57cfbdcb30",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Green_Roughness.png",
+            "target_hash": "8c27f88e022dbc90a5e9f98363e8bf57cfbdcb30"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_02_BaseColor.png",
+            "source_hash": "5eab76d62b1962bc8e9b46fe80f3d21b271b2414",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_02_BaseColor.png",
+            "target_hash": "5eab76d62b1962bc8e9b46fe80f3d21b271b2414"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_02_Normal.png",
+            "source_hash": "59eadedf7ba37d3fc9e4dadc151c9493e75cd847",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_02_Normal.png",
+            "target_hash": "59eadedf7ba37d3fc9e4dadc151c9493e75cd847"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_02_BaseColor.png",
+            "source_hash": "20e8c686748194d4c992c2bd0056953ec999bed7",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_02_BaseColor.png",
+            "target_hash": "20e8c686748194d4c992c2bd0056953ec999bed7"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_02_Normal.png",
+            "source_hash": "eda784d9f7e307db0535394f4d735169360fcbf7",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_02_Normal.png",
+            "target_hash": "eda784d9f7e307db0535394f4d735169360fcbf7"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_02_OpacityMask.png",
+            "source_hash": "4884ce99a391f9ddb2d50d1e46ee006fd8cac803",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_02_OpacityMask.png",
+            "target_hash": "4884ce99a391f9ddb2d50d1e46ee006fd8cac803"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_02_SubsurfaceColor.png",
+            "source_hash": "44ad91ecb4a875de5afc4902f9cdff8e992ee48b",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_02_SubsurfaceColor.png",
+            "target_hash": "44ad91ecb4a875de5afc4902f9cdff8e992ee48b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_BaseColor.png",
+            "source_hash": "84eafac4a3c8bc2c0a1059b797105b811064bfa4",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_BaseColor.png",
+            "target_hash": "84eafac4a3c8bc2c0a1059b797105b811064bfa4"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_Metallic.png",
+            "source_hash": "2d54fdb9c3d43a564fd4a587c91c0fd0935c8e31",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_Metallic.png",
+            "target_hash": "2d54fdb9c3d43a564fd4a587c91c0fd0935c8e31"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_Normal.png",
+            "source_hash": "3d429db140fab2d72deaa4f272e61b42e63910c5",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_Normal.png",
+            "target_hash": "3d429db140fab2d72deaa4f272e61b42e63910c5"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_Roughness.png",
+            "source_hash": "6d2426aba4f47bb4a10e1a967cc1b38a6742eb7f",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_Roughness.png",
+            "target_hash": "6d2426aba4f47bb4a10e1a967cc1b38a6742eb7f"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_01_BaseColor.png",
+            "source_hash": "d15fa48bb6c7b838f98ca8f72290cd764ce25e16",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_01_BaseColor.png",
+            "target_hash": "d15fa48bb6c7b838f98ca8f72290cd764ce25e16"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_01_Normal.png",
+            "source_hash": "3c3102394fffad426d4fac5401398fa8d654c6aa",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_01_Normal.png",
+            "target_hash": "3c3102394fffad426d4fac5401398fa8d654c6aa"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_01_Roughness.png",
+            "source_hash": "9e67ab64f2009d3f2b9efcb161c94fa0ba5b72e1",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_01_Roughness.png",
+            "target_hash": "9e67ab64f2009d3f2b9efcb161c94fa0ba5b72e1"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Spruce_01_BaseColor.png",
+            "source_hash": "ef707115085efc1c471fae1cba3c28e013a97ae6",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Spruce_01_BaseColor.png",
+            "target_hash": "ef707115085efc1c471fae1cba3c28e013a97ae6"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Spruce_01_Normal.png",
+            "source_hash": "136b41b254348390ca383da6646b8c113cdfc570",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Spruce_01_Normal.png",
+            "target_hash": "136b41b254348390ca383da6646b8c113cdfc570"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Spruce_01_OpacityMask.png",
+            "source_hash": "b4a01cf4ff583e1543b07369c69c8a36c908f3a4",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Spruce_01_OpacityMask.png",
+            "target_hash": "b4a01cf4ff583e1543b07369c69c8a36c908f3a4"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_01_BaseColor.png",
+            "source_hash": "c7f0c1ab8ed901d62ea295ff323f23beb3317e3d",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_01_BaseColor.png",
+            "target_hash": "c7f0c1ab8ed901d62ea295ff323f23beb3317e3d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_01_Normal.png",
+            "source_hash": "3337f64a5adabceee5bffb6d19b862d6e4a22868",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_01_Normal.png",
+            "target_hash": "3337f64a5adabceee5bffb6d19b862d6e4a22868"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_01_OpacityMask.png",
+            "source_hash": "3952f704cd07498ab831272170646a361d40b64b",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_01_OpacityMask.png",
+            "target_hash": "3952f704cd07498ab831272170646a361d40b64b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_01_Roughness.png",
+            "source_hash": "5761d3a39b430a2f7f1a0836305cd2e5c011c73e",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_01_Roughness.png",
+            "target_hash": "5761d3a39b430a2f7f1a0836305cd2e5c011c73e"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_01_SubsurfaceColor.png",
+            "source_hash": "641f7f9a15ad2a99cd5231f5e2917b0b1819181d",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_01_SubsurfaceColor.png",
+            "target_hash": "641f7f9a15ad2a99cd5231f5e2917b0b1819181d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Tiles_01_BaseColor.png",
+            "source_hash": "a1865af08bb20201bd8ec740b6eafbffe861e6b6",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Tiles_01_BaseColor.png",
+            "target_hash": "a1865af08bb20201bd8ec740b6eafbffe861e6b6"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Tiles_01_Normal.png",
+            "source_hash": "d3d091ecbe093bd3fdcfd26855b6ba7951397fe3",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Tiles_01_Normal.png",
+            "target_hash": "d3d091ecbe093bd3fdcfd26855b6ba7951397fe3"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Tiles_01_Roughness.png",
+            "source_hash": "6476e5c1f7a9d5763ceaa296a3a63bb50dea7df4",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Tiles_01_Roughness.png",
+            "target_hash": "6476e5c1f7a9d5763ceaa296a3a63bb50dea7df4"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_BaseColor.png",
+            "source_hash": "6045c09fad3e46ddc0920bb7a77c9c10367a5ef9",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_BaseColor.png",
+            "target_hash": "6045c09fad3e46ddc0920bb7a77c9c10367a5ef9"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_Normal.png",
+            "source_hash": "df0e9fe8b00d00b07c1fa64d7faeee170a0c07cc",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_Normal.png",
+            "target_hash": "df0e9fe8b00d00b07c1fa64d7faeee170a0c07cc"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_OpacityMask.png",
+            "source_hash": "6d4e71b2dc9449a3bb319b524bc13e54b41f6b80",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_OpacityMask.png",
+            "target_hash": "6d4e71b2dc9449a3bb319b524bc13e54b41f6b80"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_SubsurfaceColor.png",
+            "source_hash": "35ea1532f4ae26a9f739d71a2541b4a2d6e05997",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_SubsurfaceColor.png",
+            "target_hash": "35ea1532f4ae26a9f739d71a2541b4a2d6e05997"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_01_Normal.png",
+            "source_hash": "ce6cd596ac1ec735fffb1cd1f14a8f5688231aa2",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_01_Normal.png",
+            "target_hash": "ce6cd596ac1ec735fffb1cd1f14a8f5688231aa2"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_01_Roughness.png",
+            "source_hash": "7a550d3d44db81ed629880caadbbe7aeab93f85e",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_01_Roughness.png",
+            "target_hash": "7a550d3d44db81ed629880caadbbe7aeab93f85e"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_01_BaseColor.png",
+            "source_hash": "588b3e60c407aa699f5fb6b81b2f1a48384d1eb7",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_01_BaseColor.png",
+            "target_hash": "588b3e60c407aa699f5fb6b81b2f1a48384d1eb7"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_01_EmissiveColor.exr",
+            "source_hash": "a685e00c367224d884a4afae9b7c3d167ad7ad64",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_01_EmissiveColor.exr",
+            "target_hash": "a685e00c367224d884a4afae9b7c3d167ad7ad64"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_01_Normal.png",
+            "source_hash": "81bc6db57fce1ea6c59b983eb2bfd48307aa775b",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_01_Normal.png",
+            "target_hash": "81bc6db57fce1ea6c59b983eb2bfd48307aa775b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_01_OpacityMask.png",
+            "source_hash": "60384d8b94eed97062318aeeea36c615933c9ce3",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_01_OpacityMask.png",
+            "target_hash": "60384d8b94eed97062318aeeea36c615933c9ce3"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_01_SubsurfaceColor.png",
+            "source_hash": "b0d0611ee0e51a1030551272b2c8578ad35f3212",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_01_SubsurfaceColor.png",
+            "target_hash": "b0d0611ee0e51a1030551272b2c8578ad35f3212"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_05_BaseColor.png",
+            "source_hash": "b9d1b167205bcf0753a9a363d5cc107551bd84e3",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_05_BaseColor.png",
+            "target_hash": "b9d1b167205bcf0753a9a363d5cc107551bd84e3"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_05_EmissiveColor.exr",
+            "source_hash": "511e1f8c359f1e9f93689f506c0725978f261207",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_05_EmissiveColor.exr",
+            "target_hash": "511e1f8c359f1e9f93689f506c0725978f261207"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_05_Roughness.png",
+            "source_hash": "bf8d9566dd97390da0e384bfd9f3eebfe932322f",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_05_Roughness.png",
+            "target_hash": "bf8d9566dd97390da0e384bfd9f3eebfe932322f"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_03_BaseColor.png",
+            "source_hash": "129917090ee58875cf21072c544dc48cdc24b9ed",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_03_BaseColor.png",
+            "target_hash": "129917090ee58875cf21072c544dc48cdc24b9ed"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_03_Normal.png",
+            "source_hash": "34851b981c144585c52803c1e940c94629f17a2e",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_03_Normal.png",
+            "target_hash": "34851b981c144585c52803c1e940c94629f17a2e"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_03_BaseColor.png",
+            "source_hash": "5830f25b507480d2a6920b71aa2c93e7b9d49f5b",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_03_BaseColor.png",
+            "target_hash": "5830f25b507480d2a6920b71aa2c93e7b9d49f5b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_03_EmissiveColor.exr",
+            "source_hash": "4ce2e378077e46f0b544bded5ae131311b6de62a",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_03_EmissiveColor.exr",
+            "target_hash": "4ce2e378077e46f0b544bded5ae131311b6de62a"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_03_Roughness.png",
+            "source_hash": "d3b7aedf88770c6938deec6fd1d47c1ef868d0e8",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_03_Roughness.png",
+            "target_hash": "d3b7aedf88770c6938deec6fd1d47c1ef868d0e8"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_05_BaseColor.png",
+            "source_hash": "bebdbec5fc70d7cc56be5e6a88077c73b05f5650",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_05_BaseColor.png",
+            "target_hash": "bebdbec5fc70d7cc56be5e6a88077c73b05f5650"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_05_EmissiveColor.exr",
+            "source_hash": "d2e06fea220a3ab8a0362547d582568d9f5b2ae9",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_05_EmissiveColor.exr",
+            "target_hash": "d2e06fea220a3ab8a0362547d582568d9f5b2ae9"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_05_Normal.png",
+            "source_hash": "b91b3fe1f8ea841f8363d08ae64b207a4520eb22",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_05_Normal.png",
+            "target_hash": "b91b3fe1f8ea841f8363d08ae64b207a4520eb22"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_05_OpacityMask.png",
+            "source_hash": "d3bcfc826a74b33e85c4085d744dcc6fd7fbe0ce",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_05_OpacityMask.png",
+            "target_hash": "d3bcfc826a74b33e85c4085d744dcc6fd7fbe0ce"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_05_SubsurfaceColor.png",
+            "source_hash": "702c72b6172967d9054f85ef3e1e0b5aec6b50bd",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_05_SubsurfaceColor.png",
+            "target_hash": "702c72b6172967d9054f85ef3e1e0b5aec6b50bd"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bark_01_BaseColor.png",
+            "source_hash": "09093bc2aaee32e5198cd96bf58b85620afa4f59",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bark_01_BaseColor.png",
+            "target_hash": "09093bc2aaee32e5198cd96bf58b85620afa4f59"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bark_01_Normal.png",
+            "source_hash": "9bb98688dc16f3119bb92ced69ccb273f6f7a3cd",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bark_01_Normal.png",
+            "target_hash": "9bb98688dc16f3119bb92ced69ccb273f6f7a3cd"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_03_Normal.png",
+            "source_hash": "609c8febdc7d3a91c1bcac286b5683f7653c5462",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_03_Normal.png",
+            "target_hash": "609c8febdc7d3a91c1bcac286b5683f7653c5462"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_03_Roughness.png",
+            "source_hash": "39fba3c2bffaeaf4b5a494f89fb37df237756f23",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_03_Roughness.png",
+            "target_hash": "39fba3c2bffaeaf4b5a494f89fb37df237756f23"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_04_BaseColor.png",
+            "source_hash": "1bdab734340523107e9c19b92581e01962bfa647",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_04_BaseColor.png",
+            "target_hash": "1bdab734340523107e9c19b92581e01962bfa647"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_04_Normal.png",
+            "source_hash": "f4757f5fda6e96aa88911e776e959dd234f9f7f1",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_04_Normal.png",
+            "target_hash": "f4757f5fda6e96aa88911e776e959dd234f9f7f1"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_04_OpacityMask.png",
+            "source_hash": "a31a2329711cb578f495cf8f46419207ac429d6e",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_04_OpacityMask.png",
+            "target_hash": "a31a2329711cb578f495cf8f46419207ac429d6e"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_04_SubsurfaceColor.png",
+            "source_hash": "f095971b652c380e736a2afbff13075843016f5c",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_04_SubsurfaceColor.png",
+            "target_hash": "f095971b652c380e736a2afbff13075843016f5c"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Engine/EngineMaterials/Textures/Engine_EngineMaterials_WorldGridMaterial_BaseColor.png",
+            "source_hash": "22529633ca1cbb5f83d93ccaf4a06cbbc407b107",
+            "target_url": "./Assets/Engine/EngineMaterials/Textures/Engine_EngineMaterials_WorldGridMaterial_BaseColor.png",
+            "target_hash": "22529633ca1cbb5f83d93ccaf4a06cbbc407b107"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Engine/EngineMaterials/Textures/Engine_EngineMaterials_WorldGridMaterial_Normal.png",
+            "source_hash": "2a672327d65dec37cc023dd24d83b25389f32c81",
+            "target_url": "./Assets/Engine/EngineMaterials/Textures/Engine_EngineMaterials_WorldGridMaterial_Normal.png",
+            "target_hash": "2a672327d65dec37cc023dd24d83b25389f32c81"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Engine/EngineMaterials/Textures/Engine_EngineMaterials_WorldGridMaterial_Roughness.png",
+            "source_hash": "c5de3eb3e14e2481744186316adeb75fbdcdc50a",
+            "target_url": "./Assets/Engine/EngineMaterials/Textures/Engine_EngineMaterials_WorldGridMaterial_Roughness.png",
+            "target_hash": "c5de3eb3e14e2481744186316adeb75fbdcdc50a"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_07_BaseColor.png",
+            "source_hash": "61e7689d12f8eb65b4b9419eefd811ea6ac4e596",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_07_BaseColor.png",
+            "target_hash": "61e7689d12f8eb65b4b9419eefd811ea6ac4e596"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_07_EmissiveColor.exr",
+            "source_hash": "5914c0916cec19456f5abef102ee135170528f47",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_07_EmissiveColor.exr",
+            "target_hash": "5914c0916cec19456f5abef102ee135170528f47"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_07_Roughness.png",
+            "source_hash": "9c7a141925ecd298a9c03792c815a781fba9d440",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_07_Roughness.png",
+            "target_hash": "9c7a141925ecd298a9c03792c815a781fba9d440"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_02_BaseColor.png",
+            "source_hash": "5985dab85dded1eeb609d90d4de936d3a7b91f75",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_02_BaseColor.png",
+            "target_hash": "5985dab85dded1eeb609d90d4de936d3a7b91f75"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_02_Normal.png",
+            "source_hash": "e54afaf15f29ff7035e8d11f7716c497c485a7bf",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_02_Normal.png",
+            "target_hash": "e54afaf15f29ff7035e8d11f7716c497c485a7bf"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_02_OpacityMask.png",
+            "source_hash": "85a887de6ac9a701d34237d8557a3344fc8e6d09",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_02_OpacityMask.png",
+            "target_hash": "85a887de6ac9a701d34237d8557a3344fc8e6d09"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_02_SubsurfaceColor.png",
+            "source_hash": "6d5219eb244cf616685ac8ef4e9d52c7d926e5c4",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_02_SubsurfaceColor.png",
+            "target_hash": "6d5219eb244cf616685ac8ef4e9d52c7d926e5c4"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_BaseColor.png",
+            "source_hash": "04f955f5e09bd567f644d259680a9fcbd430f308",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_BaseColor.png",
+            "target_hash": "04f955f5e09bd567f644d259680a9fcbd430f308"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_Metallic.png",
+            "source_hash": "c2280d6785ff8ddde29a03f14f266203ec1ea04b",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_Metallic.png",
+            "target_hash": "c2280d6785ff8ddde29a03f14f266203ec1ea04b"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_Normal.png",
+            "source_hash": "614115475754b9504d6c07edcb8ae28f416a8a00",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_Normal.png",
+            "target_hash": "614115475754b9504d6c07edcb8ae28f416a8a00"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_Roughness.png",
+            "source_hash": "dcc6ac6ce249732b73ddd3d7ddbc338b6c6a1cbc",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_Roughness.png",
+            "target_hash": "dcc6ac6ce249732b73ddd3d7ddbc338b6c6a1cbc"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_01_BaseColor.png",
+            "source_hash": "dc38f32f39ee648d68c99977892278fe0f09614d",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_01_BaseColor.png",
+            "target_hash": "dc38f32f39ee648d68c99977892278fe0f09614d"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_01_Normal.png",
+            "source_hash": "41fad0471073ebf1b7d4c321306c2b830300e11c",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_01_Normal.png",
+            "target_hash": "41fad0471073ebf1b7d4c321306c2b830300e11c"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_01_Roughness.png",
+            "source_hash": "d99e60b2cef9968bba88169c3dba22558791d9bd",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_01_Roughness.png",
+            "target_hash": "d99e60b2cef9968bba88169c3dba22558791d9bd"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Wood_01_BaseColor.png",
+            "source_hash": "cf9b65ad158a9b0c5fed233fa2edab56a35f63e0",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Wood_01_BaseColor.png",
+            "target_hash": "cf9b65ad158a9b0c5fed233fa2edab56a35f63e0"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Wood_01_Roughness.png",
+            "source_hash": "f41c0328694667925c4b2e8da6580ff9da499f86",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Wood_01_Roughness.png",
+            "target_hash": "f41c0328694667925c4b2e8da6580ff9da499f86"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plastic_02_Roughness.png",
+            "source_hash": "7596fa5b55ef26f89b6dd6844b5556bc9a3b1cc9",
+            "target_url": "./Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plastic_02_Roughness.png",
+            "target_hash": "7596fa5b55ef26f89b6dd6844b5556bc9a3b1cc9"
+        }
+    ]
+}
