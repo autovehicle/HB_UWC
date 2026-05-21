@@ -1,0 +1,1337 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Reel_baseColor.png",
+            "source_hash": "db806f6afc9fd3df3c6652452b8fc14e1470125c",
+            "target_url": "./SubUSDs/textures/Reel_baseColor.png",
+            "target_hash": "db806f6afc9fd3df3c6652452b8fc14e1470125c"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Reel_metallicRoughness.png",
+            "source_hash": "04d1131bec5b9c3158ca3c2e5b8d9c84d8b25c8e",
+            "target_url": "./SubUSDs/textures/Reel_metallicRoughness.png",
+            "target_hash": "04d1131bec5b9c3158ca3c2e5b8d9c84d8b25c8e"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Reel_normal.png",
+            "source_hash": "d17b232f6ed868ab646de0e549307fa242533958",
+            "target_url": "./SubUSDs/textures/Reel_normal.png",
+            "target_hash": "d17b232f6ed868ab646de0e549307fa242533958"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Volleyball_Net_baseColor.png",
+            "source_hash": "9199d7d25d1a72024b8a75a565d8d8aa88ab95d4",
+            "target_url": "./SubUSDs/textures/Volleyball_Net_baseColor.png",
+            "target_hash": "9199d7d25d1a72024b8a75a565d8d8aa88ab95d4"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Volleyball_Net_metallicRoughness.png",
+            "source_hash": "0049cc18d33f949f1418f1d5c8eaf2304ded8501",
+            "target_url": "./SubUSDs/textures/Volleyball_Net_metallicRoughness.png",
+            "target_hash": "0049cc18d33f949f1418f1d5c8eaf2304ded8501"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Volleyball_Net_normal.png",
+            "source_hash": "834bd8842d9ad769dca4c15a1ad48fe128511a35",
+            "target_url": "./SubUSDs/textures/Volleyball_Net_normal.png",
+            "target_hash": "834bd8842d9ad769dca4c15a1ad48fe128511a35"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Volleyball_baseColor.png",
+            "source_hash": "257e148064bd0fef51d0bae1e0406ee504063400",
+            "target_url": "./SubUSDs/textures/Volleyball_baseColor.png",
+            "target_hash": "257e148064bd0fef51d0bae1e0406ee504063400"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Volleyball_metallicRoughness.png",
+            "source_hash": "4358c97f3a90fcf56616d793cdb3daf706ce2b2a",
+            "target_url": "./SubUSDs/textures/Volleyball_metallicRoughness.png",
+            "target_hash": "4358c97f3a90fcf56616d793cdb3daf706ce2b2a"
+        },
+        {
+            "source_url": "C:/Users/autonav009/Desktop/HB_UWC/volleyball/textures/Volleyball_normal.png",
+            "source_hash": "e81c3f136872f4b96a79f2a254649646185c5ddb",
+            "target_url": "./SubUSDs/textures/Volleyball_normal.png",
+            "target_hash": "e81c3f136872f4b96a79f2a254649646185c5ddb"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Textures/T_Sky_01.hdr",
+            "source_hash": "b628e755ae7dc72a9f688df0a141377bc1ffcea3",
+            "target_url": "./SubUSDs/textures/T_Sky_01.hdr",
+            "target_hash": "b628e755ae7dc72a9f688df0a141377bc1ffcea3"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Base_Normal.png",
+            "source_hash": "a7b096818e14fec2fa42ceadbee23e346406541e",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_Base_Normal.png",
+            "target_hash": "a7b096818e14fec2fa42ceadbee23e346406541e"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Base_Roughness.png",
+            "source_hash": "eeef33526296e91211d3e657e95d9ed4dea02f2f",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_Base_Roughness.png",
+            "target_hash": "eeef33526296e91211d3e657e95d9ed4dea02f2f"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_02_BaseColor.png",
+            "source_hash": "e5066f83b153c1b3b494b9e7cf5321cad0fc3b9a",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_02_BaseColor.png",
+            "target_hash": "e5066f83b153c1b3b494b9e7cf5321cad0fc3b9a"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_02_Normal.png",
+            "source_hash": "401126ca5144684a3845ee8c252967712d6b620c",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_02_Normal.png",
+            "target_hash": "401126ca5144684a3845ee8c252967712d6b620c"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_02_Roughness.png",
+            "source_hash": "0b72056eedd86c92a383b612bae656389bf6fa65",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_02_Roughness.png",
+            "target_hash": "0b72056eedd86c92a383b612bae656389bf6fa65"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_Normal.png",
+            "source_hash": "a5ccb678de39ecca3561b06f41cf343d78ebc0da",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_Normal.png",
+            "target_hash": "a5ccb678de39ecca3561b06f41cf343d78ebc0da"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_Roughness.png",
+            "source_hash": "778a5ac6c77278e790a5ffcd9f03801d766f5bc6",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_Roughness.png",
+            "target_hash": "778a5ac6c77278e790a5ffcd9f03801d766f5bc6"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_BaseColor.png",
+            "source_hash": "bb500cd37bfb8ab44fc5696ae1aa97973aa83b70",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_BaseColor.png",
+            "target_hash": "bb500cd37bfb8ab44fc5696ae1aa97973aa83b70"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_Metallic.png",
+            "source_hash": "7c240068a3ae06ca180616f51c54900225845459",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_Metallic.png",
+            "target_hash": "7c240068a3ae06ca180616f51c54900225845459"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_Normal.png",
+            "source_hash": "6da99073a38c2c2783343420eaf866021e8b9ea8",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_Normal.png",
+            "target_hash": "6da99073a38c2c2783343420eaf866021e8b9ea8"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_Roughness.png",
+            "source_hash": "f5b39295e37d383a7f2353fb77b43db213ce40e6",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_IBuilding_01_Roughness.png",
+            "target_hash": "f5b39295e37d383a7f2353fb77b43db213ce40e6"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Asphalt_01_BaseColor.png",
+            "source_hash": "68411e612f15dc4c6d4f02d6a31f2a3942ca67de",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Asphalt_01_BaseColor.png",
+            "target_hash": "68411e612f15dc4c6d4f02d6a31f2a3942ca67de"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Asphalt_01_Normal.png",
+            "source_hash": "e3f755d0a52a941dddf71d806ad4e28887417bcf",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Asphalt_01_Normal.png",
+            "target_hash": "e3f755d0a52a941dddf71d806ad4e28887417bcf"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Asphalt_01_Roughness.png",
+            "source_hash": "45b8dfc2e9ec5ab32c99aac41ec56355ab0e1767",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Asphalt_01_Roughness.png",
+            "target_hash": "45b8dfc2e9ec5ab32c99aac41ec56355ab0e1767"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Gray_Normal.png",
+            "source_hash": "a7b096818e14fec2fa42ceadbee23e346406541e",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_Gray_Normal.png",
+            "target_hash": "a7b096818e14fec2fa42ceadbee23e346406541e"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Gray_Roughness.png",
+            "source_hash": "eeef33526296e91211d3e657e95d9ed4dea02f2f",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_Gray_Roughness.png",
+            "target_hash": "eeef33526296e91211d3e657e95d9ed4dea02f2f"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_01_BaseColor.png",
+            "source_hash": "675c68fd7c35c63805a6ea2f798707b155462f9d",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_01_BaseColor.png",
+            "target_hash": "675c68fd7c35c63805a6ea2f798707b155462f9d"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_01_Normal.png",
+            "source_hash": "233d0020cd9f43531e1bf107d353978b3049e3ab",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_01_Normal.png",
+            "target_hash": "233d0020cd9f43531e1bf107d353978b3049e3ab"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_01_Roughness.png",
+            "source_hash": "fcef4e5e6712983a4b3adfd718ca4325efa7f2da",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_01_Roughness.png",
+            "target_hash": "fcef4e5e6712983a4b3adfd718ca4325efa7f2da"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_02_BaseColor.png",
+            "source_hash": "2982ae81bfe40eb9b28e952e7605ecd6294618b1",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_02_BaseColor.png",
+            "target_hash": "2982ae81bfe40eb9b28e952e7605ecd6294618b1"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_02_Normal.png",
+            "source_hash": "78a476afee94db213b409d01c20996783f83600e",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_02_Normal.png",
+            "target_hash": "78a476afee94db213b409d01c20996783f83600e"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_02_OpacityMask.png",
+            "source_hash": "7ae754176ad4b891653cdd3c1e08194dbdd897ca",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_02_OpacityMask.png",
+            "target_hash": "7ae754176ad4b891653cdd3c1e08194dbdd897ca"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_02_SubsurfaceColor.png",
+            "source_hash": "b71babb129b72547f68ee198652480e46c35ca28",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_02_SubsurfaceColor.png",
+            "target_hash": "b71babb129b72547f68ee198652480e46c35ca28"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_BaseColor.png",
+            "source_hash": "8ac05b83a1faec905de672a2cbb3d5397bc46ef0",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_BaseColor.png",
+            "target_hash": "8ac05b83a1faec905de672a2cbb3d5397bc46ef0"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_Metallic.png",
+            "source_hash": "83180c211d8de2d8e007bacc51bd47693ebef015",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_Metallic.png",
+            "target_hash": "83180c211d8de2d8e007bacc51bd47693ebef015"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_Normal.png",
+            "source_hash": "7bac1fab4d6db1ca5f8e3e451359e54b22072c84",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_Normal.png",
+            "target_hash": "7bac1fab4d6db1ca5f8e3e451359e54b22072c84"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_Roughness.png",
+            "source_hash": "3f0a7bd145d1751039eb1254690c006a1df3a0d5",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_01_Roughness.png",
+            "target_hash": "3f0a7bd145d1751039eb1254690c006a1df3a0d5"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_01_BaseColor.png",
+            "source_hash": "22e29f33ea6cf8cf390552febb0e500af5ce1015",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Fabric_01_BaseColor.png",
+            "target_hash": "22e29f33ea6cf8cf390552febb0e500af5ce1015"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_01_Normal.png",
+            "source_hash": "07f6e10c34b4d65af8fba427bf4954a209af6442",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Fabric_01_Normal.png",
+            "target_hash": "07f6e10c34b4d65af8fba427bf4954a209af6442"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_BaseColor.png",
+            "source_hash": "144c08ee97fba6b6f1b67dbd24e753e1b34147e6",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_BaseColor.png",
+            "target_hash": "144c08ee97fba6b6f1b67dbd24e753e1b34147e6"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_Normal.png",
+            "source_hash": "4c4a52dae2b6fa41b387a41fc7abfd7e167e0458",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_Normal.png",
+            "target_hash": "4c4a52dae2b6fa41b387a41fc7abfd7e167e0458"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_OpacityMask.png",
+            "source_hash": "bdc5e82f15a364b6d6193fd9720d548c101fdca1",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_OpacityMask.png",
+            "target_hash": "bdc5e82f15a364b6d6193fd9720d548c101fdca1"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_Roughness.png",
+            "source_hash": "9fa848bb340bb726638157830f8246540a99d811",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_Roughness.png",
+            "target_hash": "9fa848bb340bb726638157830f8246540a99d811"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_SubsurfaceColor.png",
+            "source_hash": "d9d359bdd22d0883014863a6f7e273bf91c65d4e",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_BirdofParadise_01_SubsurfaceColor.png",
+            "target_hash": "d9d359bdd22d0883014863a6f7e273bf91c65d4e"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_01_BaseColor.png",
+            "source_hash": "5008ba6de0a5f1fee3b4c645c44972c373d6ca25",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_01_BaseColor.png",
+            "target_hash": "5008ba6de0a5f1fee3b4c645c44972c373d6ca25"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_01_EmissiveColor.exr",
+            "source_hash": "1fdd1baae6b886032ff53eb3ed89841822ebcc76",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_01_EmissiveColor.exr",
+            "target_hash": "1fdd1baae6b886032ff53eb3ed89841822ebcc76"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_01_Roughness.png",
+            "source_hash": "c1ff5628be77ac447666e4890ba6d5d6b86e7ef7",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_01_Roughness.png",
+            "target_hash": "c1ff5628be77ac447666e4890ba6d5d6b86e7ef7"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marking_01_BaseColor.png",
+            "source_hash": "66dae34d09fd12bd8a34f303cb692f10f14a9ea5",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Marking_01_BaseColor.png",
+            "target_hash": "66dae34d09fd12bd8a34f303cb692f10f14a9ea5"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marking_01_Normal.png",
+            "source_hash": "dd5de8b2d2ead18319f96fc9524541804008c88a",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Marking_01_Normal.png",
+            "target_hash": "dd5de8b2d2ead18319f96fc9524541804008c88a"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marking_01_OpacityMask.png",
+            "source_hash": "445abc8a9c435ea6b745cc64969566069887293c",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Marking_01_OpacityMask.png",
+            "target_hash": "445abc8a9c435ea6b745cc64969566069887293c"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marking_01_Roughness.png",
+            "source_hash": "61b707d8a2bc2c7c09dc6cb456e3699a64a93cf5",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Marking_01_Roughness.png",
+            "target_hash": "61b707d8a2bc2c7c09dc6cb456e3699a64a93cf5"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Parquet_01_BaseColor.png",
+            "source_hash": "7a4b255150c280a1f5f37ded5df4d30c3aee7571",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Parquet_01_BaseColor.png",
+            "target_hash": "7a4b255150c280a1f5f37ded5df4d30c3aee7571"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Parquet_01_Normal.png",
+            "source_hash": "ef574d9dea8410de6044fbbd00257f3003fce7cb",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Parquet_01_Normal.png",
+            "target_hash": "ef574d9dea8410de6044fbbd00257f3003fce7cb"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Parquet_01_Roughness.png",
+            "source_hash": "dda15a30eed1b544c32745041490ea40bd077e9e",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Parquet_01_Roughness.png",
+            "target_hash": "dda15a30eed1b544c32745041490ea40bd077e9e"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_02_Normal.png",
+            "source_hash": "ed10799a0ce9b8933a6df3048b6d31235b35e90f",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Grass_02_Normal.png",
+            "target_hash": "ed10799a0ce9b8933a6df3048b6d31235b35e90f"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_01_BaseColor.png",
+            "source_hash": "31cae9d2b57199f206136a10bccf10ad7325e906",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Grass_01_BaseColor.png",
+            "target_hash": "31cae9d2b57199f206136a10bccf10ad7325e906"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_01_Normal.png",
+            "source_hash": "1e1ea37a7c2e7b51cf03112ec09b03e6d5e492af",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Grass_01_Normal.png",
+            "target_hash": "1e1ea37a7c2e7b51cf03112ec09b03e6d5e492af"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_01_Roughness.png",
+            "source_hash": "ad3558b9800cd01d2f0e87e1a0767db327a96457",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Grass_01_Roughness.png",
+            "target_hash": "ad3558b9800cd01d2f0e87e1a0767db327a96457"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_01_Specular.png",
+            "source_hash": "3c3dc686cd2d9645f76bfdb7637965544966955d",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Grass_01_Specular.png",
+            "target_hash": "3c3dc686cd2d9645f76bfdb7637965544966955d"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Grass_01_SubsurfaceColor.png",
+            "source_hash": "084a7402113ac6c80dd149a6bcd2ace66b5adc75",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Grass_01_SubsurfaceColor.png",
+            "target_hash": "084a7402113ac6c80dd149a6bcd2ace66b5adc75"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Concrete_01_BaseColor.png",
+            "source_hash": "7374137605216ccb166dd6c9bd336fbc4b5b4546",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Concrete_01_BaseColor.png",
+            "target_hash": "7374137605216ccb166dd6c9bd336fbc4b5b4546"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Concrete_01_Normal.png",
+            "source_hash": "e1b3692fcbf107b531b95eec8537f5078ddcd7e3",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Concrete_01_Normal.png",
+            "target_hash": "e1b3692fcbf107b531b95eec8537f5078ddcd7e3"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Concrete_01_Roughness.png",
+            "source_hash": "12859537e7a538661d039666f382a99529742d6a",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Concrete_01_Roughness.png",
+            "target_hash": "12859537e7a538661d039666f382a99529742d6a"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_04_BaseColor.png",
+            "source_hash": "3b9428309e60cacc68efc170c6ded3c45196309a",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_04_BaseColor.png",
+            "target_hash": "3b9428309e60cacc68efc170c6ded3c45196309a"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_04_EmissiveColor.exr",
+            "source_hash": "704aa1c3a5b25374c9e1d191d7577452aafef4d0",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_04_EmissiveColor.exr",
+            "target_hash": "704aa1c3a5b25374c9e1d191d7577452aafef4d0"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_04_Roughness.png",
+            "source_hash": "19c6cf2d4eedece43b3cbe0ebef6942886b699be",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_04_Roughness.png",
+            "target_hash": "19c6cf2d4eedece43b3cbe0ebef6942886b699be"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_BaseColor.png",
+            "source_hash": "9d2e4df1b030262c192f2068d0db8140cf7ab58d",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_BaseColor.png",
+            "target_hash": "9d2e4df1b030262c192f2068d0db8140cf7ab58d"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_Normal.png",
+            "source_hash": "ff9574eb5f1985d75801f28a3c8551487d861576",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_Normal.png",
+            "target_hash": "ff9574eb5f1985d75801f28a3c8551487d861576"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_OpacityMask.png",
+            "source_hash": "852482e3b2bf6296b57f950760515b6a3e3af89e",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_OpacityMask.png",
+            "target_hash": "852482e3b2bf6296b57f950760515b6a3e3af89e"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_SubsurfaceColor.png",
+            "source_hash": "9d2e4df1b030262c192f2068d0db8140cf7ab58d",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_03_SubsurfaceColor.png",
+            "target_hash": "9d2e4df1b030262c192f2068d0db8140cf7ab58d"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_03_BaseColor.png",
+            "source_hash": "bbaee4a240378b6ae3d99849409f4aa9131931d4",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Ground_03_BaseColor.png",
+            "target_hash": "bbaee4a240378b6ae3d99849409f4aa9131931d4"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_03_Normal.png",
+            "source_hash": "fbf489b1244d1f87e43c3026839e34f8e10494d7",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Ground_03_Normal.png",
+            "target_hash": "fbf489b1244d1f87e43c3026839e34f8e10494d7"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_01_BaseColor.png",
+            "source_hash": "6e245f627fcba0985aaa434d2a46aad158b14247",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_01_BaseColor.png",
+            "target_hash": "6e245f627fcba0985aaa434d2a46aad158b14247"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_01_Normal.png",
+            "source_hash": "73e27bc1d9beacb7124b960ad8b31ad45c70997b",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_01_Normal.png",
+            "target_hash": "73e27bc1d9beacb7124b960ad8b31ad45c70997b"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_01_OpacityMask.png",
+            "source_hash": "e0de75e18cd588d536110de7add5d1475865af2e",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_01_OpacityMask.png",
+            "target_hash": "e0de75e18cd588d536110de7add5d1475865af2e"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_01_SubsurfaceColor.png",
+            "source_hash": "48c9e1560be64ffe071428f2c86a1b118cd5afd5",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_01_SubsurfaceColor.png",
+            "target_hash": "48c9e1560be64ffe071428f2c86a1b118cd5afd5"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_03_BaseColor.png",
+            "source_hash": "9f65653571b5564156253a5219542d5afcb822d8",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Fabric_03_BaseColor.png",
+            "target_hash": "9f65653571b5564156253a5219542d5afcb822d8"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_03_Normal.png",
+            "source_hash": "db5a7b1828b9d7ef7311f6cf6a56e7db318b8939",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Fabric_03_Normal.png",
+            "target_hash": "db5a7b1828b9d7ef7311f6cf6a56e7db318b8939"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Engine/EngineMaterials/Textures/Engine_EngineMaterials_WorldGridMaterial_BaseColor.png",
+            "source_hash": "bb192cb6aae5df6e824f9430f23f7bcebd88360a",
+            "target_url": "./SubUSDs/textures/Engine_EngineMaterials_WorldGridMaterial_BaseColor.png",
+            "target_hash": "bb192cb6aae5df6e824f9430f23f7bcebd88360a"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Engine/EngineMaterials/Textures/Engine_EngineMaterials_WorldGridMaterial_Normal.png",
+            "source_hash": "ca36df2185158294ecc3511e3b566cd1751a9995",
+            "target_url": "./SubUSDs/textures/Engine_EngineMaterials_WorldGridMaterial_Normal.png",
+            "target_hash": "ca36df2185158294ecc3511e3b566cd1751a9995"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Engine/EngineMaterials/Textures/Engine_EngineMaterials_WorldGridMaterial_Roughness.png",
+            "source_hash": "91eaf671111c54ffaf5df3530e248241ad34ebe8",
+            "target_url": "./SubUSDs/textures/Engine_EngineMaterials_WorldGridMaterial_Roughness.png",
+            "target_hash": "91eaf671111c54ffaf5df3530e248241ad34ebe8"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plastic_03_Roughness.png",
+            "source_hash": "f1145c5d0d1315f0ee57f0d6928f24e4d4327eb4",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plastic_03_Roughness.png",
+            "target_hash": "f1145c5d0d1315f0ee57f0d6928f24e4d4327eb4"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_03_BaseColor.png",
+            "source_hash": "342c43fc3388c6ef54cab3155fd19c529398d943",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_03_BaseColor.png",
+            "target_hash": "342c43fc3388c6ef54cab3155fd19c529398d943"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_03_Normal.png",
+            "source_hash": "73e27bc1d9beacb7124b960ad8b31ad45c70997b",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_03_Normal.png",
+            "target_hash": "73e27bc1d9beacb7124b960ad8b31ad45c70997b"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_03_OpacityMask.png",
+            "source_hash": "e0de75e18cd588d536110de7add5d1475865af2e",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_03_OpacityMask.png",
+            "target_hash": "e0de75e18cd588d536110de7add5d1475865af2e"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_03_SubsurfaceColor.png",
+            "source_hash": "0e86b0cd05d46f429cc4f3e0c985fe24de4bd5c6",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_03_SubsurfaceColor.png",
+            "target_hash": "0e86b0cd05d46f429cc4f3e0c985fe24de4bd5c6"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Gravel_01_BaseColor.png",
+            "source_hash": "2aca01937265c536baab36a68919e296ef61499a",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Gravel_01_BaseColor.png",
+            "target_hash": "2aca01937265c536baab36a68919e296ef61499a"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Gravel_01_Normal.png",
+            "source_hash": "8d2725b5d6413551b51ae48882421bbd522aeb00",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Gravel_01_Normal.png",
+            "target_hash": "8d2725b5d6413551b51ae48882421bbd522aeb00"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Gravel_01_Roughness.png",
+            "source_hash": "a2252e8b0efbd115f4038a6806a8b367b0757181",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Gravel_01_Roughness.png",
+            "target_hash": "a2252e8b0efbd115f4038a6806a8b367b0757181"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_M_Skybox_BaseColor.png",
+            "source_hash": "e45eb6fb256dc333d7634fa9eb829353c2698ca0",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_M_Skybox_BaseColor.png",
+            "target_hash": "e45eb6fb256dc333d7634fa9eb829353c2698ca0"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_M_Skybox_EmissiveColor.exr",
+            "source_hash": "94e5eef96add21e38279186018680c5950271bb2",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_M_Skybox_EmissiveColor.exr",
+            "target_hash": "94e5eef96add21e38279186018680c5950271bb2"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_BaseColor.png",
+            "source_hash": "e6cadc084154cab4faab7cf1eb4e2f2ee3263245",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_BaseColor.png",
+            "target_hash": "e6cadc084154cab4faab7cf1eb4e2f2ee3263245"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_Normal.png",
+            "source_hash": "ff9574eb5f1985d75801f28a3c8551487d861576",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_Normal.png",
+            "target_hash": "ff9574eb5f1985d75801f28a3c8551487d861576"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_OpacityMask.png",
+            "source_hash": "852482e3b2bf6296b57f950760515b6a3e3af89e",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_OpacityMask.png",
+            "target_hash": "852482e3b2bf6296b57f950760515b6a3e3af89e"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_SubsurfaceColor.png",
+            "source_hash": "e6cadc084154cab4faab7cf1eb4e2f2ee3263245",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_01_SubsurfaceColor.png",
+            "target_hash": "e6cadc084154cab4faab7cf1eb4e2f2ee3263245"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_01_BaseColor.png",
+            "source_hash": "4702255044fee74661d40fc26adf9ef156665ed0",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plant_01_BaseColor.png",
+            "target_hash": "4702255044fee74661d40fc26adf9ef156665ed0"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_01_EmissiveColor.exr",
+            "source_hash": "905a386f7a7e2a04ed6e6780852a748b7a32dcae",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plant_01_EmissiveColor.exr",
+            "target_hash": "905a386f7a7e2a04ed6e6780852a748b7a32dcae"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_01_Normal.png",
+            "source_hash": "639837a7fa187a11725959191566c963cfdd9019",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plant_01_Normal.png",
+            "target_hash": "639837a7fa187a11725959191566c963cfdd9019"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_01_OpacityMask.png",
+            "source_hash": "9f0630dd2a0fcdc811e388441bf181f9edb6eed6",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plant_01_OpacityMask.png",
+            "target_hash": "9f0630dd2a0fcdc811e388441bf181f9edb6eed6"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_01_SubsurfaceColor.png",
+            "source_hash": "4a30733ee45af4b741d9a849210c1a67b8f49533",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plant_01_SubsurfaceColor.png",
+            "target_hash": "4a30733ee45af4b741d9a849210c1a67b8f49533"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plastic_02_Roughness.png",
+            "source_hash": "11b7f67b3bbca4d2d898e681cc081a50a2d80adb",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plastic_02_Roughness.png",
+            "target_hash": "11b7f67b3bbca4d2d898e681cc081a50a2d80adb"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_03_Normal.png",
+            "source_hash": "a7b096818e14fec2fa42ceadbee23e346406541e",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_03_Normal.png",
+            "target_hash": "a7b096818e14fec2fa42ceadbee23e346406541e"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_03_Roughness.png",
+            "source_hash": "eeef33526296e91211d3e657e95d9ed4dea02f2f",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_Beige_03_Roughness.png",
+            "target_hash": "eeef33526296e91211d3e657e95d9ed4dea02f2f"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_03_Normal.png",
+            "source_hash": "d23321c21d79b3abb387b05eed507d2d1cd3717f",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Metal_03_Normal.png",
+            "target_hash": "d23321c21d79b3abb387b05eed507d2d1cd3717f"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_03_Roughness.png",
+            "source_hash": "5f6f4abafdfa6a050297883b002bffaa721a4e26",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Metal_03_Roughness.png",
+            "target_hash": "5f6f4abafdfa6a050297883b002bffaa721a4e26"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Mesh_01_Opacity.png",
+            "source_hash": "a6f745ed310276022df3551b1d033b2f32518c4c",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Mesh_01_Opacity.png",
+            "target_hash": "a6f745ed310276022df3551b1d033b2f32518c4c"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Spruce_01_BaseColor.png",
+            "source_hash": "3641094a394b4595fe5a193bb16da85036e1711e",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Spruce_01_BaseColor.png",
+            "target_hash": "3641094a394b4595fe5a193bb16da85036e1711e"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Spruce_01_Normal.png",
+            "source_hash": "7bea9c9986340022a380f8aabbcfa9c611e832fb",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Spruce_01_Normal.png",
+            "target_hash": "7bea9c9986340022a380f8aabbcfa9c611e832fb"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Spruce_01_OpacityMask.png",
+            "source_hash": "fa6f0746cc599f55ea729df1935d27c83c646b61",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Spruce_01_OpacityMask.png",
+            "target_hash": "fa6f0746cc599f55ea729df1935d27c83c646b61"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_01_Normal.png",
+            "source_hash": "d23321c21d79b3abb387b05eed507d2d1cd3717f",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Metal_01_Normal.png",
+            "target_hash": "d23321c21d79b3abb387b05eed507d2d1cd3717f"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_01_Roughness.png",
+            "source_hash": "b609361448893879f305acd3087c01312d0b7ec4",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Metal_01_Roughness.png",
+            "target_hash": "b609361448893879f305acd3087c01312d0b7ec4"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_BaseColor.png",
+            "source_hash": "103dd286d2d6647aecd7cdfefc2376db93fb10c6",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_BaseColor.png",
+            "target_hash": "103dd286d2d6647aecd7cdfefc2376db93fb10c6"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_Metallic.png",
+            "source_hash": "a6a354fe6c738def5b13624c07bd09e58ee789c8",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_Metallic.png",
+            "target_hash": "a6a354fe6c738def5b13624c07bd09e58ee789c8"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_Normal.png",
+            "source_hash": "d1522171e5e4eefe34d4484b724cb6b2062d9b7b",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_Normal.png",
+            "target_hash": "d1522171e5e4eefe34d4484b724cb6b2062d9b7b"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_Roughness.png",
+            "source_hash": "90a3a399386161f0855a0e65ad54d76035a170da",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_WorkoutAtlas_01_Roughness.png",
+            "target_hash": "90a3a399386161f0855a0e65ad54d76035a170da"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Sand_01_BaseColor.png",
+            "source_hash": "c8c13947af5cab932ecae34d75b07dd90122f1fc",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Sand_01_BaseColor.png",
+            "target_hash": "c8c13947af5cab932ecae34d75b07dd90122f1fc"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Sand_01_Normal.png",
+            "source_hash": "e2db4869620db76c96641d524af0a3d54ac94e6c",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Sand_01_Normal.png",
+            "target_hash": "e2db4869620db76c96641d524af0a3d54ac94e6c"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Black_Normal.png",
+            "source_hash": "821fee01e3834c0078cc11aa6bed562c389abd1b",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_Black_Normal.png",
+            "target_hash": "821fee01e3834c0078cc11aa6bed562c389abd1b"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Black_Roughness.png",
+            "source_hash": "8a5f9c6d97fb26993d8c9e212eb94706197c8be2",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_Black_Roughness.png",
+            "target_hash": "8a5f9c6d97fb26993d8c9e212eb94706197c8be2"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_02_BaseColor.png",
+            "source_hash": "c207ef36ab438b4d7f667cdd736f6502565b78dc",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Bush_02_BaseColor.png",
+            "target_hash": "c207ef36ab438b4d7f667cdd736f6502565b78dc"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_02_Normal.png",
+            "source_hash": "bdc33ccc2d25ee92951da90bd225161649c96a05",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Bush_02_Normal.png",
+            "target_hash": "bdc33ccc2d25ee92951da90bd225161649c96a05"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_02_OpacityMask.png",
+            "source_hash": "8e63833f0340ee3e8b1d2ecc4edb8ab21ef26671",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Bush_02_OpacityMask.png",
+            "target_hash": "8e63833f0340ee3e8b1d2ecc4edb8ab21ef26671"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_02_SubsurfaceColor.png",
+            "source_hash": "c207ef36ab438b4d7f667cdd736f6502565b78dc",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Bush_02_SubsurfaceColor.png",
+            "target_hash": "c207ef36ab438b4d7f667cdd736f6502565b78dc"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Green_Normal.png",
+            "source_hash": "2e838c3d068ce7720ebe9c448c1115058000fe45",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_Green_Normal.png",
+            "target_hash": "2e838c3d068ce7720ebe9c448c1115058000fe45"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Green_Roughness.png",
+            "source_hash": "1473e9735397e238a9e81044114cdda5cd74bcf9",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_Green_Roughness.png",
+            "target_hash": "1473e9735397e238a9e81044114cdda5cd74bcf9"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_BaseColor.png",
+            "source_hash": "479fb0e7a1107263fac2d7277924a9523286f3b2",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_BaseColor.png",
+            "target_hash": "479fb0e7a1107263fac2d7277924a9523286f3b2"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_Metallic.png",
+            "source_hash": "3cea6ab8f7d2d25ca84612e23c12deea7edb7af2",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_Metallic.png",
+            "target_hash": "3cea6ab8f7d2d25ca84612e23c12deea7edb7af2"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_Normal.png",
+            "source_hash": "fc02bfd24d775f9ddcc98fc5d9c8a757613e06a4",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_Normal.png",
+            "target_hash": "fc02bfd24d775f9ddcc98fc5d9c8a757613e06a4"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_Roughness.png",
+            "source_hash": "d9420893b1f871193db27be989634e6d76609bcc",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_FurnitureAtlas_02_Roughness.png",
+            "target_hash": "d9420893b1f871193db27be989634e6d76609bcc"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Road_01_BaseColor.png",
+            "source_hash": "5bfdb8a324680eeb0aa5bc38c7a8daa849786d1f",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Road_01_BaseColor.png",
+            "target_hash": "5bfdb8a324680eeb0aa5bc38c7a8daa849786d1f"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Road_01_Normal.png",
+            "source_hash": "19c1b7f886b22e578f7550dc99b1e46d4f065cac",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Road_01_Normal.png",
+            "target_hash": "19c1b7f886b22e578f7550dc99b1e46d4f065cac"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Road_01_Roughness.png",
+            "source_hash": "42996d8e89bd8f9eb7cd24ad71f6a3ab2c94d3ce",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Road_01_Roughness.png",
+            "target_hash": "42996d8e89bd8f9eb7cd24ad71f6a3ab2c94d3ce"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Thuja_01_BaseColor.png",
+            "source_hash": "2cabe696150d78c375dc3de762074914956d3e74",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Thuja_01_BaseColor.png",
+            "target_hash": "2cabe696150d78c375dc3de762074914956d3e74"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Thuja_01_Normal.png",
+            "source_hash": "77f583c26580298eb7fe94651f293046a01c57bc",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Thuja_01_Normal.png",
+            "target_hash": "77f583c26580298eb7fe94651f293046a01c57bc"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Thuja_01_OpacityMask.png",
+            "source_hash": "ae0fd2c83c065a0b6f4c7844d07a7cacea337e0a",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Thuja_01_OpacityMask.png",
+            "target_hash": "ae0fd2c83c065a0b6f4c7844d07a7cacea337e0a"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Thuja_01_SubsurfaceColor.png",
+            "source_hash": "98c7360a3212c8fd8cad9b54729b5527003a014f",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Thuja_01_SubsurfaceColor.png",
+            "target_hash": "98c7360a3212c8fd8cad9b54729b5527003a014f"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_InteriorCollection_01_BaseColor.png",
+            "source_hash": "1f15e5a8b66b3c8c0c78ac3c165cd6757f04b369",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_InteriorCollection_01_BaseColor.png",
+            "target_hash": "1f15e5a8b66b3c8c0c78ac3c165cd6757f04b369"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_InteriorCollection_01_EmissiveColor.exr",
+            "source_hash": "6ef8919a6a75245806b8482bb6589eb7ae9f8cd5",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_InteriorCollection_01_EmissiveColor.exr",
+            "target_hash": "6ef8919a6a75245806b8482bb6589eb7ae9f8cd5"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Wood_01_BaseColor.png",
+            "source_hash": "a97009d1bc74bd94c16707c6aae91accbc0497bf",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Wood_01_BaseColor.png",
+            "target_hash": "a97009d1bc74bd94c16707c6aae91accbc0497bf"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Wood_01_Roughness.png",
+            "source_hash": "055ab837a82bbb9b46ed4ac6670bab779fffe292",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Wood_01_Roughness.png",
+            "target_hash": "055ab837a82bbb9b46ed4ac6670bab779fffe292"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bark_01_BaseColor.png",
+            "source_hash": "0734a7f109b03de5db1dcd56781863d5889ccf93",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Bark_01_BaseColor.png",
+            "target_hash": "0734a7f109b03de5db1dcd56781863d5889ccf93"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bark_01_Normal.png",
+            "source_hash": "060da67b4ddfba7832a0b90075084e0ea491327b",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Bark_01_Normal.png",
+            "target_hash": "060da67b4ddfba7832a0b90075084e0ea491327b"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_04_BaseColor.png",
+            "source_hash": "635c66f30c670ee496f7fc3df1880b4c740c1bb0",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_04_BaseColor.png",
+            "target_hash": "635c66f30c670ee496f7fc3df1880b4c740c1bb0"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_04_Normal.png",
+            "source_hash": "0f001854f5ed73f70549a257e8324f38d004301d",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_04_Normal.png",
+            "target_hash": "0f001854f5ed73f70549a257e8324f38d004301d"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_04_OpacityMask.png",
+            "source_hash": "0fa8fc5a8557bffae7eb4ca9af543cda200fd877",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_04_OpacityMask.png",
+            "target_hash": "0fa8fc5a8557bffae7eb4ca9af543cda200fd877"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Leaf_04_SubsurfaceColor.png",
+            "source_hash": "536f622dd617ad3086a157f4dd1d9a8342240d29",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Leaf_04_SubsurfaceColor.png",
+            "target_hash": "536f622dd617ad3086a157f4dd1d9a8342240d29"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Roof_01_BaseColor.png",
+            "source_hash": "f2c73f612db120778d8d272afd94261f3767b204",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Roof_01_BaseColor.png",
+            "target_hash": "f2c73f612db120778d8d272afd94261f3767b204"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Roof_01_Normal.png",
+            "source_hash": "5781e7ac5a7206e155411e88841fadba41b137ad",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Roof_01_Normal.png",
+            "target_hash": "5781e7ac5a7206e155411e88841fadba41b137ad"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Roof_01_Roughness.png",
+            "source_hash": "0ad303d468395030d80495c73b4595451e297f03",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Roof_01_Roughness.png",
+            "target_hash": "0ad303d468395030d80495c73b4595451e297f03"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Paving_01_BaseColor.png",
+            "source_hash": "2c4156afed2721c9a768ab5fe28654a508da7d19",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Paving_01_BaseColor.png",
+            "target_hash": "2c4156afed2721c9a768ab5fe28654a508da7d19"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Paving_01_Normal.png",
+            "source_hash": "dfa57491dc0eea8366702337f8125811d85ec4e1",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Paving_01_Normal.png",
+            "target_hash": "dfa57491dc0eea8366702337f8125811d85ec4e1"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Paving_01_Roughness.png",
+            "source_hash": "db4c298c48dc20b17964155465a34c477b646f09",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Paving_01_Roughness.png",
+            "target_hash": "db4c298c48dc20b17964155465a34c477b646f09"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_07_BaseColor.png",
+            "source_hash": "78d81307a03f2b02821b80492e345a6c14f41132",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_07_BaseColor.png",
+            "target_hash": "78d81307a03f2b02821b80492e345a6c14f41132"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_07_EmissiveColor.exr",
+            "source_hash": "a7efc9d25e0dd4fefdab6d7a34cf1e2d72e09199",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_07_EmissiveColor.exr",
+            "target_hash": "a7efc9d25e0dd4fefdab6d7a34cf1e2d72e09199"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_07_Roughness.png",
+            "source_hash": "71cf6cb17d82b9aae0d89e5d430a3b0ae038a755",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_07_Roughness.png",
+            "target_hash": "71cf6cb17d82b9aae0d89e5d430a3b0ae038a755"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Brown_Normal.png",
+            "source_hash": "a5ccb678de39ecca3561b06f41cf343d78ebc0da",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_Brown_Normal.png",
+            "target_hash": "a5ccb678de39ecca3561b06f41cf343d78ebc0da"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Facade_Brown_Roughness.png",
+            "source_hash": "778a5ac6c77278e790a5ffcd9f03801d766f5bc6",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Facade_Brown_Roughness.png",
+            "target_hash": "778a5ac6c77278e790a5ffcd9f03801d766f5bc6"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_02_BaseColor.png",
+            "source_hash": "06de4a95e7eb90d28ed0589e1e5665152249d491",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Ground_02_BaseColor.png",
+            "target_hash": "06de4a95e7eb90d28ed0589e1e5665152249d491"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_02_Normal.png",
+            "source_hash": "fc9d34713eaa3f34fbedae762bdfd05b05c3acdd",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Ground_02_Normal.png",
+            "target_hash": "fc9d34713eaa3f34fbedae762bdfd05b05c3acdd"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_01_BaseColor.png",
+            "source_hash": "2c1bf93ae7d6066def1cdbee6e1228a0fde0bca3",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Brick_01_BaseColor.png",
+            "target_hash": "2c1bf93ae7d6066def1cdbee6e1228a0fde0bca3"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_01_Normal.png",
+            "source_hash": "6a5693b413b18c6d83d2783f230b69ca0d415dac",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Brick_01_Normal.png",
+            "target_hash": "6a5693b413b18c6d83d2783f230b69ca0d415dac"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_01_Roughness.png",
+            "source_hash": "9382b05c3996edf86e077938fdd7105e3993ed32",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Brick_01_Roughness.png",
+            "target_hash": "9382b05c3996edf86e077938fdd7105e3993ed32"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_03_BaseColor.png",
+            "source_hash": "0c4b3a433fb7cd7cbe4303b8052d47d680bdb2d9",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_03_BaseColor.png",
+            "target_hash": "0c4b3a433fb7cd7cbe4303b8052d47d680bdb2d9"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_03_EmissiveColor.exr",
+            "source_hash": "eec93fd89ada916e54637626eb889940a18aa396",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_03_EmissiveColor.exr",
+            "target_hash": "eec93fd89ada916e54637626eb889940a18aa396"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_03_Roughness.png",
+            "source_hash": "9bfe65f9862629def301baa8fac215b36dd8aeb7",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_03_Roughness.png",
+            "target_hash": "9bfe65f9862629def301baa8fac215b36dd8aeb7"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_BaseColor.png",
+            "source_hash": "1a29638075d3f67cbf733682cbd8ed037547c683",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_BaseColor.png",
+            "target_hash": "1a29638075d3f67cbf733682cbd8ed037547c683"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_Metallic.png",
+            "source_hash": "d0d38f5fcecfeabbb7640eab8222318e41a404c7",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_Metallic.png",
+            "target_hash": "d0d38f5fcecfeabbb7640eab8222318e41a404c7"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_Normal.png",
+            "source_hash": "29f8c4c2902d5f0189c95a399975a0ad64c29d5b",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_Normal.png",
+            "target_hash": "29f8c4c2902d5f0189c95a399975a0ad64c29d5b"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_Roughness.png",
+            "source_hash": "3b0027ecffd0525cd68ccfe165f4455cee15e614",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_BuildingAtlas_01_Roughness.png",
+            "target_hash": "3b0027ecffd0525cd68ccfe165f4455cee15e614"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_M_Light_01_EmissiveColor.exr",
+            "source_hash": "7e008b3025c71e19c8728885c150fb257ed43215",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_M_Light_01_EmissiveColor.exr",
+            "target_hash": "7e008b3025c71e19c8728885c150fb257ed43215"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_02_BaseColor.png",
+            "source_hash": "9f5210fc98a04d2e71a9d8f539a6736d05cec193",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_02_BaseColor.png",
+            "target_hash": "9f5210fc98a04d2e71a9d8f539a6736d05cec193"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_02_EmissiveColor.exr",
+            "source_hash": "82f01aac20cce77df7a53a45e756b7d5adc93318",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_02_EmissiveColor.exr",
+            "target_hash": "82f01aac20cce77df7a53a45e756b7d5adc93318"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_02_Roughness.png",
+            "source_hash": "c2f7c146877422f51e1bf59887fd3ffdbfe3b12f",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_02_Roughness.png",
+            "target_hash": "c2f7c146877422f51e1bf59887fd3ffdbfe3b12f"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_02_Normal.png",
+            "source_hash": "748becbd1b5a672da1ba6ae739e6e95b57c2078e",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Metal_02_Normal.png",
+            "target_hash": "748becbd1b5a672da1ba6ae739e6e95b57c2078e"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Metal_02_Roughness.png",
+            "source_hash": "882cf66cce7aaef2ea6d8102782b45ce5c9c6a91",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Metal_02_Roughness.png",
+            "target_hash": "882cf66cce7aaef2ea6d8102782b45ce5c9c6a91"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_01_BaseColor.png",
+            "source_hash": "a1250235d859e2b377e9867105c85f736dc4ef44",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Ground_01_BaseColor.png",
+            "target_hash": "a1250235d859e2b377e9867105c85f736dc4ef44"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Ground_01_Normal.png",
+            "source_hash": "587e0e988aa20249d447273a47b9ae07ca5c4577",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Ground_01_Normal.png",
+            "target_hash": "587e0e988aa20249d447273a47b9ae07ca5c4577"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_06_BaseColor.png",
+            "source_hash": "8ab7c425df176b08a396a65fcd2305504775aba9",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_06_BaseColor.png",
+            "target_hash": "8ab7c425df176b08a396a65fcd2305504775aba9"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_06_EmissiveColor.exr",
+            "source_hash": "2b4d2db426249f18d71914cdea5b1262d0e993b2",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_06_EmissiveColor.exr",
+            "target_hash": "2b4d2db426249f18d71914cdea5b1262d0e993b2"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_06_Roughness.png",
+            "source_hash": "b621b05b55a10d84c05274144537ea79e6d474f9",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_06_Roughness.png",
+            "target_hash": "b621b05b55a10d84c05274144537ea79e6d474f9"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plastic_01_Roughness.png",
+            "source_hash": "a6637f003a208b9f22a051ebb95f4d8c6a8cb952",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plastic_01_Roughness.png",
+            "target_hash": "a6637f003a208b9f22a051ebb95f4d8c6a8cb952"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_02_BaseColor.png",
+            "source_hash": "b2d248929018bdcdc80972c6cbe463539b3bf47c",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Fabric_02_BaseColor.png",
+            "target_hash": "b2d248929018bdcdc80972c6cbe463539b3bf47c"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Fabric_02_Normal.png",
+            "source_hash": "88237a21dacc1bf81a235669e6807a714fe73ccc",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Fabric_02_Normal.png",
+            "target_hash": "88237a21dacc1bf81a235669e6807a714fe73ccc"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_RubberAtlas_01_BaseColor.png",
+            "source_hash": "613a7ad84f3cca9856b8ec348cc50278cc3bb974",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_RubberAtlas_01_BaseColor.png",
+            "target_hash": "613a7ad84f3cca9856b8ec348cc50278cc3bb974"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_RubberAtlas_01_Roughness.png",
+            "source_hash": "0ae939d2c825e209f8355bc5fce88aebe6e0f705",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_RubberAtlas_01_Roughness.png",
+            "target_hash": "0ae939d2c825e209f8355bc5fce88aebe6e0f705"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_BaseColor.png",
+            "source_hash": "541e56bc5db076c40b08ee691a1fdfc0d36bc6ad",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_BaseColor.png",
+            "target_hash": "541e56bc5db076c40b08ee691a1fdfc0d36bc6ad"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_Normal.png",
+            "source_hash": "2b44776eefccabf9a5c4f4b027d30edf51498586",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_Normal.png",
+            "target_hash": "2b44776eefccabf9a5c4f4b027d30edf51498586"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_OpacityMask.png",
+            "source_hash": "01b2eab8bc7bde2a4dc77946e905e3a1684a7179",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_OpacityMask.png",
+            "target_hash": "01b2eab8bc7bde2a4dc77946e905e3a1684a7179"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_SubsurfaceColor.png",
+            "source_hash": "541e56bc5db076c40b08ee691a1fdfc0d36bc6ad",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Scattered_Leaves_02_SubsurfaceColor.png",
+            "target_hash": "541e56bc5db076c40b08ee691a1fdfc0d36bc6ad"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_05_BaseColor.png",
+            "source_hash": "8f589df52f72bbe9154341eb6ea45470d6e231bb",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plant_05_BaseColor.png",
+            "target_hash": "8f589df52f72bbe9154341eb6ea45470d6e231bb"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_05_EmissiveColor.exr",
+            "source_hash": "5eecf3b2108f0f3f7c2af64e797f5b60b2b5af6e",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plant_05_EmissiveColor.exr",
+            "target_hash": "5eecf3b2108f0f3f7c2af64e797f5b60b2b5af6e"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_05_Normal.png",
+            "source_hash": "0f001854f5ed73f70549a257e8324f38d004301d",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plant_05_Normal.png",
+            "target_hash": "0f001854f5ed73f70549a257e8324f38d004301d"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_05_OpacityMask.png",
+            "source_hash": "0fa8fc5a8557bffae7eb4ca9af543cda200fd877",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plant_05_OpacityMask.png",
+            "target_hash": "0fa8fc5a8557bffae7eb4ca9af543cda200fd877"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_05_SubsurfaceColor.png",
+            "source_hash": "aad9dd1b9c31df4317e1746c8decf868a59e3637",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plant_05_SubsurfaceColor.png",
+            "target_hash": "aad9dd1b9c31df4317e1746c8decf868a59e3637"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_05_BaseColor.png",
+            "source_hash": "f992abbfc1e25a68c1dc1ab3924267a8b5c77724",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_05_BaseColor.png",
+            "target_hash": "f992abbfc1e25a68c1dc1ab3924267a8b5c77724"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_05_EmissiveColor.exr",
+            "source_hash": "0f8d8e64eaeb6af26d0d3f37d250c26ccfa3bd58",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_05_EmissiveColor.exr",
+            "target_hash": "0f8d8e64eaeb6af26d0d3f37d250c26ccfa3bd58"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_05_Roughness.png",
+            "source_hash": "bec0e946f2f135cb7b844c3a1be38ea345911898",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_05_Roughness.png",
+            "target_hash": "bec0e946f2f135cb7b844c3a1be38ea345911898"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_08_BaseColor.png",
+            "source_hash": "39066e47e6afb5dc77e9af16587886942cb2891f",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_08_BaseColor.png",
+            "target_hash": "39066e47e6afb5dc77e9af16587886942cb2891f"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_08_EmissiveColor.exr",
+            "source_hash": "497f9d930d3ed17e388b961d4ed1b6708c028104",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_08_EmissiveColor.exr",
+            "target_hash": "497f9d930d3ed17e388b961d4ed1b6708c028104"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_LPBuilding_08_Roughness.png",
+            "source_hash": "df00fca7a25df12dd3bc3ef3fc1c455a3ffb5d83",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_LPBuilding_08_Roughness.png",
+            "target_hash": "df00fca7a25df12dd3bc3ef3fc1c455a3ffb5d83"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_01_BaseColor.png",
+            "source_hash": "08b0ea74c10b6f5f92761a85cdea72ded2c058ea",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Bush_01_BaseColor.png",
+            "target_hash": "08b0ea74c10b6f5f92761a85cdea72ded2c058ea"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_01_Normal.png",
+            "source_hash": "2cc238fc93e791f784f48394b4edd95db6f04dc7",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Bush_01_Normal.png",
+            "target_hash": "2cc238fc93e791f784f48394b4edd95db6f04dc7"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_01_OpacityMask.png",
+            "source_hash": "47c17331977cd478871bf0b7c916d6933ba59fbd",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Bush_01_OpacityMask.png",
+            "target_hash": "47c17331977cd478871bf0b7c916d6933ba59fbd"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_01_Roughness.png",
+            "source_hash": "49505302fdb0451fda5757c45b6dfc30df4859c7",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Bush_01_Roughness.png",
+            "target_hash": "49505302fdb0451fda5757c45b6dfc30df4859c7"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Bush_01_SubsurfaceColor.png",
+            "source_hash": "a0533096711049a27c1a574677cc5168872d2f75",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Bush_01_SubsurfaceColor.png",
+            "target_hash": "a0533096711049a27c1a574677cc5168872d2f75"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marble_01_BaseColor.png",
+            "source_hash": "e725ec3cc08551dfa6f58319e599de580d270dbe",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Marble_01_BaseColor.png",
+            "target_hash": "e725ec3cc08551dfa6f58319e599de580d270dbe"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Marble_01_Roughness.png",
+            "source_hash": "04337739639341a459b5b8e7453d42747bf5fa6d",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Marble_01_Roughness.png",
+            "target_hash": "04337739639341a459b5b8e7453d42747bf5fa6d"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Tiles_01_BaseColor.png",
+            "source_hash": "f29cc0fdb6af032b3d457bc783aaef127775e3ff",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Tiles_01_BaseColor.png",
+            "target_hash": "f29cc0fdb6af032b3d457bc783aaef127775e3ff"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Tiles_01_Normal.png",
+            "source_hash": "5d14d277a485d8ad3073a661b55c5b4d403606ba",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Tiles_01_Normal.png",
+            "target_hash": "5d14d277a485d8ad3073a661b55c5b4d403606ba"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Tiles_01_Roughness.png",
+            "source_hash": "51da4b5e49925c0e3fb4c0004c7c34a4ba495ee3",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Tiles_01_Roughness.png",
+            "target_hash": "51da4b5e49925c0e3fb4c0004c7c34a4ba495ee3"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_02_BaseColor.png",
+            "source_hash": "f41bf92c00655e9d236fa7360aa890d7c3a23d99",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Brick_02_BaseColor.png",
+            "target_hash": "f41bf92c00655e9d236fa7360aa890d7c3a23d99"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_02_Normal.png",
+            "source_hash": "13a709d4742095bd6d58b9e492571d3aade85bf5",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Brick_02_Normal.png",
+            "target_hash": "13a709d4742095bd6d58b9e492571d3aade85bf5"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Brick_02_Roughness.png",
+            "source_hash": "abbb04b062908b19887fc96596d8723ce1f8d279",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Brick_02_Roughness.png",
+            "target_hash": "abbb04b062908b19887fc96596d8723ce1f8d279"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_04_BaseColor.png",
+            "source_hash": "b339280b5d79db4b4925ea9e460a3c2e9f9aaa90",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plant_04_BaseColor.png",
+            "target_hash": "b339280b5d79db4b4925ea9e460a3c2e9f9aaa90"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_04_EmissiveColor.exr",
+            "source_hash": "098a44bf0c6451bca65f9836f43d6fdcdafac53a",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plant_04_EmissiveColor.exr",
+            "target_hash": "098a44bf0c6451bca65f9836f43d6fdcdafac53a"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_04_Normal.png",
+            "source_hash": "73e27bc1d9beacb7124b960ad8b31ad45c70997b",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plant_04_Normal.png",
+            "target_hash": "73e27bc1d9beacb7124b960ad8b31ad45c70997b"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_04_OpacityMask.png",
+            "source_hash": "e0de75e18cd588d536110de7add5d1475865af2e",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plant_04_OpacityMask.png",
+            "target_hash": "e0de75e18cd588d536110de7add5d1475865af2e"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Plant_04_SubsurfaceColor.png",
+            "source_hash": "1948340aabc48097e00f5b35acc85148aa79efa0",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Plant_04_SubsurfaceColor.png",
+            "target_hash": "1948340aabc48097e00f5b35acc85148aa79efa0"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Chair_03_BaseColor.png",
+            "source_hash": "7d2ae01a6e5543629c75cb1038c396e3153aa009",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Chair_03_BaseColor.png",
+            "target_hash": "7d2ae01a6e5543629c75cb1038c396e3153aa009"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Chair_03_Normal.png",
+            "source_hash": "7fc6d2b95ac91bb328e6f1915fb5f5ae3203d43d",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Chair_03_Normal.png",
+            "target_hash": "7fc6d2b95ac91bb328e6f1915fb5f5ae3203d43d"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Chair_03_Roughness.png",
+            "source_hash": "658c81c9d4eab364daebdbbe3699b056dc7b4e7f",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Chair_03_Roughness.png",
+            "target_hash": "658c81c9d4eab364daebdbbe3699b056dc7b4e7f"
+        },
+        {
+            "source_url": "C:/USD_Export/USD_Export/Assets/Game/Apartment_Complex/Materials/Textures/Game_Apartment_Complex_Materials_MI_Wood_02_Roughness.png",
+            "source_hash": "3ce78ccc73a576dfc618dc06f8aa3a0fe26d47b6",
+            "target_url": "./SubUSDs/textures/Game_Apartment_Complex_Materials_MI_Wood_02_Roughness.png",
+            "target_hash": "3ce78ccc73a576dfc618dc06f8aa3a0fe26d47b6"
+        }
+    ]
+}
