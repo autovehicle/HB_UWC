@@ -1,0 +1,233 @@
+import omni.usd
+import omni.anim.navigation.core as nav
+from pxr import UsdGeom, Sdf, Gf
+import carb
+import random
+import math
+
+stage = omni.usd.get_context().get_stage()
+inav = nav.acquire_interface()
+navmesh = inav.get_navmesh()
+
+if navmesh is None:
+    raise RuntimeError("NavMesh가 없습니다. 먼저 전체 코드로 Bake까지 한 번 실행하세요.")
+
+MIN_START_GOAL_DIST = 40.0
+MAX_PAIR_TRY = 700
+MAX_SAMPLE_TRY = 3000
+
+Z_OFFSET = 0.15
+PATH_WIDTH = 0.12
+
+FLOOR_Z_MIN = -0.10
+FLOOR_Z_MAX = 0.30
+
+walk_idx = inav.find_area("Walkable")
+tris = navmesh.get_draw_triangles(walk_idx)
+
+if len(tris) == 0:
+    raise RuntimeError("Walkable triangle이 없습니다.")
+
+floor_tri_bases = []
+
+for i in range(0, len(tris), 3):
+    a = tris[i]
+    b = tris[i + 1]
+    c = tris[i + 2]
+
+    zavg = (float(a[2]) + float(b[2]) + float(c[2])) / 3.0
+
+    if FLOOR_Z_MIN <= zavg <= FLOOR_Z_MAX:
+        floor_tri_bases.append(i)
+
+print("Floor triangle count:", len(floor_tri_bases))
+
+if len(floor_tri_bases) == 0:
+    raise RuntimeError("바닥 높이 근처 NavMesh triangle이 없습니다.")
+
+def dist2d(a, b):
+    return math.hypot(
+        float(a[0]) - float(b[0]),
+        float(a[1]) - float(b[1])
+    )
+
+def sample_random_navmesh_point(required_island=None):
+    for _ in range(MAX_SAMPLE_TRY):
+        tri_base = random.choice(floor_tri_bases)
+
+        a = tris[tri_base]
+        b = tris[tri_base + 1]
+        c = tris[tri_base + 2]
+
+        r1 = math.sqrt(random.random())
+        r2 = random.random()
+
+        x = (1.0 - r1) * float(a[0]) + r1 * (1.0 - r2) * float(b[0]) + r1 * r2 * float(c[0])
+        y = (1.0 - r1) * float(a[1]) + r1 * (1.0 - r2) * float(b[1]) + r1 * r2 * float(c[1])
+        z = (1.0 - r1) * float(a[2]) + r1 * (1.0 - r2) * float(b[2]) + r1 * r2 * float(c[2])
+
+        raw = carb.Float3(x, y, z)
+
+        try:
+            if required_island is None:
+                point, island = navmesh.query_closest_point(
+                    target=raw,
+                    area_indices=[walk_idx],
+                    search_island_id=-1
+                )
+            else:
+                point, island = navmesh.query_closest_point(
+                    target=raw,
+                    area_indices=[walk_idx],
+                    search_island_id=required_island
+                )
+
+            if point is not None:
+                return point, island
+
+        except Exception as e:
+            print("sample query failed:", e)
+
+    return None, -1
+
+try:
+    area_count = inav.get_area_count()
+    area_costs = [-1.0] * area_count
+    area_costs[walk_idx] = 1.0
+except Exception:
+    area_costs = None
+
+def compute_path(start_point, goal_point):
+    try:
+        if area_costs is not None:
+            return navmesh.query_shortest_path(
+                start_pos=carb.Float3(float(start_point[0]), float(start_point[1]), float(start_point[2])),
+                end_pos=carb.Float3(float(goal_point[0]), float(goal_point[1]), float(goal_point[2])),
+                area_costs=area_costs,
+                straighten=False
+            )
+
+        return navmesh.query_shortest_path(start_point, goal_point)
+
+    except Exception as e:
+        print("Path failed:", e)
+        return None
+
+def get_path_points(path):
+    try:
+        return list(path.get_points())
+    except Exception:
+        pass
+
+    try:
+        return list(path)
+    except Exception:
+        pass
+
+    return []
+
+start_point = None
+goal_point = None
+path = None
+points = None
+start_island = -1
+goal_island = -1
+
+for attempt in range(MAX_PAIR_TRY):
+    sp, si = sample_random_navmesh_point(required_island=None)
+    if sp is None:
+        continue
+
+    gp, gi = sample_random_navmesh_point(required_island=si)
+    if gp is None:
+        continue
+
+    if dist2d(sp, gp) < MIN_START_GOAL_DIST:
+        continue
+
+    candidate_path = compute_path(sp, gp)
+    if candidate_path is None:
+        continue
+
+    candidate_points = get_path_points(candidate_path)
+    if len(candidate_points) < 2:
+        continue
+
+    start_point = sp
+    goal_point = gp
+    start_island = si
+    goal_island = gi
+    path = candidate_path
+    points = candidate_points
+    break
+
+if path is None:
+    raise RuntimeError("랜덤 경로 생성 실패. MIN_START_GOAL_DIST를 줄여보세요.")
+
+print("Random Start:", start_point, "island:", start_island)
+print("Random Goal :", goal_point, "island:", goal_island)
+print("Distance:", dist2d(start_point, goal_point))
+print("Path point count:", len(points))
+
+# 기존 경로 삭제
+for p in [
+    "/World/NavDebug_PathLine",
+    "/World/NavDebug_StartMarker",
+    "/World/NavDebug_GoalMarker",
+]:
+    prim = stage.GetPrimAtPath(p)
+    if prim.IsValid():
+        stage.RemovePrim(p)
+
+# 새 경로 생성
+curve = UsdGeom.BasisCurves.Define(stage, Sdf.Path("/World/NavDebug_PathLine"))
+
+curve_points = [
+    Gf.Vec3f(float(p[0]), float(p[1]), float(p[2]) + Z_OFFSET)
+    for p in points
+]
+
+curve.CreatePointsAttr(curve_points)
+curve.CreateCurveVertexCountsAttr([len(curve_points)])
+curve.CreateWidthsAttr([PATH_WIDTH])
+curve.CreateTypeAttr("linear")
+curve.CreateWrapAttr("nonperiodic")
+curve.CreateDisplayColorAttr([Gf.Vec3f(1.0, 1.0, 0.0)])
+
+def make_marker(path_str, pos, radius, color):
+    prim = stage.GetPrimAtPath(path_str)
+
+    if prim.IsValid():
+        stage.RemovePrim(path_str)
+
+    sphere = UsdGeom.Sphere.Define(stage, Sdf.Path(path_str))
+    sphere.CreateRadiusAttr(radius)
+    sphere.CreateDisplayColorAttr([color])
+
+    xf = UsdGeom.Xformable(sphere.GetPrim())
+    xf.ClearXformOpOrder()
+    xf.AddTranslateOp().Set(
+        Gf.Vec3d(float(pos[0]), float(pos[1]), float(pos[2]) + Z_OFFSET)
+    )
+
+make_marker(
+    "/World/NavDebug_StartMarker",
+    start_point,
+    1.0,
+    Gf.Vec3f(0.0, 1.0, 0.0)
+)
+
+make_marker(
+    "/World/NavDebug_GoalMarker",
+    goal_point,
+    1.0,
+    Gf.Vec3f(1.0, 0.0, 0.0)
+)
+
+omni.usd.get_context().get_selection().set_selected_prim_paths(
+    ["/World/NavDebug_PathLine"],
+    True
+)
+
+print("완료")
+print("기존 Bake/NavMesh는 유지하고 랜덤 경로만 새로 생성했습니다.")
