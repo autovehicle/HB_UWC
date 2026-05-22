@@ -41,8 +41,10 @@ from wheeledlab_tasks.common import BlindObsCfg
 # TODO(team): UWC 로봇 에셋이 wheeledlab_assets 에 등록되면 아래로 교체
 #   from wheeledlab_assets import UWC_CFG
 # 지금은 MUSHR 에셋을 placeholder 로 사용해 로딩만 되게 함.
-from wheeledlab_assets import MUSHR_SUS_2WD_CFG as UWC_CFG  # placeholder
-
+# from wheeledlab_assets import MUSHR_SUS_2WD_CFG as UWC_CFG  # placeholder
+# -> 교체완료 (20260522 17:20)
+from wheeledlab_assets import ROBOT_MODEL_CFG as UWC_CFG
+from wheeledlab_assets import WHEELEDLAB_ASSETS_DATA_DIR
 
 ##############################
 ###### COMMON CONSTANTS ######
@@ -56,8 +58,9 @@ NUM_LOOKAHEAD = 5            # 관측용 lookahead waypoint 개수
 LOOKAHEAD_STEP = 0.5         # (m) lookahead waypoint 사이 간격
 
 # 커스텀 맵 USD 경로 — TODO(team) 으로 실제 경로 교체
-CUSTOM_MAP_USD = "/PATH/TO/CUSTOM_MAP.usd"
-
+# CUSTOM_MAP_USD = "/PATH/TO/CUSTOM_MAP.usd"
+# -> 교체완료 (20260522 17:20)
+CUSTOM_MAP_USD = f"{WHEELEDLAB_ASSETS_DATA_DIR}/map/map2.usd"
 
 ###################################
 ###### PLACEHOLDER MDP TERMS ######
@@ -178,9 +181,10 @@ class UWCDriveSceneCfg(InteractiveSceneCfg):
         spawn=sim_utils.DistantLightCfg(color=(0.75, 0.75, 0.75), intensity=3000.0),
     )
 
+# 맵 z값에 따라 조정 필요
     def __post_init__(self):
         super().__post_init__()
-        self.robot.init_state = self.robot.init_state.replace(pos=(0.0, 0.0, 0.0))
+        self.robot.init_state = self.robot.init_state.replace(pos=(0.0, 0.0, 0.5))
 
 
 ########################

@@ -42,6 +42,29 @@ def startup(parser=None, prelaunch_callback=None, register_cfgs=True):
     app_launcher = AppLauncher(args_cli)
     simulation_app = app_launcher.app
 
+    # --------------------------------------------------
+    # Enable Isaac Sim extensions automatically
+    # --------------------------------------------------
+    try:
+        from isaacsim.core.utils.extensions import enable_extension
+    except ImportError:
+        from omni.isaac.core.utils.extensions import enable_extension
+
+    EXTENSIONS = [
+        "isaacsim.ros2.bridge",       # ROS 2 Bridge
+        "omni.anim.navigation.bundle",  # Navigation / NavMesh 관련
+    ]
+
+    for ext in EXTENSIONS:
+        try:
+            enable_extension(ext)
+            print(f"[INFO] Enabled extension: {ext}")
+        except Exception as e:
+            print(f"[WARN] Failed to enable extension {ext}: {e}")
+    
+    # extension 로딩 반영용
+    simulation_app.update()
+
     if register_cfgs:
         import wheeledlab_tasks # env configs
         import wheeledlab_rl.configs.runs # run configs

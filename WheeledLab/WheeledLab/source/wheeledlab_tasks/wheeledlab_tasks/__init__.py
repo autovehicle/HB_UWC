@@ -14,7 +14,7 @@ import wheeledlab_tasks.drifting.config.agents.mushr as mushr_drift_agents
 import wheeledlab_tasks.visual.config.agents.mushr as mushr_visual_agents
 import wheeledlab_tasks.elevation.config.agents.mushr as mushr_elevation_agents
 from .driving import UWCDriveRLEnvCfg, UWCDrivePlayEnvCfg
-import wheeledlab_tasks.driving.config.agents.uwc as uwc_drive_agents
+# import wheeledlab_tasks.driving.config.agents.uwc as uwc_drive_agents
 
 gym.register(
     id="Isaac-UWC-Drive-RL-v0",
