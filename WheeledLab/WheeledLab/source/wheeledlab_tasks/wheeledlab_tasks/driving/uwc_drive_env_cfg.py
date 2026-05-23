@@ -17,6 +17,7 @@ import torch
 
 import isaaclab.envs.mdp as mdp
 import isaaclab.sim as sim_utils
+from wheeledlab_tasks.driving.nav_init import run_nav_init, NavInitCfg
 from isaaclab.envs import ManagerBasedRLEnvCfg, ManagerBasedEnv
 from isaaclab.scene import InteractiveSceneCfg
 from isaaclab.terrains import TerrainImporterCfg
@@ -179,6 +180,14 @@ class UWCDriveSceneCfg(InteractiveSceneCfg):
     light = AssetBaseCfg(
         prim_path="/World/light",
         spawn=sim_utils.DistantLightCfg(color=(0.75, 0.75, 0.75), intensity=3000.0),
+    # Nav init 옵션
+    nav_init_enabled = True
+    nav_init_draw_debug = True
+    nav_init_save_json = True
+    nav_init_output_json = "generated_paths/nav_path.json"
+
+    # 중복 실행 방지 (프로세스 내 1회)
+    _nav_init_done = False
     )
 
 # 맵 z값에 따라 조정 필요
@@ -186,6 +195,21 @@ class UWCDriveSceneCfg(InteractiveSceneCfg):
         super().__post_init__()
         self.robot.init_state = self.robot.init_state.replace(pos=(0.0, 0.0, 0.5))
 
+        # Scene 구성 이후, nav init 1회 실행 시도
+        # 실패해도 학습이 완전히 죽지 않도록 경고만 찍고 넘어감
+        if self.nav_init_enabled and (not UWCDriveSceneCfg._nav_init_done):
+            try:
+                run_nav_init(
+                    NavInitCfg(
+                        enabled=True,
+                        output_json=self.nav_init_output_json,
+                        draw_debug=self.nav_init_draw_debug,
+                        save_json=self.nav_init_save_json,
+                    )
+                )
+                UWCDriveSceneCfg._nav_init_done = True
+            except Exception as e:
+                print(f"[WARN][NAV_INIT] failed: {e}")
 
 ########################
 ###### ACTIONS #########
