@@ -14,6 +14,10 @@ from pxr import UsdGeom, Sdf, Gf
 class NavInitCfg:
     enabled: bool = True
     output_json: str = "generated_paths/nav_path.json"
+
+    auto_bake_navmesh: bool = True
+    bake_wait_frames: int = 240
+
     robot_candidates: tuple[str, ...] = (
         "/World/map/robot_model",
         "/World/map/robot_model/uwc",
@@ -42,16 +46,94 @@ def _dist2d(a, b) -> float:
     return math.hypot(float(a[0]) - float(b[0]), float(a[1]) - float(b[1]))
 
 
-def _get_stage_and_navmesh():
+def _update_app_frames(num_frames: int):
+    """Let Isaac Sim / Kit process extension and navmesh baking jobs."""
+    try:
+        import omni.kit.app
+        app = omni.kit.app.get_app()
+        for _ in range(num_frames):
+            app.update()
+    except Exception as e:
+        print(f"[WARN][NAV_INIT] app update skipped: {e}")
+
+
+def _try_bake_navmesh(inav) -> bool:
+    """Try to start navmesh baking using available Isaac Sim navigation API.
+
+    Isaac Sim navigation API 이름이 버전마다 조금씩 달라질 수 있어서,
+    가능한 bake/build 계열 method를 순서대로 시도한다.
+    """
+    candidate_methods = [
+        "start_navmesh_baking",
+        "bake_navmesh",
+        "build_navmesh",
+        "rebuild_navmesh",
+        "generate_navmesh",
+    ]
+
+    for method_name in candidate_methods:
+        method = getattr(inav, method_name, None)
+        if method is None:
+            continue
+
+        try:
+            print(f"[NAV_INIT] Trying navmesh bake method: {method_name}()")
+            method()
+            return True
+        except TypeError as e:
+            print(f"[WARN][NAV_INIT] {method_name} signature mismatch: {e}")
+        except Exception as e:
+            print(f"[WARN][NAV_INIT] {method_name} failed: {e}")
+
+    # 어떤 method가 있는지 디버깅용 출력
+    try:
+        nav_like_methods = [
+            name for name in dir(inav)
+            if ("nav" in name.lower() or "bake" in name.lower() or "build" in name.lower())
+        ]
+        print(f"[DEBUG][NAV_INIT] available nav-like methods: {nav_like_methods}")
+    except Exception:
+        pass
+
+    return False
+
+def _get_stage_and_navmesh(cfg: NavInitCfg):
     stage = omni.usd.get_context().get_stage()
     if stage is None:
         raise RuntimeError("[NAV_INIT] No opened stage.")
 
     inav = nav.acquire_interface()
+
+    # 1차 확인
     navmesh = inav.get_navmesh()
-    if navmesh is None:
-        raise RuntimeError("[NAV_INIT] NavMesh is None. Enable navigation extension and bake navmesh first.")
-    return stage, inav, navmesh
+    if navmesh is not None:
+        print("[NAV_INIT] Existing NavMesh found.")
+        return stage, inav, navmesh
+
+    print("[NAV_INIT] NavMesh is None.")
+
+    if not cfg.auto_bake_navmesh:
+        raise RuntimeError("[NAV_INIT] NavMesh is None and auto_bake_navmesh=False.")
+
+    # NavMesh bake 시도
+    bake_started = _try_bake_navmesh(inav)
+    if not bake_started:
+        raise RuntimeError("[NAV_INIT] Failed to start NavMesh baking. Check navigation API / NavMeshVolume.")
+
+    print(f"[NAV_INIT] Waiting for NavMesh baking... frames={cfg.bake_wait_frames}")
+
+    for i in range(cfg.bake_wait_frames):
+        _update_app_frames(1)
+
+        navmesh = inav.get_navmesh()
+        if navmesh is not None:
+            print(f"[NAV_INIT] NavMesh ready after {i + 1} frames.")
+            return stage, inav, navmesh
+
+    raise RuntimeError(
+        "[NAV_INIT] NavMesh is still None after baking wait. "
+        "Map may need NavMeshVolume / walkable collision geometry."
+    )
 
 
 def _collect_floor_triangles(inav, navmesh, cfg: NavInitCfg):
@@ -242,7 +324,7 @@ def run_nav_init(cfg: NavInitCfg | None = None):
         print("[NAV_INIT] disabled.")
         return None
 
-    stage, inav, navmesh = _get_stage_and_navmesh()
+    stage, inav, navmesh = _get_stage_and_navmesh(cfg)
     walk_idx, tris, floor_tri_bases = _collect_floor_triangles(inav, navmesh, cfg)
     area_costs = _make_area_costs(inav, walk_idx)
     start_point, goal_point, points = _generate_random_path(navmesh, walk_idx, tris, floor_tri_bases, area_costs, cfg)

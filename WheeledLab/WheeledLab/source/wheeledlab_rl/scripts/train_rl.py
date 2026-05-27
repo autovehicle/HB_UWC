@@ -23,7 +23,19 @@ import gymnasium as gym
 import os
 
 from isaaclab.utils.dict import print_dict
-from isaaclab.utils.io import dump_yaml, dump_pickle
+from isaaclab.utils.io import dump_yaml
+
+try:
+    from isaaclab.utils.io import dump_pickle
+except ImportError:
+    import os
+    import pickle
+
+    def dump_pickle(filename, data):
+        os.makedirs(os.path.dirname(filename), exist_ok=True)
+        with open(filename, "wb") as f:
+            pickle.dump(data, f)
+
 from isaaclab_tasks.utils import get_checkpoint_path
 from isaaclab_rl.rsl_rl import RslRlVecEnvWrapper
 
@@ -36,6 +48,27 @@ from wheeledlab_rl.utils import (
     hydra_run_config,
     ClipAction,
 )
+
+def run_nav_init_after_env_created():
+    """Run UWC nav/path generation after the stage, map, and robot are created."""
+    try:
+        # stage/app이 실제로 업데이트되도록 몇 프레임 대기
+        for _ in range(30):
+            simulation_app.update()
+
+        from wheeledlab_tasks.driving.nav_init import run_nav_init, NavInitCfg
+
+        nav_cfg = NavInitCfg()
+        run_nav_init(nav_cfg)
+
+        # nav_init이 debug prim/path를 stage에 그리거나 저장하는 경우 반영 대기
+        for _ in range(30):
+            simulation_app.update()
+
+        print("[INFO] nav_init completed after env creation.")
+
+    except Exception as e:
+        print(f"[WARN] nav_init failed after env creation: {e}")
 
 @hydra_run_config(run_config_name=args_cli.run_config_name)
 def main(run_cfg: RunConfig): # TODO: Add SB3 config support
@@ -76,6 +109,8 @@ def main(run_cfg: RunConfig): # TODO: Add SB3 config support
 
     env = gym.make(env_setup.task_name, cfg=env_cfg, render_mode="rgb_array" if log_cfg.video else None)
 
+    run_nav_init_after_env_created()
+
     ####### INSTANTIATE ENV #######
     env.action_space.low = -1.
     env.action_space.high = 1.
@@ -99,8 +134,22 @@ def main(run_cfg: RunConfig): # TODO: Add SB3 config support
     # TODO: add back support for SB3
     env = RslRlVecEnvWrapper(env)
 
-    runner = ModifiedRslRunner(env, agent_cfg.to_dict(), log_cfg, device=train_cfg.device)
+    agent_cfg_dict = agent_cfg.to_dict()
 
+# rsl-rl 5.x MLPModel does not accept this field.
+    legacy_model_keys = [
+        "stochastic",
+        "init_noise_std",
+        "noise_std_type",
+        "state_dependent_std",
+    ]
+
+    for key in ("actor", "critic"):
+        if key in agent_cfg_dict:
+            for legacy_key in legacy_model_keys:
+                agent_cfg_dict[key].pop(legacy_key, None)
+
+    runner = ModifiedRslRunner(env, agent_cfg_dict, log_cfg, device=train_cfg.device)
     ##### LOAD EXISTING RUN? #####
 
     if train_cfg.load_run is not None:

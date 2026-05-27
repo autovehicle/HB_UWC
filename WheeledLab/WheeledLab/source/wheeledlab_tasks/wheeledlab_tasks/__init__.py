@@ -13,7 +13,7 @@ import wheeledlab_tasks.visual.config.agents.mushr as mushr_visual_agents
 import wheeledlab_tasks.elevation.config.agents.mushr as mushr_elevation_agents
 
 from .driving import UWCDriveRLEnvCfg, UWCDrivePlayEnvCfg
-import wheeledlab_tasks.driving.config.agent.uwc as uwc_drive_agents
+# import wheeledlab_tasks.driving.config.agent.uwc as uwc_drive_agents
 
 gym.register(
     id="Isaac-UWC-Drive-RL-v0",
@@ -21,7 +21,7 @@ gym.register(
     disable_env_checker=True,
     kwargs={
         "env_cfg_entry_point": UWCDriveRLEnvCfg,
-        "rsl_rl_cfg_entry_point": f"{uwc_drive_agents.__name__}.rsl_rl_ppo_cfg:UWCDrivePPORunnerCfg",
+        "rsl_rl_cfg_entry_point": "wheeledlab_tasks.driving.config.agent.uwc.rsl_rl_ppo_cfg:UWCDrivePPORunnerCfg",
         "play_env_cfg_entry_point": UWCDrivePlayEnvCfg,
     },
 )

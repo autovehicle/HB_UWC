@@ -52,7 +52,7 @@ _ZERO_INIT_STATES = ArticulationCfg.InitialStateCfg(
 
 UWC_CFG = ArticulationCfg(
     spawn=sim_utils.UsdFileCfg(
-        usd_path=f"{WHEELEDLAB_ASSETS_DATA_DIR}/Robots/UWC/robot_model.usd",
+        usd_path=f"{WHEELEDLAB_ASSETS_DATA_DIR}/Robots/HB_robot/uwc.usd",
         rigid_props=sim_utils.RigidBodyPropertiesCfg(
             rigid_body_enabled=True,
             max_linear_velocity=50.0,
