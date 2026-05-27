@@ -1,16 +1,16 @@
-﻿"""UWC path-following driving env.
+"""UWC path-following driving env.
 
-紐⑺몴:
-- UWC 濡쒕큸??誘몃━ ?뺤쓽??path 瑜???異붿쥌?섎룄濡??숈뒿
-- 二쇳뻾 媛???곸뿭(drivable area) 諛뽰쑝濡쒕뒗 ?덈? ?섍?吏 ?딆쓬 -> 媛뺥븳 醫낅즺 ?섎꼸??
-- ?쇱젙 ?쒓컙 ?댁긽 硫덉떠 ?덉뼱??????-> stuck 醫낅즺 ?섎꼸??
-- 愿痢≪뿉??BlindObs + 濡쒕큸 濡쒖뺄 ?꾨젅?꾩쓽 lookahead waypoint ?ㅼ쓣 異붽?
+목표:
+- UWC 로봇이 미리 정의된 path 를 잘 추종하도록 학습
+- 주행 가능 영역(drivable area) 밖으로는 절대 나가지 않음 -> 강한 종료 페널티
+- 일정 시간 이상 멈춰 있어도 안 됨 -> stuck 종료 페널티
+- 관측에는 BlindObs + 로봇 로컬 프레임의 lookahead waypoint 들을 추가
 
-NOTE: ?꾨옒 TODO(team) ?쒖떆??遺遺꾨뱾? ?ㅻⅨ ??먯씠 ?묒뾽 以묒씤 紐⑤뱢怨??곌껐???먮━?낅땲??
-  - UWC 濡쒕큸 ?먯뀑 (wheeledlab_assets.UWC_CFG ??
-  - 而ㅼ뒪? 留?USD 寃쎈줈
-  - drivable area / path 愿???⑥닔 (path ?섑뵆留? lookahead, cross-track, heading, drivable check)
-?ㅼ젣 肄붾뱶媛 以鍮꾨릺硫?placeholder import / ?⑥닔留?援먯껜?섎㈃ ?⑸땲??
+NOTE: 아래 TODO(team) 표시된 부분들은 다른 팀원이 작업 중인 모듈과 연결될 자리입니다.
+  - UWC 로봇 에셋 (wheeledlab_assets.UWC_CFG 등)
+  - 커스텀 맵 USD 경로
+  - drivable area / path 관련 함수 (path 샘플링, lookahead, cross-track, heading, drivable check)
+실제 코드가 준비되면 placeholder import / 함수만 교체하면 됩니다.
 """
 
 import torch
@@ -39,11 +39,11 @@ from wheeledlab.envs.mdp import (
 )
 from wheeledlab_tasks.common import BlindObsCfg
 
-# TODO(team): UWC 濡쒕큸 ?먯뀑??wheeledlab_assets ???깅줉?섎㈃ ?꾨옒濡?援먯껜
+# TODO(team): UWC 로봇 에셋이 wheeledlab_assets 에 등록되면 아래로 교체
 #   from wheeledlab_assets import UWC_CFG
-# 吏湲덉? MUSHR ?먯뀑??placeholder 濡??ъ슜??濡쒕뵫留??섍쾶 ??
+# 지금은 MUSHR 에셋을 placeholder 로 사용해 로딩만 되게 함.
 # from wheeledlab_assets import MUSHR_SUS_2WD_CFG as UWC_CFG  # placeholder
-# -> 援먯껜?꾨즺 (20260522 17:20)
+# -> 교체완료 (20260522 17:20)
 from wheeledlab_assets import ROBOT_MODEL_CFG as UWC_CFG
 from wheeledlab_assets import WHEELEDLAB_ASSETS_DATA_DIR
 
@@ -51,29 +51,29 @@ from wheeledlab_assets import WHEELEDLAB_ASSETS_DATA_DIR
 ###### COMMON CONSTANTS ######
 ##############################
 
-MAX_SPEED = 2.0              # (m/s) 紐⑺몴 ?띾룄 ??drift ? ?щ━ ?덉젙 異붿쥌 ?꾪빐 ??땄
-MIN_SPEED = 0.3              # (m/s) ???댄븯硫??뺤?濡??먯젙
-STATIONARY_TIME_S = 2.0      # (s) ???쒓컙 ?댁긽 ?뺤??섎㈃ stuck 醫낅즺
+MAX_SPEED = 2.0              # (m/s) 목표 속도 — drift 와 달리 안정 추종 위해 낮춤
+MIN_SPEED = 0.3              # (m/s) 이 이하면 정지로 판정
+STATIONARY_TIME_S = 2.0      # (s) 이 시간 이상 정지하면 stuck 종료
 
-NUM_LOOKAHEAD = 5            # 愿痢≪슜 lookahead waypoint 媛쒖닔
-LOOKAHEAD_STEP = 0.5         # (m) lookahead waypoint ?ъ씠 媛꾧꺽
+NUM_LOOKAHEAD = 5            # 관측용 lookahead waypoint 개수
+LOOKAHEAD_STEP = 0.5         # (m) lookahead waypoint 사이 간격
 
-# 而ㅼ뒪? 留?USD 寃쎈줈 ??TODO(team) ?쇰줈 ?ㅼ젣 寃쎈줈 援먯껜
+# 커스텀 맵 USD 경로 — TODO(team) 으로 실제 경로 교체
 # CUSTOM_MAP_USD = "/PATH/TO/CUSTOM_MAP.usd"
-# -> 援먯껜?꾨즺 (20260522 17:20)
+# -> 교체완료 (20260522 17:20)
 CUSTOM_MAP_USD = f"{WHEELEDLAB_ASSETS_DATA_DIR}/map/map2.usd"
 
 ###################################
 ###### PLACEHOLDER MDP TERMS ######
 ###################################
-# TODO(team): ?꾨옒 ?⑥닔?ㅼ? path/drivable area 紐⑤뱢???꾩꽦?섎㈃ import 濡?援먯껜.
-# 媛??⑥닔???낆텧???쒓렇?덉쿂???좎???二쇱꽭??
+# TODO(team): 아래 함수들은 path/drivable area 모듈이 완성되면 import 로 교체.
+# 각 함수의 입출력 시그니처는 유지해 주세요.
 
 
 def lookahead_waypoints_local(env: ManagerBasedEnv,
                               num_points: int = NUM_LOOKAHEAD,
                               step: float = LOOKAHEAD_STEP) -> torch.Tensor:
-    """濡쒕큸 濡쒖뺄 frame 湲곗? ?ㅼ쓬 num_points 媛?waypoint ??(x, y) 醫뚰몴.
+    """로봇 로컬 frame 기준 다음 num_points 개 waypoint 의 (x, y) 좌표.
 
     Returns:
         (num_envs, num_points * 2) tensor.
@@ -82,32 +82,32 @@ def lookahead_waypoints_local(env: ManagerBasedEnv,
 
 
 def path_cross_track_dist(env: ManagerBasedEnv) -> torch.Tensor:
-    """?꾩옱 ?꾩튂?먯꽌 path 源뚯???理쒕떒 ?섏쭅 嫄곕━ (m, ??긽 ??)."""
+    """현재 위치에서 path 까지의 최단 수직 거리 (m, 항상 ≥0)."""
     return torch.zeros(env.num_envs, device=env.device)
 
 
 def path_heading_error_sq(env: ManagerBasedEnv) -> torch.Tensor:
-    """path ?묒꽑 諛⑺뼢怨?robot heading ?ъ씠 媛곷룄 ?ㅼ감???쒓낢 (rad^2)."""
+    """path 접선 방향과 robot heading 사이 각도 오차의 제곱 (rad^2)."""
     return torch.zeros(env.num_envs, device=env.device)
 
 
 def path_forward_progress(env: ManagerBasedEnv) -> torch.Tensor:
-    """path ?묒꽑 諛⑺뼢 ?깅텇??濡쒕큸 ?띾룄 (m/s). ?묒쓽 媛믪씪?섎줉 path 瑜????곕씪媛?"""
+    """path 접선 방향 성분의 로봇 속도 (m/s). 양의 값일수록 path 를 잘 따라감."""
     return torch.zeros(env.num_envs, device=env.device)
 
 
 def is_outside_drivable_area(env: ManagerBasedEnv) -> torch.Tensor:
-    """drivable area ?몃????덉쑝硫?True. (num_envs,) bool tensor."""
+    """drivable area 외부에 있으면 True. (num_envs,) bool tensor."""
     return torch.zeros(env.num_envs, dtype=torch.bool, device=env.device)
 
 
 def is_stuck(env: ManagerBasedEnv,
              min_speed: float = MIN_SPEED,
              max_time: float = STATIONARY_TIME_S) -> torch.Tensor:
-    """?쇱젙 ?쒓컙 ?댁긽 ?뺤? ?곹깭硫?True. (num_envs,) bool tensor.
+    """일정 시간 이상 정지 상태면 True. (num_envs,) bool tensor.
 
-    ?ㅼ젣 援ы쁽? env state buffer ??stationary timer 瑜??꾩쟻?댁빞 ??
-    placeholder ????긽 False.
+    실제 구현은 env state buffer 에 stationary timer 를 누적해야 함.
+    placeholder 는 항상 False.
     """
     return torch.zeros(env.num_envs, dtype=torch.bool, device=env.device)
 
@@ -117,9 +117,9 @@ def reset_root_state_along_path(env: ManagerBasedEnv,
                                 asset_cfg: SceneEntityCfg,
                                 pos_noise: float = 0.0,
                                 yaw_noise: float = 0.0):
-    """drivable area ?덉쓽 path ???꾩쓽???먯뿉??濡쒕큸??reset.
+    """drivable area 안의 path 위 임의의 점에서 로봇을 reset.
 
-    placeholder 援ы쁽: ?쇰떒 origin ?먯꽌 reset.
+    placeholder 구현: 일단 origin 에서 reset.
     """
     asset: RigidObject = env.scene[asset_cfg.name]
     n = len(env_ids)
@@ -132,7 +132,7 @@ def reset_root_state_along_path(env: ManagerBasedEnv,
 
 def stationary_penalty(env: ManagerBasedEnv,
                        min_speed: float = MIN_SPEED) -> torch.Tensor:
-    """?띾룄媛 min_speed 蹂대떎 ??쑝硫?1, ?꾨땲硫?0 ??留??ㅽ뀦 ?뺤? ?섎꼸?곗슜."""
+    """속도가 min_speed 보다 낮으면 1, 아니면 0 — 매 스텝 정지 페널티용."""
     lin_vel = mdp.base_lin_vel(env)
     ground_speed = torch.norm(lin_vel[..., :2], dim=-1)
     return torch.where(ground_speed < min_speed, 1.0, 0.0)
@@ -152,11 +152,11 @@ def vel_dist(env: ManagerBasedEnv,
 
 @configclass
 class UWCDriveTerrainImporterCfg(TerrainImporterCfg):
-    """而ㅼ뒪? 留?USD 瑜?terrain ?쇰줈 import."""
+    """커스텀 맵 USD 를 terrain 으로 import."""
 
     height = 0.0
     prim_path = "/World/ground"
-    # TODO(team): ?ㅼ젣 而ㅼ뒪? 留?USD 寃쎈줈濡?援먯껜
+    # TODO(team): 실제 커스텀 맵 USD 경로로 교체
     terrain_type = "usd"
     usd_path = CUSTOM_MAP_USD
     collision_group = -1
@@ -170,29 +170,33 @@ class UWCDriveTerrainImporterCfg(TerrainImporterCfg):
 
 
 @configclass
-@configclass
 class UWCDriveSceneCfg(InteractiveSceneCfg):
     """UWC 로봇 + 커스텀 맵 scene (센서는 추후 추가)."""
 
     terrain = UWCDriveTerrainImporterCfg()
+
     robot: ArticulationCfg = UWC_CFG.replace(prim_path="{ENV_REGEX_NS}/Robot")
 
     light = AssetBaseCfg(
         prim_path="/World/light",
         spawn=sim_utils.DistantLightCfg(color=(0.75, 0.75, 0.75), intensity=3000.0),
-    )
-
-    # nav init 옵션
+    # Nav init 옵션
     nav_init_enabled = True
     nav_init_draw_debug = True
     nav_init_save_json = True
     nav_init_output_json = "generated_paths/nav_path.json"
-    _nav_init_done = False
 
+    # 중복 실행 방지 (프로세스 내 1회)
+    _nav_init_done = False
+    )
+
+# 맵 z값에 따라 조정 필요
     def __post_init__(self):
         super().__post_init__()
         self.robot.init_state = self.robot.init_state.replace(pos=(0.0, 0.0, 0.5))
 
+        # Scene 구성 이후, nav init 1회 실행 시도
+        # 실패해도 학습이 완전히 죽지 않도록 경고만 찍고 넘어감
         if self.nav_init_enabled and (not UWCDriveSceneCfg._nav_init_done):
             try:
                 run_nav_init(
@@ -213,7 +217,7 @@ class UWCDriveSceneCfg(InteractiveSceneCfg):
 
 @configclass
 class UWCActionCfg:
-    """TODO(team): UWC 濡쒕큸 ?ㅼ젣 joint ?대쫫怨?李⑥껜 移섏닔濡?援먯껜."""
+    """TODO(team): UWC 로봇 실제 joint 이름과 차체 치수로 교체."""
 
     throttle_steer = RCCarRWDActionCfg(
         wheel_joint_names=[
@@ -240,7 +244,7 @@ class UWCActionCfg:
 
 @configclass
 class UWCDriveObsCfg(BlindObsCfg):
-    """BlindObs + 濡쒕큸 濡쒖뺄 frame lookahead waypoints."""
+    """BlindObs + 로봇 로컬 frame lookahead waypoints."""
 
     @configclass
     class PolicyCfg(BlindObsCfg.PolicyCfg):
@@ -274,17 +278,17 @@ class UWCDriveEventsCfg:
 
 @configclass
 class UWCDriveEventsRandomCfg(UWCDriveEventsCfg):
-    """?숈뒿 ?덉젙?깆쓣 ?꾪븳 ?꾨찓??臾댁옉?꾪솕 (UWC joint/body ?대쫫?쇰줈 援먯껜 ?꾩슂)."""
+    """학습 안정성을 위한 도메인 무작위화 (UWC joint/body 이름으로 교체 필요)."""
 
     change_wheel_friction = EventTerm(
         func=mdp.randomize_rigid_body_material,
         mode="startup",
         params={
-            "static_friction_range": (0.7, 1.0),   # path 異붿쥌?대씪 留덉같 異⑸텇??以?
+            "static_friction_range": (0.7, 1.0),   # path 추종이라 마찰 충분히 줌
             "dynamic_friction_range": (0.7, 1.0),
             "restitution_range": (0.0, 0.0),
             "num_buckets": 20,
-            # TODO(team): UWC wheel body ?대쫫 ?⑦꽩?쇰줈 援먯껜
+            # TODO(team): UWC wheel body 이름 패턴으로 교체
             "asset_cfg": SceneEntityCfg("robot", body_names=".*wheel_link"),
             "make_consistent": True,
         },
@@ -294,14 +298,14 @@ class UWCDriveEventsRandomCfg(UWCDriveEventsCfg):
         func=mdp.randomize_actuator_gains,
         mode="startup",
         params={
-            # TODO(team): UWC throttle actuator joint ?대쫫 ?⑦꽩?쇰줈 援먯껜
+            # TODO(team): UWC throttle actuator joint 이름 패턴으로 교체
             "asset_cfg": SceneEntityCfg("robot", joint_names=[".*back.*throttle"]),
             "damping_distribution_params": (10.0, 50.0),
             "operation": "abs",
         },
     )
 
-    push_robots_hf = EventTerm(  # 怨좎＜???뚭퇋紐??몃?
+    push_robots_hf = EventTerm(  # 고주파 소규모 외란
         func=mdp.push_by_setting_velocity,
         mode="interval",
         interval_range_s=(0.1, 0.4),
@@ -318,7 +322,7 @@ class UWCDriveEventsRandomCfg(UWCDriveEventsCfg):
         func=mdp.randomize_rigid_body_mass,
         mode="startup",
         params={
-            # TODO(team): UWC base body ?대쫫?쇰줈 援먯껜
+            # TODO(team): UWC base body 이름으로 교체
             "asset_cfg": SceneEntityCfg("robot", body_names=["base_link"]),
             "mass_distribution_params": (0.3, 0.5),
             "operation": "add",
@@ -333,14 +337,14 @@ class UWCDriveEventsRandomCfg(UWCDriveEventsCfg):
 
 @configclass
 class UWCDriveRewardsCfg:
-    """Path-following ??留욎텣 蹂댁긽.
-    - forward_progress: path ?묒꽑 諛⑺뼢 ?띾룄 (+)
-    - vel:              紐⑺몴 ?띾룄???嫄곕━ (-)
-    - cross_track:      path ????섏쭅 嫄곕━ (-)
-    - heading:          heading ?ㅼ감^2 (-)
-    - stationary_pen:   ?뺤? ?곹깭 留??ㅽ뀦 (-)
-    - out_of_bounds:    drivable area ?댄깉 醫낅즺 ?????섎꼸??(-)
-    - stuck_pen:        stuck 醫낅즺 ???섎꼸??(-)
+    """Path-following 에 맞춘 보상.
+    - forward_progress: path 접선 방향 속도 (+)
+    - vel:              목표 속도와의 거리 (-)
+    - cross_track:      path 와의 수직 거리 (-)
+    - heading:          heading 오차^2 (-)
+    - stationary_pen:   정지 상태 매 스텝 (-)
+    - out_of_bounds:    drivable area 이탈 종료 시 큰 페널티 (-)
+    - stuck_pen:        stuck 종료 시 페널티 (-)
     """
 
     forward_progress = RewTerm(
@@ -448,11 +452,11 @@ class UWCDriveRLEnvCfg(ManagerBasedRLEnvCfg):
         self.viewer.eye = [4.0, -4.0, 4.0]
         self.viewer.lookat = [0.0, 0.0, 0.0]
 
-        # sim timing ??drift ? ?숈씪?섍쾶 200Hz physics / 50Hz control
+        # sim timing — drift 와 동일하게 200Hz physics / 50Hz control
         self.sim.dt = 0.005
         self.decimation = 4
         self.sim.render_interval = 20
-        # path 異붿쥌? ???먰뵾?뚮뱶瑜?醫 ??湲멸쾶
+        # path 추종은 한 에피소드를 좀 더 길게
         self.episode_length_s = 10
 
         self.actions.throttle_steer.scale = (MAX_SPEED, 0.488)
@@ -471,7 +475,7 @@ class UWCDriveRLEnvCfg(ManagerBasedRLEnvCfg):
 
 @configclass
 class UWCDrivePlayEnvCfg(UWCDriveRLEnvCfg):
-    """?됯?/?쒖뿰????醫낅즺/蹂댁긽/而ㅻ━?섎읆 ?? reset ?몄씠利??놁쓬."""
+    """평가/시연용 — 종료/보상/커리큘럼 끔, reset 노이즈 없음."""
 
     events: UWCDriveEventsCfg = UWCDriveEventsRandomCfg(
         reset_root_state=EventTerm(
@@ -491,4 +495,3 @@ class UWCDrivePlayEnvCfg(UWCDriveRLEnvCfg):
 
     def __post_init__(self):
         super().__post_init__()
-
